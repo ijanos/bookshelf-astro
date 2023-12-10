@@ -1,0 +1,130 @@
+{
+    "$id": "bookshelf.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Bookshelf",
+    "type": "object",
+    "properties": {
+        "books": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/book"
+            }
+        }
+    },
+    "$defs": {
+        "book": {
+            "type": "object",
+            "defaultSnippets": [
+                {
+                    "label": "new book",
+                    "description": "Add a new book to your bookshelf",
+                    "body": { "title": "$1", "author": "$2", "read": "$3", "tags": ["$4"], "published": 0, "language": "$6" }
+                }
+            ],
+            "required": [
+                "title",
+                "published",
+                "tags"
+            ],
+            "properties": {
+                "author": {
+                    "type": ["string", "array"],
+                    "description": "Author's name",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "title": {
+                    "type": "string",
+                    "description": "Title of book"
+                },
+                "published": {
+                    "description": "Year of original publication",
+                    "type": "integer",
+                    "minimum": 1600,
+                    "maximum": 2100
+                },
+                "pages": {
+                    "description": "Approximate length of the book in pages",
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "series": {
+                    "type": "string",
+                    "description": "The series the book is part of"
+                },
+                "read": {
+                    "type": "string",
+                    "oneOf": [
+                        { "format": "date" },
+                        { "pattern": "^[%0-9]{4}$" }
+                    ]
+                },
+                "language": {
+                    "type": "string",
+                    "minLength": 3,
+                    "maxLength": 3
+                },
+                "tags": {
+                    "description": "Tags for the book",
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "enum": [
+                            "alternate history",
+                            "anthology",
+                            "biography",
+                            "classics",
+                            "comic",
+                            "cosmic horror",
+                            "crime",
+                            "cyberpunk",
+                            "didnt finish",
+                            "dying-earth",
+                            "dystopian",
+                            "fantasy",
+                            "fiction",
+                            "historical fiction",
+                            "historical",
+                            "horror",
+                            "hugo-nominee",
+                            "hugo-winner",
+                            "humor",
+                            "isekai",
+                            "lovecraftian",
+                            "magic",
+                            "magical realism",
+                            "manga",
+                            "military",
+                            "murder mystery",
+                            "mystery",
+                            "mythology",
+                            "nonfiction",
+                            "novella",
+                            "post-apocalyptic",
+                            "posthuman",
+                            "programming",
+                            "satire",
+                            "scifi",
+                            "screenplay",
+                            "short-stories",
+                            "short",
+                            "singularity",
+                            "space opera",
+                            "stopped-reading",
+                            "technology",
+                            "thriller",
+                            "timetravel",
+                            "urban fantasy",
+                            "videogames",
+                            "weird",
+                            "YA"
+                        ]
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                }
+            }
+        }
+    }
+}
