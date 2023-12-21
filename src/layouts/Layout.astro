@@ -18,10 +18,11 @@ import Footer from "../components/Footer.astro";
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
+		<link href="/atom.xml" rel="alternate" type="application/atom+xml" title="atom feed">
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="max-w-6xl mx-auto px-2 bg-[url('/bg.jpg')] bg-top">
+	<body class="max-w-6xl mx-auto px-2 bg-[url('/bg.jpg')] bg-top bg-[size:100%]">
 		<Nav />
 		<slot />
 		<Footer />

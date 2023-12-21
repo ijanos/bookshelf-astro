@@ -18,12 +18,12 @@ const { books } = Astro.props;
 <table class="w-full text-sm text-left text-gray-700 bg-slate-50 bg-opacity-60 backdrop-blur-lg">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
-          <th @click="reorder(0)">Author</th>
+          <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
           <th @click="reorder(1)">Title</th>
-          <th @click="reorder(2)">Series</th>
+          <th @click="reorder(2)" class="hidden sm:table-cell">Series</th>
           <th @click="reorder(3)" class="hidden sm:table-cell text-right">pages</th>
           <th @click="reorder(4)" class="text-center">Read</th>
-          <th @click="reorder(5)" class="text-center">Release</th>
+          <th @click="reorder(5)" class="text-center hidden sm:table-cell">Release</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
@@ -32,12 +32,12 @@ const { books } = Astro.props;
         x-show="$el.dataset.search.includes(search)"
         data-search={`${ book.title } ${book.author} ${ book.series }`.toLowerCase()}
     >
-        <td class="sm:pl-1">{ book.author }</td>
+        <td class="hidden sm:table-cell">{ book.author }</td>
         <td class="font-semibold text-slate-900">{ book.title }</td>
-        <td class="font-extralight text-slate-900">{ book.series }</td>
+        <td class="font-extralight text-slate-900 hidden sm:table-cell">{ book.series }</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{ book.pages }</td>
-        <td class="font-mono text-center">{ book.read }</td>
-        <td class="font-mono text-center">{ book.published }</td>
+        <td class="font-mono text-xs text-center text-nowrap whitespace-nowrap">{ book.read }</td>
+        <td class="font-mono text-xs text-center hidden sm:table-cell">{ book.published }</td>
     </tr>
 )}
 </tbody>
