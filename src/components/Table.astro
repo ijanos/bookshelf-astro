@@ -1,5 +1,11 @@
 ---
-import bookshelf from "../data/bookshelf.json";
+import { type Book } from "../types/book.ts";
+
+interface Props {
+  books: Book[];
+}
+
+const { books } = Astro.props;
 ---
 <div x-data="table">
     <input type="text"
@@ -21,7 +27,7 @@ import bookshelf from "../data/bookshelf.json";
         </tr>
     </thead>
     <tbody x-ref="tbody">
-{bookshelf.books.map((book) =>
+{books.map((book) =>
     <tr class="border-t border-dotted h-7 hover:bg-blue-300"
         x-show="$el.dataset.search.includes(search)"
         data-search={`${ book.title } ${book.author} ${ book.series }`.toLowerCase()}

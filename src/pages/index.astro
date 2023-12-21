@@ -1,8 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Table from "../components/Table.astro";
+import { type Book } from "../types/book.ts";
+import bookshelf from "../data/bookshelf.json";
 ---
 
 <Layout title="my bookshelf">
-    <Table/>
+    <Table books={bookshelf.books as Book[]} />
 </Layout>

@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Table from "../components/Table.astro";
+import bookshelf from "../data/bookshelf.json";
+import { type Book } from "../types/book.ts";
+---
+
+<Layout title="comic books | Janos' bookshelf">
+    <Table books={(bookshelf.books  as Book[]).filter(book => book.tags.includes("comic"))} />
+</Layout>
