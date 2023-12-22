@@ -1,6 +1,6 @@
 export interface Book {
     title: string;
-    "title-HUN?": string;
+    "title-HUN"?: string;
     author: string | string[];
     series?: string;
     read: string;

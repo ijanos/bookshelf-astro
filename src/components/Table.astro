@@ -14,8 +14,9 @@ const { books } = Astro.props;
            class="w-full p-1 my-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-50 bg-transparent backdrop-blur-sm"
           placeholder="search">
 
+          <div class="overflow-x-auto rounded-xl">
 
-<table class="w-full text-sm text-left text-gray-700 bg-slate-50 bg-opacity-60 backdrop-blur-lg">
+<table class="w-full text-sm text-left text-gray-700 bg-neutral-50 bg-opacity-60 backdrop-blur-lg">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
           <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
@@ -23,7 +24,7 @@ const { books } = Astro.props;
           <th @click="reorder(2)" class="hidden sm:table-cell">Series</th>
           <th @click="reorder(4)" class="hidden sm:table-cell text-right">pages</th>
           <th @click="reorder(5)" class="text-center">Read</th>
-          <th @click="reorder(6)" class="text-center hidden sm:table-cell">Release</th>
+          <th @click="reorder(6)" class="text-center hidden sm:table-cell">Published</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
@@ -52,8 +53,10 @@ const { books } = Astro.props;
     </tr>
     </tfoot>
 </table>
+</div>
 
 </div>
+
 
 <script>
 import Alpine from 'alpinejs';
