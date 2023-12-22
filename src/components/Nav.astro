@@ -1,42 +1,27 @@
 ---
-const activeClass =
-    "font-medium hover:bg-gray-700 hover:text-white px-1 py-1 rounded-md bg-blue-400 text-white";
-const inactiveClass =
-    "font-medium hover:bg-gray-700 hover:text-white px-1 py-1 rounded-md text-white-900";
-
 const links = [
     { href: "/", text: "list" },
     { href: "/comics/", text: "comics" },
     { href: "/stats/", text: "stats" },
     { href: "/about/", text: "about" },
-];
+].map(link => ({...link, active: Astro.url.pathname === link.href}));
 ---
-
-<nav>
-    <div class="px-4 max-w-7xl mx-auto text-gray-900 bg-white rounded-b-2xl bg-transparent bg-opacity-35 backdrop-blur-xl">
-        <div class="flex h-16 items-center justify-between">
-            <div class="whitespace-nowrap text-2xl">
+<nav class="px-4 max-w-7xl mx-auto text-gray-900 bg-white rounded-b-2xl bg-transparent bg-opacity-35 backdrop-blur-xl">
+        <div class="flex h-16 items-center flex-wrap justify-around">
+            <div class="whitespace-nowrap text-2xl grow m-auto">
                 <a class="drop-shadow-lg" href="/"
                     ><span class="font-light">my</span><span
                         class="font-semibold">reads</span
                     ></a
                 >
             </div>
-            <div class="flex space-x-1 lg:text-base text-xs drop-shadow-lg">
+            <div class="flex gap-1 drop-shadow-lg">
                 {
                     links.map((link) => (
                         <a
                             href={link.href}
-                            class={
-                                Astro.url.pathname == link.href
-                                    ? activeClass
-                                    : inactiveClass
-                            }
-                            aria-current={
-                                Astro.url.pathname == link.href
-                                    ? "page"
-                                    : "false"
-                            }
+                            class={ "hover:bg-blue-900 hover:text-white p-1 rounded-md " + (link.active ? "bg-blue-200" : "")}
+                            aria-current={ link.active ? "page" : "false" }
                         >
                             {link.text}
                         </a>
@@ -44,5 +29,4 @@ const links = [
                 }
             </div>
         </div>
-    </div>
 </nav>
