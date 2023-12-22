@@ -21,25 +21,28 @@ const { books } = Astro.props;
           <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
           <th @click="reorder(1)">Title</th>
           <th @click="reorder(2)" class="hidden sm:table-cell">Series</th>
-          <th @click="reorder(3)" class="hidden sm:table-cell text-right">pages</th>
-          <th @click="reorder(4)" class="text-center">Read</th>
-          <th @click="reorder(5)" class="text-center hidden sm:table-cell">Release</th>
+          <th @click="reorder(4)" class="hidden sm:table-cell text-right">pages</th>
+          <th @click="reorder(5)" class="text-center">Read</th>
+          <th @click="reorder(6)" class="text-center hidden sm:table-cell">Release</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
+
 {books.map((book) =>
-    <tr class="border-t border-dotted h-7 hover:bg-blue-300"
+    <tr class="border-t border-opacity-80 h-7 hover:bg-blue-300"
         x-show="$el.dataset.search.includes(search)"
-        data-search={`${ book.title } ${book.author} ${ book.series }`.toLowerCase()}
+        data-search={ `${ book.title } ${ book.author } ${ book.series || "" }`.toLowerCase() }
     >
         <td class="hidden sm:table-cell">{ book.author }</td>
         <td class="font-semibold text-slate-900">{ book.title }</td>
         <td class="font-extralight text-slate-900 hidden sm:table-cell">{ book.series }</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{ book.pages }</td>
-        <td class="font-mono text-xs text-center text-nowrap whitespace-nowrap">{ book.read }</td>
+        <td class="hidden">{  String(book.pages || "").padStart(6, '0') }</td>
+        <td class="font-mono text-xs text-center text-nowrap whitespace-nowrap">{ book.read || "📖" }</td>
         <td class="font-mono text-xs text-center hidden sm:table-cell">{ book.published }</td>
     </tr>
 )}
+
 </tbody>
 <tfoot class="h-6 text-gray-500 text-s bg-gray-50">
     <tr>
