@@ -19,6 +19,11 @@ all. For example, I've read many science fiction magazines in high-school but I
 didn't go back and add every story from them to this list. There are a couple
 memorable stories I looked up and put here.
 
+I haven't found a good database for book length. "Pages" is a common metric,
+but it only makes sense for one edition of one book and mostly meaningless for
+ebooks. I want to track at least some sense of length so I save the "pages"
+listed in goodreads or Google Books.
+
 ## Timestamps
 
 I track when I finish a book. At one point I marked the date I began as well
@@ -44,16 +49,6 @@ I'll list the titles in English most of the time but sometimes in the original
 language. No hard rules here, the page is in English, nowadays I mostly read in
 English, it makes sense to use English titles. This is not a strict database of
 books.
-
-## "Hidden" metadata.
-
-I haven't found a good database for book length. "Pages" is a common metric,
-but it makes sense for one edition of one book. I want to track at least some
-sense of length for them, so in the raw data I track "pages" found in goodreads
-or google books but this is not currently listed on the site.
-
-Similarly I track "tags" for each book. It can be found in the source code but
-not in the public page. I use these tags to mark the books I didn't finish.
 
 ## Technology
 
