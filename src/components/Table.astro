@@ -7,11 +7,11 @@ interface Props {
 
 const { books } = Astro.props;
 ---
-<div x-data="table" class="grow">
+<div x-data="table" class="grow flex flex-col gap-2">
     <input type="text"
-           x-on:input.debounce.50ms="search = $el.value.toLowerCase()"
+           x-on:input="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
-           class="w-full p-1 mb-2 text-xs text-gray-900 border border-gray-300 rounded-lg focus:text-base bg-gray-50 bg-transparent backdrop-blur-sm"
+           class="w-full p-1 text-gray-900 border border-gray-300 rounded-lg  bg-gray-50 bg-transparent backdrop-blur-sm"
           placeholder="search">
 
 <div class="overflow-x-auto rounded-xl">
