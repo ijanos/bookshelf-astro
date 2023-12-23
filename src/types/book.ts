@@ -1,11 +1,11 @@
 export interface Book {
     title: string;
     "title-HUN"?: string;
-    author: string | string[];
+    author: string[];
     series?: string;
     read: string;
     tags: string[];
     published: number;
-    pages: number;
+    pages?: number;
     language: "ENG" | "HUN";
 }

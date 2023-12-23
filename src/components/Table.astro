@@ -32,9 +32,9 @@ const { books } = Astro.props;
 {books.map((book) =>
     <tr class="border-t border-opacity-80 h-7 hover:bg-blue-300"
         x-show="$el.dataset.search.includes(search)"
-        data-search={ `${ book.title } ${ book.author } ${ book.series || "" }`.toLowerCase() }
+        data-search={ `${ book.title } ${ book.author.join("") } ${ book.series || "" }`.toLowerCase() }
     >
-        <td class="hidden sm:table-cell">{ book.author }</td>
+        <td class="hidden sm:table-cell">{ book.author.join(", ") }</td>
         <td class="font-semibold text-slate-900">{ book.title }</td>
         <td class="font-extralight text-slate-900 hidden sm:table-cell">{ book.series }</td>
         <td class="font-mono text-right text-xs hidden sm:table-cell" >{ book.pages }</td>

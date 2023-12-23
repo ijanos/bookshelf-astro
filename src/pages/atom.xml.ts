@@ -13,11 +13,10 @@ const header = `
 
 const entries = bookshelf.books
   .filter((book) => book.read != "")
-  .map((book) => ({ ...book, author: Array.isArray(book.author) ? book.author.join('') : book.author }))
   .map((book) => `
   <entry>
     <title><![CDATA[ ${book.author} - ${book.title} ]]></title>
-    <id>urn:x-book:${slugify(book.title)}---${slugify(book.author)}</id>
+    <id>urn:x-book:${slugify(book.title)}---${slugify(book.author.join(''))}</id>
     <link href="https://bookshelf.janosilles.com#${slugify(book.title)}"/>
     <updated>${book.read}</updated>
     <summary type="html"><![CDATA[ Janos finished reading <b>${book.title}</b> by <i>${book.author}</i> ]]></summary>
