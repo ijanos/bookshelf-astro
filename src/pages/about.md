@@ -57,17 +57,22 @@ not in the public page. I use these tags to mark the books I didn't finish.
 
 ## Technology
 
-I collect my reading history in a JSON file and I use a static page generator
-to create this website. The JSON was originally created by a small script that
-combined my LibraryThing and goodreads exports but it is hand edited. I don't
-rely on any APIs. I use VSCode to edit the file, with the help of a JSON Schema
-the editor will mark errors.
+My reading history is in a JSON file. It was originally created by a small
+script that combined my LibraryThing and goodreads exports, now it is hand
+edited. I use VSCode to edit the file, with the help of a JSON Schema the
+editor will mark errors.
 
-The page is built with Astro and tailwind CSS. Search is powered by Alpine.js,
-hosted on Cloudflare Pages.
+The page is built with [Astro](https://astro.build/) and [tailwind
+CSS](https://tailwindcss.com/). Search and sorting is powered by
+[Alpine.js](https://alpinejs.dev/), hosted on [Cloudflare
+Pages](https://pages.cloudflare.com/).
 
-If you want to follow my reading through a Feed reader you can! Follow this feed.
+If you want to follow my reading through a Feed reader you can! [Follow this
+feed](/atom.xml).
 
-Favicon is an emoji convert to a favicon with https://favicon.io/
+Favicon is genereated by https://favicon.io/ from an emoji.
+
+Background image is from
+[Unsplash](https://unsplash.com/photos/books-on-brown-wooden-shelf-P8gLaJ-PZL0)
 
 Send me any feedback to bookshelf@janosilles.com
