@@ -23,6 +23,7 @@ const { books } = Astro.props;
           <th @click="reorder(1)">Title</th>
           <th @click="reorder(2)" class="hidden sm:table-cell">Series</th>
           <th @click="reorder(4)" class="hidden sm:table-cell text-right">pages</th>
+          <th class="hidden"></th>
           <th @click="reorder(5)" class="text-center">Read</th>
           <th @click="reorder(6)" class="text-center hidden sm:table-cell">Published</th>
         </tr>
@@ -30,9 +31,9 @@ const { books } = Astro.props;
     <tbody x-ref="tbody">
 
 {books.map((book) =>
-    <tr class="border-t border-opacity-80 h-7 hover:bg-blue-300"
+    <tr class="border-slate-50 h-7 border-b border-opacity-20 hover:bg-blue-300"
         x-show="$el.dataset.search.includes(search)"
-        data-search={ `${ book.title } ${ book.author.join("") } ${ book.series || "" }`.toLowerCase() }
+        data-search={ `${ book.title } ${ book.author.join(" ") } ${ book.series || "" }`.toLowerCase() }
     >
         <td class="hidden sm:table-cell">{ book.author.join(", ") }</td>
         <td class="font-semibold text-slate-900">{ book.title }</td>
@@ -48,7 +49,7 @@ const { books } = Astro.props;
 <tfoot class="h-6 text-gray-500 text-s bg-gray-50">
     <tr>
       <th colspan="6">
-      <span class="text-gray-900"> <span x-text="visible"></span> books</span> out of <span x-text="$refs.tbody.querySelectorAll('tr').length"></span>
+      <span class="text-gray-900"><span x-text="visible"></span> books</span> out of { books.length }</span>
       </th>
     </tr>
     </tfoot>
