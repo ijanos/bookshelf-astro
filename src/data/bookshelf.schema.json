@@ -28,7 +28,7 @@
             ],
             "properties": {
                 "author": {
-                    "type": ["string", "array"],
+                    "type": "array",
                     "description": "Author's name",
                     "items": {
                         "type": "string"
@@ -74,6 +74,7 @@
                             "alternate history",
                             "anthology",
                             "biography",
+                            "biopunk",
                             "classics",
                             "comic",
                             "cosmic horror",
@@ -124,7 +125,8 @@
                     "minItems": 1,
                     "uniqueItems": true
                 }
-            }
+            },
+            "additionalProperties": false
         }
     }
 }

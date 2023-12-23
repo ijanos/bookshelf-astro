@@ -13,7 +13,11 @@
       ],
       "published": 1987,
       "pages": 474,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL16514W",
+        "librarything": "17687"
+      }
     },
     {
       "title": "Long Chills and Case Dough",
@@ -1749,7 +1753,10 @@
       "title": "Three Moments of an Explosion",
       "published": 2009,
       "read": "2016-02-28",
-      "tags": [],
+      "tags": [
+        "short-stories",
+        "scifi"
+      ],
       "pages": 382,
       "language": "ENG"
     },
@@ -3254,6 +3261,20 @@
     },
     {
       "author": [
+        "Peter Watts"
+      ],
+      "title": "Beyond the Rift",
+      "published": 1994,
+      "read": "?",
+      "tags": [
+        "scifi",
+        "short-stories"
+      ],
+      "pages": 230,
+      "language": "ENG"
+    },
+    {
+      "author": [
         "Isaac Asimov"
       ],
       "series": "Foundation #2",
@@ -3306,6 +3327,19 @@
         "urban fantasy"
       ],
       "pages": 455,
+      "language": "HUN"
+    },
+    {
+      "author": [
+        "Arkady Strugatsky",
+        "Boris Strugatsky"
+      ],
+      "title": "Prisoners of Power",
+      "published": 1971,
+      "read": "2009",
+      "tags": [
+        "scifi"
+      ],
       "language": "HUN"
     },
     {
@@ -3374,20 +3408,6 @@
     },
     {
       "author": [
-        "Arkady Strugatsky",
-        "Boris Strugatsky"
-      ],
-      "title": "Prisoners of Power",
-      "title-HUN": "Lakott Sziget",
-      "published": 1971,
-      "read": "?",
-      "tags": [
-        "scifi"
-      ],
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Neal Stephenson"
       ],
       "title": "Snow Crash",
@@ -3428,21 +3448,6 @@
       ],
       "pages": 448,
       "language": "HUN"
-    },
-    {
-      "author": [
-        "Peter Watts"
-      ],
-      "title": "Beyond the Rift",
-      "published": 1994,
-      "read": "?",
-      "tags": [
-        "scifi",
-        "collection",
-        "short-stories"
-      ],
-      "pages": 230,
-      "language": "ENG"
     },
     {
       "author": [
@@ -3633,6 +3638,21 @@
     },
     {
       "author": [
+        "J. K. Rowling"
+      ],
+      "series": "Harry Potter #6",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "published": 2005,
+      "read": "2005",
+      "tags": [
+        "YA",
+        "fantasy",
+        "magic"
+      ],
+      "language": "ENG"
+    },
+    {
+      "author": [
         "Douglas Adams"
       ],
       "series": "Hitchhiker's Guide to the Galaxy #1",
@@ -3702,21 +3722,6 @@
       "language": "HUN"
     },
     {
-      "title": "Aliens vs. Predator: Prey",
-      "author": [
-        "Steve Perry",
-        "S.D. Perry"
-      ],
-      "read": "2003?",
-      "series": "Aliens vs. Predator #1",
-      "tags": [
-        "scifi"
-      ],
-      "published": 1994,
-      "pages": 262,
-      "language": "HUN"
-    },
-    {
       "title": "A tizennégy karátos autó",
       "author": [
         "Rejtő Jenő"
@@ -3745,35 +3750,6 @@
     },
     {
       "author": [
-        "Arkady Strugatsky",
-        "Boris Strugatsky"
-      ],
-      "title": "Roadside Picnic",
-      "published": 1972,
-      "read": "?",
-      "tags": [
-        "scifi"
-      ],
-      "pages": 145,
-      "language": "HUN"
-    },
-    {
-      "author": [
-        "J. K. Rowling"
-      ],
-      "series": "Harry Potter #6",
-      "title": "Harry Potter and the Half-Blood Prince",
-      "published": 2005,
-      "read": "2005",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
-      "language": "ENG"
-    },
-    {
-      "author": [
         "Iain M. Banks"
       ],
       "series": "Culture #2",
@@ -3799,6 +3775,35 @@
         "fantasy",
         "magic"
       ],
+      "language": "HUN"
+    },
+    {
+      "author": [
+        "Arkady Strugatsky",
+        "Boris Strugatsky"
+      ],
+      "title": "Roadside Picnic",
+      "published": 1972,
+      "read": "2003",
+      "tags": [
+        "scifi"
+      ],
+      "pages": 145,
+      "language": "HUN"
+    },
+    {
+      "title": "Aliens vs. Predator: Prey",
+      "author": [
+        "Steve Perry",
+        "S.D. Perry"
+      ],
+      "read": "2003",
+      "series": "Aliens vs. Predator #1",
+      "tags": [
+        "scifi"
+      ],
+      "published": 1994,
+      "pages": 262,
       "language": "HUN"
     },
     {
@@ -3967,7 +3972,7 @@
       "author": [
         "Terry Brooks"
       ],
-      "read": "1999",
+      "read": "2000",
       "tags": [
         "scifi",
         "space opera",
@@ -3989,6 +3994,18 @@
         "classics",
         "fiction"
       ]
+    },
+    {
+      "title": "20,000 Leagues under the Sea",
+      "author": [
+        "Jules Verne"
+      ],
+      "published": 1870,
+      "read": "2000",
+      "tags": [
+        "scifi"
+      ],
+      "language": "HUN"
     },
     {
       "title": "Téli ​berek",
@@ -4025,7 +4042,7 @@
       "series": "Ábel #3",
       "title": "Ábel Amerikában",
       "published": 1934,
-      "read": "?",
+      "read": "2000",
       "tags": [
         "classics"
       ],
@@ -4038,7 +4055,7 @@
       "series": "Ábel #2",
       "title": "Ábel az országban",
       "published": 1933,
-      "read": "?",
+      "read": "2000",
       "tags": [
         "classics"
       ],
@@ -4051,21 +4068,9 @@
       "series": "Ábel #1",
       "title": "Ábel a rengetegben",
       "published": 1932,
-      "read": "?",
+      "read": "2000",
       "tags": [
         "classics"
-      ],
-      "language": "HUN"
-    },
-    {
-      "title": "20,000 Leagues under the Sea",
-      "author": [
-        "Jules Verne"
-      ],
-      "published": 1870,
-      "read": "?",
-      "tags": [
-        "scifi"
       ],
       "language": "HUN"
     },
@@ -4075,7 +4080,8 @@
       ],
       "title": "Kincskereső kisködmön",
       "published": 1918,
-      "read": "?",
+      "read": "1995",
+      "pages": 202,
       "tags": [
         "YA"
       ],
@@ -4087,11 +4093,12 @@
         "Antoine de Saint-Exupéry"
       ],
       "published": 1943,
-      "read": "?",
+      "read": "1995",
       "tags": [
         "classics",
         "fiction"
       ],
+      "pages": 96,
       "language": "HUN"
     }
   ]
