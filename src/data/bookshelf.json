@@ -20,6 +20,20 @@
       }
     },
     {
+      "title": "The Star",
+      "author": [
+        "Arthur C. Clarke"
+      ],
+      "read": "2023-12-26",
+      "tags": [
+        "scifi",
+        "short"
+      ],
+      "published": 1955,
+      "language": "ENG",
+      "pages": 4
+    },
+    {
       "title": "Long Chills and Case Dough",
       "author": [
         "Brandon Sanderson"
