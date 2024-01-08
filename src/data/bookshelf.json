@@ -2,6 +2,18 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Beyond the Aquila Rift",
+      "author": ["Alastair Reynolds"],
+      "read": "",
+      "tags": [
+        "scifi",
+        "short-stories"
+      ],
+      "published": 2016,
+      "language": "ENG",
+      "pages": 781
+    },
+    {
       "title": "The Forge of God",
       "series": "Forge of God #1",
       "author": [
