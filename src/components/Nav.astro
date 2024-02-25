@@ -2,6 +2,7 @@
 const links = [
     { href: "/", text: "list" },
     { href: "/comics/", text: "comics" },
+    { href: "/covers/", text: "covers" },
     { href: "/stats/", text: "stats" },
     { href: "/about/", text: "about" },
 ].map(link => ({...link, active: Astro.url.pathname === link.href}));

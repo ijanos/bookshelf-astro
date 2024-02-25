@@ -6,12 +6,14 @@ import bookshelf from "../data/bookshelf.json";
 ---
 
 <Layout title="covers | my bookshelf">
-    <h1 class="bg-yellow-500 p-1 rounded-lg">This page is work in progress</h1>
+    <h1 class="bg-yellow-500 p-1 rounded-lg">This page is work in progress 👷</h1>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center">
-        { bookshelf.books.map((book, _index) => (
+        {
+            bookshelf.books.map((book, _index) => (
                 <div class="rounded-lg shadow-xl transition ease-in-out hover:scale-105">
                     <BookSvg book={book as Book}/>
                 </div>
-        ))}
+            ))
+        }
     </div>
 </Layout>
