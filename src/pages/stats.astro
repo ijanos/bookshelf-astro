@@ -3,10 +3,70 @@ import Layout from "../layouts/Layout.astro";
 
 import { type Book } from "../types/book.ts";
 import bookshelf from "../data/bookshelf.json";
+
+const numberOfBooks = bookshelf.books.length;
+
+let publishedCounter = new Map<number, number>();
+bookshelf.books.map((b) => b.published).forEach(year => {
+    const n = publishedCounter.has(year) ?  publishedCounter.get(year)! : 0;
+    publishedCounter.set(year, n + 1);
+});
+const sortedPubYears = Array.from(publishedCounter).sort(
+    ([y1, _c1], [y2, _c2]) => y2 - y1,
+);
+
+let authorCounter = new Map<string, number>();
+bookshelf.books.map((b) => b.author).forEach(authorArray => {
+    authorArray.forEach(author => {
+        const n = authorCounter.has(author) ? authorCounter.get(author)! : 0;
+        authorCounter.set(author, n + 1);
+    })
+
+});
+const sortedAuthors = Array.from(authorCounter).sort(
+    ([_a1, c1], [_a2, c2]) => c2 - c1,
+);
 ---
 
 <Layout title="stats | my bookshelf">
-    <div class="flex items-center justify-center">
-        <img class="p-10" src="/construction.gif"/>
+    <div class="max-w-full bg-white bg-transparent bg-opacity-80 backdrop-blur-xl rounded-lg p-1">
+        <article class="prose m-auto py-4 lg:prose-xl">
+            <h1>Statistics</h1>
+            <div>I've read {numberOfBooks} books.</div>
+            <table>
+                <thead class="text-left">
+                    <tr>
+                        <th>Author</th>
+                        <th class="text-center">book count</th></tr>
+                </thead>
+                <tbody>
+                    {
+                        sortedAuthors.map(([author, count]) => (
+                            <tr>
+                                <td>{author}</td>
+                                <td class="text-center">{count}</td>
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
+            <table>
+                <thead class="text-left">
+                    <tr>
+                        <th>Publication year</th>
+                        <th class="text-center">book count</th></tr>
+                </thead>
+                <tbody>
+                    {
+                        sortedPubYears.map(([year, count]) => (
+                            <tr>
+                                <td>{year}</td>
+                                <td class="text-center">{count}</td>
+                            </tr>
+                        ))
+                    }
+                </tbody>
+            </table>
+        </article>
     </div>
 </Layout>
