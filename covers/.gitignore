@@ -1,0 +1,3 @@
+# ignore covers in git to avoid copyright questions on GitHub
+*
+!.gitignore
