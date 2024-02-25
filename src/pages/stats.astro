@@ -33,7 +33,9 @@ const sortedAuthors = Array.from(authorCounter).sort(
         <article class="prose m-auto py-4 lg:prose-xl">
             <h1>Statistics</h1>
             <div>I've read {numberOfBooks} books.</div>
-            <table>
+            <div class="grid md:grid-cols-2 divide-x-4">
+
+                <table>
                 <thead class="text-left">
                     <tr>
                         <th>Author</th>
@@ -50,6 +52,7 @@ const sortedAuthors = Array.from(authorCounter).sort(
                     }
                 </tbody>
             </table>
+
             <table>
                 <thead class="text-left">
                     <tr>
@@ -67,6 +70,7 @@ const sortedAuthors = Array.from(authorCounter).sort(
                     }
                 </tbody>
             </table>
+        </div>
         </article>
     </div>
 </Layout>
