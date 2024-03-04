@@ -2,6 +2,7 @@
 import { type Book } from "../types/book.ts";
 import type { ImageMetadata } from "astro";
 import BookCoverSvg from "./BookCoverSvg.astro";
+import { Image } from 'astro:assets';
 
 interface Props {
     book: Book;
@@ -16,12 +17,12 @@ const ids = book.id || {};
 let coverFile = null;
 for (const [key, value] of Object.entries(ids)) {
   const f = `${key}__${value}`.toLowerCase();
-  const cover = Object.keys(images).find(path => path.toLocaleLowerCase().includes(f));
+  const cover = Object.entries(images).find(img => img[0].toLocaleLowerCase().includes(f));
   if (cover) {
-    coverFile = cover
+    coverFile = cover[1];
     break;
   }
 }
 
 ---
-{ coverFile ? <img src={coverFile} /> :  <BookCoverSvg book={book}/> }
+{ coverFile ? <Image src={coverFile()} width="200" alt={book.title} /> :  <BookCoverSvg book={book}/> }
