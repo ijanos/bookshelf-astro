@@ -7,5 +7,6 @@ export interface Book {
     tags: string[];
     published: number;
     pages?: number;
+    id?: object
     language: "ENG" | "HUN";
 }

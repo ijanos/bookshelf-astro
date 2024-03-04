@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import BookSvg from "../components/BookCoverSvg.astro"
+import BookCover from "../components/BookCover.astro";
 import { type Book } from "../types/book.ts";
 import bookshelf from "../data/bookshelf.json";
 ---
@@ -11,7 +11,7 @@ import bookshelf from "../data/bookshelf.json";
         {
             bookshelf.books.map((book, _index) => (
                 <div title={book.title} class="shadow-xl transition ease-in-out hover:scale-110">
-                    <BookSvg book={book as Book}/>
+                    <BookCover book={book as Book}/>
                 </div>
             ))
         }

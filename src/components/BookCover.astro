@@ -1,0 +1,27 @@
+---
+import { type Book } from "../types/book.ts";
+import type { ImageMetadata } from "astro";
+import BookCoverSvg from "./BookCoverSvg.astro";
+
+interface Props {
+    book: Book;
+}
+
+const { book } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/covers/*.{jpeg,jpg,png,gif}')
+
+const ids = book.id || {};
+
+let coverFile = null;
+for (const [key, value] of Object.entries(ids)) {
+  const f = `${key}__${value}`.toLowerCase();
+  const cover = Object.keys(images).find(path => path.toLocaleLowerCase().includes(f));
+  if (cover) {
+    coverFile = cover
+    break;
+  }
+}
+
+---
+{ coverFile ? <img src={coverFile} /> :  <BookCoverSvg book={book}/> }
