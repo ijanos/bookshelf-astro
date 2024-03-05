@@ -65,6 +65,9 @@
                     "minLength": 3,
                     "maxLength": 3
                 },
+                "id": {
+                    "type": "object"
+                },
                 "tags": {
                     "description": "Tags for the book",
                     "type": "array",
