@@ -83,7 +83,10 @@
       ],
       "published": 2019,
       "pages": 130,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikipedia": "The_Haunting_of_Tram_Car_015"
+      }
     },
     {
       "title": "The State of the Art",
