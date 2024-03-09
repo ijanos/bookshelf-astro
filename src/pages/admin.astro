@@ -58,6 +58,10 @@ import Layout from "../layouts/Layout.astro";
             return;
         }
         const jsonResponse = await response.json();
+        if (jsonResponse.docs.length == 0) {
+            output.textContent = "no results";
+            return;
+        }
         works = (jsonResponse.docs as OpenLibraryWork[]).sort((w1, w2) => parseInt(w1.first_publish_year as string) - parseInt(w2.first_publish_year as string));
         works.forEach((w) => {
             const author = w.author_name?.join(", ");
