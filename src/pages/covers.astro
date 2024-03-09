@@ -10,7 +10,7 @@ import bookshelf from "../data/bookshelf.json";
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center">
         {
             bookshelf.books.map((book, _index) => (
-                <div title={book.title} class="shadow-xl transition ease-in-out hover:scale-110">
+                <div title={book.title} class="shadow-xl transition ease-in-out hover:scale-110 rounded-md overflow-hidden">
                     <BookCover book={book as Book}/>
                 </div>
             ))
