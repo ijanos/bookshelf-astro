@@ -51,23 +51,25 @@ const sortedAuthors = Array.from(authorCounter).sort(
                 </tbody>
             </table>
 
-            <table>
-                <thead class="text-left">
-                    <tr>
-                        <th>Publication year</th>
-                        <th class="text-center">book count</th></tr>
-                </thead>
-                <tbody>
-                    {
-                        sortedPubYears.map(([year, count]) => (
-                            <tr>
-                                <td>{year}</td>
-                                <td class="text-center">{count}</td>
-                            </tr>
-                        ))
-                    }
-                </tbody>
-            </table>
+            <div>
+                <table>
+                    <thead class="text-left">
+                        <tr>
+                            <th>Publication year</th>
+                            <th class="text-center">book count</th></tr>
+                    </thead>
+                    <tbody>
+                        {
+                            sortedPubYears.map(([year, count]) => (
+                                <tr>
+                                    <td>{year}</td>
+                                    <td class="text-center">{count}</td>
+                                </tr>
+                            ))
+                        }
+                    </tbody>
+                </table>
+            </div>
         </div>
         </article>
     </div>
