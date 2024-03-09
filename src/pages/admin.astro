@@ -5,11 +5,11 @@ import Layout from "../layouts/Layout.astro";
 <Layout title="not an admin page">
     <div class="flex flex-col space-y-1 bg-slate-50 rounded-lg p-2">
         <div>
-            <label for="openlibrary">search</label>
+            <label for="openlibrarysearch">search</label>
             <input
                 type="search"
                 size="42"
-                id="openlibrary"
+                id="openlibrarysearch"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2"
             />
         </div>
@@ -30,14 +30,23 @@ import Layout from "../layouts/Layout.astro";
 </Layout>
 
 <script>
+    interface OpenLibraryWork {
+        key: string;
+        title: string;
+        author_name: string[];
+        first_publish_year: number | string;
+        number_of_pages_median: number;
+        subject?: string[];
+    };
+
     const output = document.getElementById("textarea") as HTMLTextAreaElement;
-    const search = document.getElementById("openlibrary") as HTMLInputElement;
+    const search = document.getElementById("openlibrarysearch") as HTMLInputElement;
     const workSelect = document.getElementById("works") as HTMLSelectElement;
-    let works;
+    let works: OpenLibraryWork[] = [];
 
     search.addEventListener("change", async (event) => {
         workSelect.replaceChildren();
-        const queryString = (event.target as HTMLInputElement).value.trim().toLocaleLowerCase().replaceAll(" ", "+");
+        const queryString = encodeURIComponent((event.target as HTMLInputElement).value.trim());
         output.textContent = "loading...";
 
         const response = await fetch(
@@ -49,16 +58,23 @@ import Layout from "../layouts/Layout.astro";
             return;
         }
         const jsonResponse = await response.json();
-        works = jsonResponse.docs.sort((w1, w2) => w1.first_publish_year - w2.first_publish_year);
-        works.forEach((w, index) => {
+        works = (jsonResponse.docs as OpenLibraryWork[]).sort((w1, w2) => parseInt(w1.first_publish_year as string) - parseInt(w2.first_publish_year as string));
+        works.forEach((w) => {
             const author = w.author_name?.join(", ");
-            workSelect.add(new Option(`${w.first_publish_year} - ${w.title} -- ${author} -- ${w.key}`, index));
+            workSelect.add(new Option(`${w.first_publish_year} - ${w.title} -- ${author}`));
         });
-        output.textContent += JSON.stringify(works, null, 2) + ",";
+
+        workSelect.dispatchEvent(new Event("change"));
     });
 
     workSelect.addEventListener("change", () => {
-        const work = works[workSelect.selectedIndex];
+        const work: OpenLibraryWork = works[workSelect.selectedIndex];
+
+        const ids = Object.entries(work).filter(id => id[0].startsWith("id_"));
+        console.log(ids);
+
+        // get series from editions
+        // https://openlibrary.org/works/${OLID}/editions.json
 
         const ret = {
             title: work.title,
@@ -66,7 +82,7 @@ import Layout from "../layouts/Layout.astro";
             author: work.author_name,
             published: work.first_publish_year,
             pages: work.number_of_pages_median,
-            tags: [],
+            tags: work.subject?.map((subject: string) => subject.toLowerCase()),
             id: {
                 olid: work.key.split("/").pop()
             },
