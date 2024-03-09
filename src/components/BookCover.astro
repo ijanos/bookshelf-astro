@@ -2,7 +2,7 @@
 import { type Book } from "../types/book.ts";
 import BookCoverSvg from "./BookCoverSvg.astro";
 import { Image } from 'astro:assets';
-import { covers } from '../data/covers.ts';
+import { covers, idToString } from '../data/covers.ts';
 
 interface Props {
     book: Book;
@@ -11,6 +11,14 @@ interface Props {
 const { book } = Astro.props;
 
 const ids = book.id || {};
-const cover = Object.entries(ids).find(([source, id]) => covers.has(`${source}__${id}__`.toLowerCase()));
+const cover = Object.entries(ids).find((id) => covers.has(idToString(id)));
+const coverSrc = cover ? covers.get(idToString(cover)) : undefined;
+
 ---
-{ cover ? <Image src={covers.get(`${cover[0]}__${cover[1]}__`.toLowerCase())!()} width="200" alt={book.title} /> : <BookCoverSvg book={book}/> }
+
+{
+ cover ?
+  <Image src={coverSrc!()} width="200" alt={book.title} />
+  :
+  <BookCoverSvg book={book}/>
+}
