@@ -23,6 +23,7 @@
             ],
             "required": [
                 "title",
+                "pages",
                 "published",
                 "tags"
             ],
@@ -66,7 +67,7 @@
                     "maxLength": 3
                 },
                 "id": {
-                    "type": "object"
+                    "$ref": "#/$defs/id"
                 },
                 "tags": {
                     "description": "Tags for the book",
@@ -76,13 +77,16 @@
                         "enum": [
                             "alternate history",
                             "anthology",
+                            "adventure",
                             "biography",
                             "biopunk",
+                            "childrens",
                             "classics",
                             "comic",
                             "cosmic horror",
                             "crime",
                             "cyberpunk",
+                            "detective",
                             "didnt finish",
                             "dying-earth",
                             "dystopian",
@@ -103,7 +107,10 @@
                             "murder mystery",
                             "mystery",
                             "mythology",
+                            "nebula-winner",
+                            "noir",
                             "nonfiction",
+                            "novelization",
                             "novella",
                             "post-apocalyptic",
                             "posthuman",
@@ -116,6 +123,7 @@
                             "singularity",
                             "space opera",
                             "stopped-reading",
+                            "superheroes",
                             "technology",
                             "thriller",
                             "timetravel",
@@ -127,6 +135,31 @@
                     },
                     "minItems": 1,
                     "uniqueItems": true
+                }
+            },
+            "additionalProperties": false
+        },
+        "id": {
+            "type": "object",
+            "properties": {
+                "wikidata": {
+                    "type": "string",
+                    "pattern": "^Q[%0-9]*$"
+                },
+                "wikipedia": {
+                    "type": "string"
+                },
+                "librarything": {
+                    "type": "string",
+                    "pattern": "^[%0-9]*$"
+                },
+                "olid": {
+                    "type": "string",
+                    "pattern": "^OL.*W$"
+                },
+                "isfdb": {
+                    "type": "string",
+                    "pattern": "^[%0-9]*$"
                 }
             },
             "additionalProperties": false

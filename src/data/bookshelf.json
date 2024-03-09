@@ -100,7 +100,11 @@
         "short-stories"
       ],
       "published": 1989,
-      "language": "ENG"
+      "pages": 188,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q151337"
+      }
     },
     {
       "title": "Axiom's End",
@@ -239,7 +243,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "3204336"
+      }
     },
     {
       "title": "Stranger in a Strange Land",
@@ -293,7 +300,10 @@
         "timetravel",
         "murder mystery"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q7756730"
+      }
     },
     {
       "title": "Dr. Horrible: Best Friends Forever",
@@ -359,7 +369,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "3127252"
+      }
     },
     {
       "author": [
@@ -1965,7 +1978,7 @@
       "read": "2015-01-12",
       "tags": [
         "YA",
-        "children's"
+        "childrens"
       ],
       "language": "ENG"
     },
@@ -2118,7 +2131,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q437365"
+      }
     },
     {
       "author": [
@@ -2132,7 +2148,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q437383"
+      }
     },
     {
       "author": [
@@ -2145,10 +2164,13 @@
       "read": "2013-11-15",
       "tags": [
         "hugo-winner",
-        "Nebula 🥇",
+        "nebula-winner",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q190192"
+      }
     },
     {
       "author": [
@@ -3245,7 +3267,8 @@
     },
     {
       "author": [
-        "Arkady and Boris Strugatsky"
+        "Arkady Strugatsky",
+        "Boris Strugatsky"
       ],
       "series": "Максим Каммерер #2",
       "title": "Beetle in the Anthill",
