@@ -20,5 +20,28 @@ interface Book {
     id?: Id;
 }
 
+
+let ids = new Set();
+let author_titles = new Set();
+
+bookshelf.books.forEach(book => {
+    if (book.id) {
+        Object.entries(book.id).forEach(([idkey, idvalue]) => {
+            const idstring = `${idkey}${idvalue}`;
+            if (ids.has(idstring)) {
+                throw Error(`dupliacate ID found ${idkey}: ${idvalue}`);
+            }
+            ids.add(idstring);
+        })
+    }
+
+    const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/g,'').toLowerCase();
+    if (author_titles.has(author_title)) {
+        throw Error(`Possible duplicate book ${book.title}`);
+    }
+    author_titles.add(author_title);
+});
+
+
 export const books: Book[] = bookshelf.books;
 export type { Book };
