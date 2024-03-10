@@ -1,17 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import BookCover from "../components/BookCover.astro";
-import { type Book } from "../types/book.ts";
-import bookshelf from "../data/bookshelf.json";
+import { books } from "../data/books.ts";
 ---
 
 <Layout title="covers | my bookshelf">
     <h1 class="bg-yellow-500 p-1 rounded-lg">This page is work in progress 👷</h1>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center">
         {
-            bookshelf.books.map((book, _index) => (
+            books.map((book) => (
                 <div title={book.title} class="shadow-xl transition ease-in-out hover:scale-110 rounded-md overflow-hidden">
-                    <BookCover book={book as Book}/>
+                    <BookCover book={ book }/>
                 </div>
             ))
         }
