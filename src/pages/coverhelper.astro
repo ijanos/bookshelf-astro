@@ -25,10 +25,11 @@ const coverFilenames = books
             {filenames.ids.map((bookid) => (
               <input
                 onfocus="this.select();"
+                class="font-mono text-sm"
                 type="text"
                 value={bookid}
                 readonly
-                size="20"
+                size="24"
               />
             ))}
           </td>
