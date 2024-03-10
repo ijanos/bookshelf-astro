@@ -13,7 +13,7 @@ interface Book {
     read: string;
     author: string[];
     series?: string;
-    published?: number;
+    published: number;
     pages?: number;
     tags: string[];
     language: string;

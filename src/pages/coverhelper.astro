@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { books } from "../data/books.ts";
+import { idToString, covers } from "../data/covers";
+
+const coverFilenames = books
+  .filter((book) => book.id)
+  .map((book) => {
+    const bookIDs = Object.entries(book.id as object).map(idToString);
+    return {
+      title: book.title,
+      hasCover: bookIDs.some(bookid => covers.has(bookid)),
+      ids: bookIDs,
+    };
+  });
+---
+
+<Layout title="covers | my bookshelf">
+  <table class="bg-slate-50 border border-black">
+    {
+      coverFilenames.map((filenames) => (
+        <tr class={`border border-black ${filenames.hasCover ? "text-slate-300" : ""}`}>
+          <td>{filenames.title}</td>
+          <td class="flex flex-col">
+            {filenames.ids.map((bookid) => (
+              <input
+                onfocus="this.select();"
+                type="text"
+                value={bookid}
+                readonly
+                size="20"
+              />
+            ))}
+          </td>
+        </tr>
+      ))
+    }
+  </table>
+</Layout>

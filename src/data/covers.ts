@@ -8,7 +8,7 @@ function idToString([source, id]: [string, string]) : string {
 
 const ids = new Set(books.flatMap((book) => book.id ? Object.entries(book.id).map(idToString) : []));
 
-const covers = new Map<string,() => Promise<{ default: ImageMetadata }>>();
+const covers = new Map<string, () => Promise<{ default: ImageMetadata }>>();
 
 const imageFiles = import.meta.glob<{ default: ImageMetadata }>('/covers/*.{jpeg,jpg,png,gif}')
 
