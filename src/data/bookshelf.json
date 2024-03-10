@@ -112,6 +112,7 @@
         "Lindsay Ellis"
       ],
       "read": "2023-11-18",
+      "pages": 384,
       "tags": [
         "scifi"
       ],
@@ -129,6 +130,9 @@
         "horror",
         "short"
       ],
+      "id": {
+        "olid": "OL20663554W"
+      },
       "published": 1981,
       "language": "ENG"
     },
@@ -230,7 +234,10 @@
       ],
       "published": 2022,
       "language": "ENG",
-      "pages": 101
+      "pages": 101,
+      "id": {
+        "olid": "OL34037114W"
+      }
     },
     {
       "title": "Yumi and the Nightmare Painter",
@@ -285,6 +292,10 @@
         "scifi",
         "isekai"
       ],
+      "pages": 384,
+      "id": {
+        "olid": "OL34782261W"
+      },
       "language": "ENG"
     },
     {
@@ -301,6 +312,7 @@
         "murder mystery"
       ],
       "language": "ENG",
+      "pages": 496,
       "id": {
         "wikidata": "Q7756730"
       }
@@ -313,6 +325,7 @@
       "read": "2023-04-07",
       "language": "ENG",
       "published": 2018,
+      "pages": 24,
       "tags": [
         "comic"
       ]
@@ -324,6 +337,11 @@
       "title": "Piranesi",
       "published": 2020,
       "read": "2023-03-14",
+      "pages": 274,
+      "id": {
+        "olid": "OL20893680W",
+        "wikidata": "Q99434216"
+      },
       "tags": [
         "fantasy",
         "magical realism",
@@ -337,12 +355,16 @@
       ],
       "series": "Children of Time #3",
       "title": "Children of Memory",
+      "pages": 480,
       "published": 2022,
       "read": "2023-03-03",
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL28018696W"
+      }
     },
     {
       "author": [
@@ -398,7 +420,11 @@
         "short",
         "mythology"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 80,
+      "id": {
+        "olid": "OL17312811W"
+      }
     },
     {
       "author": [
@@ -856,16 +882,19 @@
       "language": "ENG"
     },
     {
+      "title": "Ra",
       "author": [
         "qntm"
       ],
-      "title": "Ra",
       "published": 2014,
       "read": "2021-08-04",
       "tags": [
         "fantasy",
         "urban fantasy"
       ],
+      "id": {
+        "isfdb": "2905206"
+      },
       "language": "ENG"
     },
     {
@@ -1278,11 +1307,17 @@
       "series": "The Stormlight Archive #3",
       "title": "Oathbringer",
       "published": 2017,
+      "pages": 1214,
       "read": "2020-04-28",
       "tags": [
-        "fantasy"
+        "fantasy",
+        "military"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL17834026W",
+        "wikidata": "Q28312017"
+      }
     },
     {
       "author": [
@@ -4130,6 +4165,7 @@
       "series": "Ábel #1",
       "title": "Ábel a rengetegben",
       "published": 1932,
+      "pages": 264,
       "read": "2000",
       "tags": [
         "classics"
@@ -4147,6 +4183,9 @@
       "tags": [
         "YA"
       ],
+      "id": {
+        "olid": "OL10988560W"
+      },
       "language": "HUN"
     },
     {
@@ -4161,7 +4200,10 @@
         "fiction"
       ],
       "pages": 96,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "olid": "OL10263W"
+      }
     }
   ]
 }
