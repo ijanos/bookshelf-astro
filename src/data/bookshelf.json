@@ -444,14 +444,17 @@
         "Brandon Sanderson"
       ],
       "series": "Mistborn #3.5",
-      "title": "Secret history",
+      "title": "Secret History",
       "published": 2016,
       "read": "2022-11-24",
       "tags": [
         "fantasy",
         "short"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "1989149"
+      }
     },
     {
       "author": [
@@ -464,7 +467,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL17349394W"
+      }
     },
     {
       "author": [
@@ -503,7 +509,10 @@
         "fantasy",
         "short"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL36659010W"
+      }
     },
     {
       "author": [
@@ -539,8 +548,12 @@
       "published": 2017,
       "read": "2022-08-31",
       "tags": [
-        "mythology"
+        "mythology",
+        "fantasy"
       ],
+      "id": {
+        "olid": "OL17619634W"
+      },
       "language": "ENG"
     },
     {
@@ -575,10 +588,14 @@
       ],
       "title": "Eversion",
       "published": 2022,
+      "pages": 304,
       "read": "2022-07-07",
       "tags": [
         "scifi"
       ],
+      "id": {
+        "olid": "OL27139150W"
+      },
       "language": "ENG"
     },
     {
@@ -714,7 +731,10 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL20908732W"
+      }
     },
     {
       "author": [
