@@ -555,6 +555,7 @@
         "short"
       ],
       "language": "ENG",
+      "pages": 192,
       "id": {
         "olid": "OL36659010W"
       }
@@ -564,6 +565,7 @@
         "Brandon Sanderson"
       ],
       "title": "The Eleventh Metal",
+      "pages": 21,
       "published": 2012,
       "read": "2022-09-22",
       "tags": [
@@ -596,6 +598,7 @@
         "mythology",
         "fantasy"
       ],
+      "pages": 301,
       "id": {
         "olid": "OL17619634W"
       },
@@ -605,7 +608,8 @@
       "author": [
         "Greg Egan"
       ],
-      "title": "Dream factory",
+      "title": "Dream Factory",
+      "pages": 33,
       "published": 2022,
       "read": "2022-08-26",
       "tags": [
@@ -2384,6 +2388,10 @@
         "comic"
       ],
       "published": 2004,
+      "pages": 168,
+      "id": {
+        "olid": "OL5859250W"
+      },
       "language": "ENG"
     },
     {
@@ -3908,10 +3916,11 @@
         "Rejtő Jenő"
       ],
       "published": 1940,
-      "read": "?",
+      "read": "2005",
       "tags": [
         "humor"
       ],
+      "pages": 254,
       "language": "HUN"
     },
     {
