@@ -50,12 +50,19 @@ language. No hard rules here, the page is in English, nowadays I mostly read in
 English, it makes sense to use English titles. This is not a strict database of
 books.
 
+## Covers
+
+On the covers page for the physical books I've read I try to match the cover of
+the edition I've read. For ebooks (most of the books I've read) I will pick
+either a famous cover or a cover I like.
+
 ## Technology
 
-My reading history is in a JSON file. It was originally created by a small
-script that combined my LibraryThing and goodreads exports, now it is hand
-edited. I use VSCode to edit the file, with the help of a JSON Schema the
-editor will mark errors.
+My reading history is tracked in a [JSON
+file](https://github.com/ijanos/bookshelf-astro/blob/master/src/data/bookshelf.json).
+It was originally created by a small script that combined my LibraryThing and
+goodreads exports. I use VSCode to edit the file, with
+the help of a JSON Schema the editor will mark errors.
 
 The page is built with [Astro](https://astro.build/) and [tailwind
 CSS](https://tailwindcss.com/). Search and sorting is powered by
@@ -67,7 +74,7 @@ feed](/atom.xml).
 
 Favicon is genereated by https://favicon.io/ from an emoji.
 
-Background image is from
-[Unsplash](https://unsplash.com/photos/books-on-brown-wooden-shelf-P8gLaJ-PZL0)
+Background image is from Unsplash, link in the footer.
 
-Send me any feedback to bookshelf@janosilles.com
+
+📬 Send me any feedback to bookshelf@janosilles.com
