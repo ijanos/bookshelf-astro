@@ -184,6 +184,7 @@
         "fantasy"
       ],
       "published": 2023,
+      "pages": 447,
       "language": "ENG",
       "id": {
         "isfdb": "3205288"
@@ -235,6 +236,7 @@
         "short"
       ],
       "published": 1999,
+      "pages": 3,
       "language": "ENG"
     },
     {
@@ -440,6 +442,7 @@
         "wikipedia": "Palimpsest_(novella)",
         "wikidata": "Q7127549"
       },
+      "pages": 160,
       "language": "ENG"
     },
     {
@@ -484,6 +487,7 @@
       "series": "Mistborn #3.5",
       "title": "Secret History",
       "published": 2016,
+      "pages": 160,
       "read": "2022-11-24",
       "tags": [
         "fantasy",
@@ -501,6 +505,7 @@
       "series": "Mistborn #6",
       "title": "Bands of Mourning",
       "published": 2016,
+      "pages": 448,
       "read": "2022-11-23",
       "tags": [
         "fantasy"
@@ -515,8 +520,9 @@
         "Brandon Sanderson"
       ],
       "series": "Mistborn #5",
-      "title": "Shadows of self",
+      "title": "Shadows of Self",
       "published": 2015,
+      "pages": 383,
       "read": "2022-10-27",
       "tags": [
         "fantasy"
@@ -534,6 +540,7 @@
         "fantasy",
         "short"
       ],
+      "pages": 50,
       "language": "ENG"
     },
     {
@@ -764,6 +771,7 @@
       "series": "One Punch Man",
       "title": "One Punch Man vol 1",
       "published": 2012,
+      "pages": 200,
       "read": "2022-07-23",
       "tags": [
         "comic",
@@ -990,8 +998,12 @@
       "read": "2021-06-03",
       "pages": 220,
       "tags": [
-        "scifi"
+        "scifi",
+        "short-stories"
       ],
+      "id": {
+        "wikidata": "Q123682427"
+      },
       "language": "ENG"
     },
     {
@@ -1489,7 +1501,7 @@
         "Ada Palmer"
       ],
       "series": "Terra Ignota #1",
-      "title": "Too like the Lightning",
+      "title": "Too Like the Lightning",
       "published": 2014,
       "pages": 432,
       "read": "2019-08-18",
@@ -1503,6 +1515,7 @@
         "Jordan Mechner"
       ],
       "title": "The Making of Prince of Persia",
+      "pages": 332,
       "published": 2011,
       "read": "2019-07-20",
       "tags": [
@@ -2527,6 +2540,9 @@
         "scifi"
       ],
       "pages": 297,
+      "id": {
+        "wikidata": "Q835341"
+      },
       "language": "ENG"
     },
     {
@@ -2960,21 +2976,6 @@
         "Arthur C. Clarke",
         "Stephen Baxter"
       ],
-      "series": "A Time Odyssey #2",
-      "title": "Sunstorm",
-      "published": 2005,
-      "read": "2009-11-25",
-      "pages": 356,
-      "tags": [
-        "scifi"
-      ],
-      "language": "ENG"
-    },
-    {
-      "author": [
-        "Arthur C. Clarke",
-        "Stephen Baxter"
-      ],
       "series": "A Time Odyssey #1",
       "title": "Time's Eye",
       "published": 2003,
@@ -3330,6 +3331,21 @@
     },
     {
       "author": [
+        "Arthur C. Clarke",
+        "Stephen Baxter"
+      ],
+      "series": "A Time Odyssey #2",
+      "title": "Sunstorm",
+      "published": 2005,
+      "read": "2009-11-25",
+      "pages": 356,
+      "tags": [
+        "scifi"
+      ],
+      "language": "ENG"
+    },
+    {
+      "author": [
         "Sergei Lukyanenko"
       ],
       "series": "Watch #4",
@@ -3538,7 +3554,7 @@
     {
       "title": "Out of the Silent Planet",
       "author": [
-        "C.S. Lewis"
+        "C. S. Lewis"
       ],
       "read": "?",
       "series": "The Space Trilogy #1",
@@ -3555,11 +3571,15 @@
       ],
       "title": "Már megint a felfedezők",
       "published": 1967,
-      "read": "?",
+      "read": "2007",
       "tags": [
         "scifi",
         "short-stories"
       ],
+      "pages": 334,
+      "id":{
+        "isbn": "9637118578"
+      },
       "language": "HUN"
     },
     {
@@ -3794,6 +3814,21 @@
       ],
       "language": "HUN"
     },
+        {
+      "author": [
+        "Douglas Adams"
+      ],
+      "series": "Hitchhiker's Guide to the Galaxy #1",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "published": 1979,
+      "read": "2005-06-10",
+      "tags": [
+        "scifi",
+        "humor"
+      ],
+      "pages": 216,
+      "language": "HUN"
+    },
     {
       "author": [
         "J. K. Rowling"
@@ -3811,32 +3846,20 @@
     },
     {
       "author": [
-        "Douglas Adams"
-      ],
-      "series": "Hitchhiker's Guide to the Galaxy #1",
-      "title": "The Hitchhiker's Guide to the Galaxy",
-      "published": 1979,
-      "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
-      "pages": 216,
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Iain M. Banks"
       ],
       "series": "Culture #1",
       "title": "Consider Phlebas",
       "published": 1987,
-      "read": "?",
+      "read": "2005",
       "tags": [
         "scifi",
         "space opera"
       ],
       "pages": 467,
+      "id": {
+        "wikidata": "Q261728"
+      },
       "language": "HUN"
     },
     {
@@ -3897,7 +3920,7 @@
         "H. P. Lovecraft"
       ],
       "published": 1999,
-      "read": "2004?",
+      "read": "2004",
       "language": "HUN",
       "tags": [
         "horror",
@@ -4073,13 +4096,16 @@
         "A.C. Crispin"
       ],
       "series": "Star Wars: The Han Solo Trilogy #1",
-      "read": "?",
+      "read": "2000",
       "tags": [
         "scifi"
       ],
       "published": 1997,
       "language": "HUN",
-      "pages": 306
+      "id": {
+        "olid": "OL5354785W"
+      },
+      "pages": 318
     },
     {
       "title": "Wraith Squadron",
@@ -4087,13 +4113,16 @@
       "author": [
         "Aaron Allston"
       ],
-      "read": "?",
+      "read": "2000",
       "tags": [
         "scifi"
       ],
       "published": 1998,
+      "id": {
+        "olid": "OL3567813W"
+      },
       "language": "HUN",
-      "pages": 416
+      "pages": 414
     },
     {
       "title": "Star Wars: Revenge of the Sith",
@@ -4144,10 +4173,14 @@
       "author": [
         "Ernest Hemingway"
       ],
-      "read": "?",
+      "read": "1999",
       "published": 1952,
       "pages": 127,
       "language": "HUN",
+      "id": {
+        "olid": "OL35361485W",
+        "wikidata": "Q26505"
+      },
       "tags": [
         "classics",
         "fiction"
@@ -4163,34 +4196,6 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
-    },
-    {
-      "title": "Téli ​berek",
-      "author": [
-        "Fekete István"
-      ],
-      "series": "Tüskevár #2",
-      "read": "?",
-      "tags": [
-        "classics",
-        "YA"
-      ],
-      "published": 1959,
-      "language": "HUN"
-    },
-    {
-      "title": "Tüskevár",
-      "author": [
-        "Fekete István"
-      ],
-      "series": "Tüskevár #1",
-      "read": "?",
-      "tags": [
-        "classics",
-        "YA"
-      ],
-      "published": 1957,
       "language": "HUN"
     },
     {
@@ -4231,6 +4236,42 @@
       "tags": [
         "classics"
       ],
+      "language": "HUN"
+    },
+    {
+      "title": "Téli ​berek",
+      "author": [
+        "Fekete István"
+      ],
+      "series": "Tüskevár #2",
+      "read": "1997",
+      "tags": [
+        "classics",
+        "YA"
+      ],
+      "id": {
+        "wikidata": "Q1326662"
+      },
+      "pages": 340,
+      "published": 1959,
+      "language": "HUN"
+    },
+    {
+      "title": "Tüskevár",
+      "author": [
+        "Fekete István"
+      ],
+      "series": "Tüskevár #1",
+      "read": "1997",
+      "tags": [
+        "classics",
+        "YA"
+      ],
+      "pages": 356,
+      "id": {
+        "wikidata": "Q1329057"
+      },
+      "published": 1957,
       "language": "HUN"
     },
     {
