@@ -360,14 +360,17 @@
       }
     },
     {
-      "title": "Dr. Horrible: Best Friends Forever",
+      "title": "Dr. Horrible: Best Friends Forever and Other Stories",
       "author": [
         "Joss Whedon"
       ],
       "read": "2023-04-07",
       "language": "ENG",
       "published": 2018,
-      "pages": 24,
+      "id": {
+        "isbn": "1506712312"
+      },
+      "pages": 136,
       "tags": [
         "comic"
       ]
@@ -602,6 +605,7 @@
       "tags": [
         "fantasy"
       ],
+      "pages": 332,
       "language": "ENG"
     },
     {
@@ -646,6 +650,7 @@
         "dystopian",
         "scifi"
       ],
+      "pages": 334,
       "language": "ENG"
     },
     {
@@ -814,6 +819,7 @@
         "scifi",
         "hugo-nominee"
       ],
+      "pages": 201,
       "language": "ENG"
     },
     {
@@ -828,6 +834,7 @@
         "dystopian",
         "dying-earth"
       ],
+      "pages": 602,
       "language": "ENG"
     },
     {
@@ -893,11 +900,19 @@
       "title": "Song of Achilles",
       "published": 2012,
       "read": "2022-01-09",
+      "pages": 378,
       "tags": [
         "fantasy",
         "fiction",
+        "romance",
         "historical"
       ],
+      "id": {
+        "wikidata": "Q21189971",
+        "isfdb": "1533740",
+        "olid": "OL16509148W",
+        "wikipedia": "The_Song_of_Achilles"
+      },
       "language": "ENG"
     },
     {
@@ -940,6 +955,10 @@
         "novella",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q109661040"
+      },
+      "pages": 144,
       "language": "ENG"
     },
     {
@@ -1177,6 +1196,24 @@
       "tags": [
         "comic"
       ],
+      "language": "ENG"
+    },
+    {
+      "title": "Color Out of Space",
+      "read": "2020",
+      "author": [
+        "H. P. Lovecraft"
+      ],
+      "published": 1927,
+      "pages": 78,
+      "tags": [
+        "horror",
+        "short"
+      ],
+      "id": {
+        "wikidata": "Q1212384",
+        "wikipedia": "The_Colour_Out_of_Space"
+      },
       "language": "ENG"
     },
     {
@@ -1916,14 +1953,17 @@
         "Maryna Dyachenko",
         "Serhiy Dyachenko"
       ],
-      "series": "Метаморфозы #2",
-      "title": "Цифровой, или Brevis est",
+      "series": "Metamorphosis #2",
+      "title": "Arszen ​és a játék hatalma (Brevis est)",
       "published": 2009,
       "read": "2016-04-03",
       "tags": [
         "fantasy"
       ],
-      "pages": 416,
+      "pages": 312,
+      "id": {
+        "isbn": "9786155158469"
+      },
       "language": "HUN"
     },
     {
@@ -2789,7 +2829,7 @@
       "series": "Firefall #1",
       "title": "Blindsight",
       "published": 2006,
-      "read": "2012-01-25",
+      "read": "2012-11-25",
       "tags": [
         "scifi"
       ],
@@ -3045,7 +3085,7 @@
       "title": "The Man in the High Castle",
       "published": 1962,
       "pages": 259,
-      "read": "?",
+      "read": "2009",
       "tags": [
         "scifi"
       ],
@@ -3057,11 +3097,14 @@
       ],
       "title": "The Algebraist",
       "published": 2004,
-      "read": "?",
+      "read": "2009",
       "tags": [
         "scifi"
       ],
-      "pages": 434,
+      "id": {
+        "olid": "OL8368450W"
+      },
+      "pages": 534,
       "language": "HUN"
     },
     {
@@ -3309,6 +3352,7 @@
       ],
       "title": "Radio Free Albemuth",
       "published": 1986,
+      "pages": 228,
       "read": "2009-08-06",
       "tags": [
         "scifi"
@@ -3323,6 +3367,7 @@
       "title": "Ugrás az ismeretlenbe",
       "published": 2004,
       "read": "2010",
+      "pages": 400,
       "tags": [
         "scifi"
       ],
@@ -3336,6 +3381,7 @@
       "title": "Ugrás az űrbe",
       "published": 2004,
       "read": "2010",
+      "pages": 432,
       "tags": [
         "scifi"
       ],
@@ -3398,6 +3444,9 @@
         "superheroes"
       ],
       "pages": 416,
+      "id": {
+        "wikidata": "Q128444"
+      },
       "language": "ENG"
     },
     {
@@ -3446,19 +3495,6 @@
     },
     {
       "author": [
-        "Isaac Asimov"
-      ],
-      "series": "Foundation #3",
-      "title": "Second Foundation",
-      "published": 1953,
-      "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Peter Watts"
       ],
       "title": "Beyond the Rift",
@@ -3473,43 +3509,21 @@
     },
     {
       "author": [
-        "Isaac Asimov"
-      ],
-      "series": "Foundation #2",
-      "title": "Foundation and Empire",
-      "published": 1952,
-      "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
-      "language": "HUN"
-    },
-    {
-      "author": [
-        "Isaac Asimov"
-      ],
-      "series": "Foundation #1",
-      "title": "Foundation",
-      "published": 1951,
-      "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Sergei Lukyanenko"
       ],
       "series": "Watch #2",
       "title": "Day Watch",
       "published": 2000,
       "pages": 453,
-      "read": "?",
+      "read": "2009",
       "tags": [
         "fantasy",
-        "urban fantasy"
+        "urban fantasy",
+        "horror"
       ],
+      "id": {
+        "wikidata": "Q2714888"
+      },
       "language": "HUN"
     },
     {
@@ -3522,6 +3536,7 @@
       "read": "2009-04-25",
       "tags": [
         "fantasy",
+        "horror",
         "urban fantasy"
       ],
       "pages": 455,
@@ -3571,7 +3586,7 @@
       ],
       "title": "Something Wicked This Way Comes",
       "published": 1963,
-      "read": "2008?",
+      "read": "2008",
       "tags": [
         "fantasy"
       ],
@@ -3706,6 +3721,23 @@
       "language": "HUN"
     },
     {
+      "title": "Mellékhatás",
+      "author": [
+        "F. Tóth Benedek"
+      ],
+      "read": "2007",
+      "tags": [
+        "scifi",
+        "short-stories"
+      ],
+      "published": 2007,
+      "pages": 264,
+      "language": "HUN",
+      "id": {
+        "isbn": "9789638733436"
+      }
+    },
+    {
       "author": [
         "Philip K. Dick"
       ],
@@ -3760,15 +3792,40 @@
     },
     {
       "author": [
-        "Philip K. Dick"
+        "Isaac Asimov"
       ],
-      "title": "Ubik",
-      "published": 1969,
-      "read": "2005-03-06",
+      "series": "Foundation #3",
+      "title": "Second Foundation",
+      "published": 1953,
+      "read": "2005-08-17",
       "tags": [
         "scifi"
       ],
-      "pages": 288,
+      "language": "HUN"
+    },    {
+      "author": [
+        "Isaac Asimov"
+      ],
+      "series": "Foundation #2",
+      "title": "Foundation and Empire",
+      "published": 1952,
+      "read": "2005-08-17",
+      "tags": [
+        "scifi"
+      ],
+      "language": "HUN"
+    },
+    {
+      "author": [
+        "Isaac Asimov"
+      ],
+      "series": "Foundation #1",
+      "title": "Foundation",
+      "published": 1951,
+      "read": "2005-08-17",
+      "tags": [
+        "scifi"
+      ],
       "language": "HUN"
     },
     {
@@ -3872,6 +3929,19 @@
     },
     {
       "author": [
+        "Philip K. Dick"
+      ],
+      "title": "Ubik",
+      "published": 1969,
+      "read": "2005-03-06",
+      "tags": [
+        "scifi"
+      ],
+      "pages": 288,
+      "language": "HUN"
+    },
+    {
+      "author": [
         "Iain M. Banks"
       ],
       "series": "Culture #1",
@@ -3905,7 +3975,7 @@
       "author": [
         "Philip K. Dick"
       ],
-      "series": "VALIS Trilogy #1",
+      "series": "VALIS trilogy #1",
       "title": "VALIS",
       "published": 1981,
       "read": "2004",
@@ -3939,6 +4009,23 @@
         "humor"
       ],
       "pages": 254,
+      "language": "HUN"
+    },
+    {
+      "title": "Star Wars: Revenge of the Sith",
+      "author": [
+        "Matthew Woodring Stover"
+      ],
+      "read": "2005",
+      "tags": [
+        "scifi"
+      ],
+      "published": 2005,
+      "id": {
+        "olid": "OL2727030W"
+      },
+      "pages": 418,
+      "series": "Star Wars Novelizations #3",
       "language": "HUN"
     },
     {
@@ -4150,19 +4237,6 @@
       },
       "language": "HUN",
       "pages": 414
-    },
-    {
-      "title": "Star Wars: Revenge of the Sith",
-      "author": [
-        "Matthew Woodring Stover"
-      ],
-      "read": "2005",
-      "tags": [
-        "scifi"
-      ],
-      "published": 2005,
-      "series": "Star Wars Novelizations #3",
-      "language": "HUN"
     },
     {
       "title": "Star Wars: Attack of the Clones",
