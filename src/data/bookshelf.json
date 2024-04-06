@@ -2,9 +2,26 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Thing on the Doorstep",
+      "author": [
+        "H. P. Lovecraft"
+      ],
+      "read": "2024-04-04",
+      "tags": [
+        "horror",
+        "short"
+      ],
+      "published": 1937,
+      "pages": 30,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q465039"
+      }
+    },
+    {
       "title": "Beyond the Aquila Rift",
       "author": ["Alastair Reynolds"],
-      "read": "",
+      "read": "2024-04-01",
       "tags": [
         "scifi",
         "short-stories"
@@ -1473,6 +1490,9 @@
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "wikidata": "Q111281412"
+      },
       "language": "ENG"
     },
     {
@@ -1485,7 +1505,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q13403351"
+      }
     },
     {
       "author": [
@@ -1639,7 +1662,10 @@
         "fantasy"
       ],
       "pages": 1007,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2136877"
+      }
     },
     {
       "author": [
