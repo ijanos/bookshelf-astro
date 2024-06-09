@@ -699,7 +699,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216
     },
     {
       "author": [
@@ -714,7 +715,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 200
     },
     {
       "author": [
@@ -729,7 +731,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216
     },
     {
       "author": [
@@ -744,7 +747,11 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216,
+      "id": {
+        "olid": "OL20026574W"
+      }
     },
     {
       "author": [
@@ -759,7 +766,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216
     },
     {
       "author": [
@@ -774,7 +782,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216
     },
     {
       "author": [
@@ -789,7 +798,8 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 216
     },
     {
       "author": [
@@ -804,7 +814,11 @@
         "comic",
         "manga"
       ],
-      "language": "ENG"
+      "pages": 175,
+      "language": "ENG",
+      "id": {
+        "olid": "OL26451630W"
+      }
     },
     {
       "author": [
@@ -837,7 +851,10 @@
         "hugo-nominee"
       ],
       "pages": 201,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q110825800"
+      }
     },
     {
       "author": [
@@ -852,7 +869,10 @@
         "dying-earth"
       ],
       "pages": 602,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL20148565W"
+      }
     },
     {
       "author": [
@@ -866,7 +886,8 @@
         "scifi",
         "space opera"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 46
     },
     {
       "author": [
@@ -880,7 +901,8 @@
         "scifi",
         "space opera"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 880
     },
     {
       "author": [
@@ -894,7 +916,11 @@
         "scifi",
         "space opera"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL24481122W"
+      },
+      "pages": 560
     },
     {
       "author": [
@@ -908,7 +934,8 @@
         "fiction",
         "mythology"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 400
     },
     {
       "author": [
@@ -943,7 +970,8 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 608
     },
     {
       "author": [
@@ -958,7 +986,8 @@
         "scifi",
         "hugo-nominee"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 479
     },
     {
       "author": [
@@ -989,7 +1018,8 @@
         "stopped-reading",
         "weird"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 198
     },
     {
       "author": [
@@ -1002,7 +1032,8 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 352
     },
     {
       "title": "Ra",
@@ -1018,7 +1049,8 @@
       "id": {
         "isfdb": "2905206"
       },
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 543
     },
     {
       "author": [
@@ -1031,7 +1063,8 @@
         "scifi",
         "hugo-nominee"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 496
     },
     {
       "author": [
@@ -1044,7 +1077,8 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 760
     },
     {
       "author": [
@@ -1074,7 +1108,8 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 796
     },
     {
       "author": [
@@ -1086,7 +1121,8 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 175
     },
     {
       "author": [
@@ -1099,7 +1135,8 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 672
     },
     {
       "author": [
@@ -1111,7 +1148,11 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 352,
+      "id": {
+        "wikidata": "Q2364488"
+      }
     },
     {
       "author": [
@@ -1324,7 +1365,11 @@
         "post-apocalyptic",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 77,
+      "id": {
+        "wikidata": "Q17049896"
+      }
     },
     {
       "author": [
@@ -1493,7 +1538,8 @@
       "id": {
         "wikidata": "Q111281412"
       },
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 272
     },
     {
       "author": [
@@ -1508,7 +1554,8 @@
       "language": "ENG",
       "id": {
         "wikidata": "Q13403351"
-      }
+      },
+      "pages": 688
     },
     {
       "author": [
@@ -1562,7 +1609,11 @@
         "crime",
         "fiction"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 312,
+      "id": {
+        "wikidata": "Q3520291"
+      }
     },
     {
       "author": [
@@ -1916,7 +1967,10 @@
         "scifi"
       ],
       "pages": 320,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "olid": "OL16800231W"
+      }
     },
     {
       "author": [
@@ -1926,6 +1980,9 @@
       "title": "Nova Swing",
       "published": 2006,
       "read": "2016-05-27",
+      "id": {
+        "wikidata": "Q7064327"
+      },
       "tags": [
         "cyberpunk",
         "horror",
@@ -2088,7 +2145,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3838395"
+      }
     },
     {
       "author": [
