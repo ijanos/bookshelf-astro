@@ -1,4 +1,5 @@
 import bookshelf from "./bookshelf.json";
+import assert from 'node:assert/strict';
 
 interface Id {
     wikidata?: string;
@@ -34,6 +35,14 @@ bookshelf.books.forEach(book => {
             ids.add(idstring);
         })
     }
+
+    assert(book.author.length > 0);
+
+    const readDate = new Date(book.read);
+    const publishedDate = new Date(book.published);
+
+    // enable this once the read fields are all populated
+    // assert(readDate > publishedDate, `${book.title} read: ${book.read} published: ${book.published}`);
 
     const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/g,'').toLowerCase();
     if (author_titles.has(author_title)) {
