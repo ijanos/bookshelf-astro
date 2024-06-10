@@ -3235,19 +3235,6 @@
     },
     {
       "author": [
-        "Philip K. Dick"
-      ],
-      "title": "The Three Stigmata of Palmer Eldritch",
-      "published": 1965,
-      "read": "?",
-      "tags": [
-        "scifi"
-      ],
-      "pages": 231,
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Steven Erikson"
       ],
       "series": "Malazan Book of the Fallen #1",
@@ -3299,7 +3286,8 @@
         "anthology",
         "short-stories"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "pages": 400
     },
     {
       "author": [
@@ -4187,6 +4175,19 @@
     },
     {
       "author": [
+        "Philip K. Dick"
+      ],
+      "title": "The Three Stigmata of Palmer Eldritch",
+      "published": 1965,
+      "read": "2003",
+      "tags": [
+        "scifi"
+      ],
+      "pages": 231,
+      "language": "HUN"
+    },
+    {
+      "author": [
         "J. K. Rowling"
       ],
       "series": "Harry Potter #5",
@@ -4198,7 +4199,8 @@
         "fantasy",
         "magic"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "pages": 896
     },
     {
       "author": [
@@ -4240,7 +4242,11 @@
       "tags": [
         "fantasy"
       ],
-      "language": "HUN"
+      "pages": 496,
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q332581"
+      }
     },
     {
       "author": [
@@ -4254,7 +4260,8 @@
         "fantasy",
         "adventure"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "pages": 416
     },
     {
       "author": [
@@ -4422,6 +4429,7 @@
       ],
       "published": 1870,
       "read": "2000",
+      "pages": 2008,
       "tags": [
         "scifi"
       ],
@@ -4435,6 +4443,7 @@
       "title": "Ábel Amerikában",
       "published": 1934,
       "read": "2000",
+      "pages": 240,
       "tags": [
         "classics"
       ],
@@ -4447,6 +4456,7 @@
       "series": "Ábel #2",
       "title": "Ábel az országban",
       "published": 1933,
+      "pages": 208,
       "read": "2000",
       "tags": [
         "classics"
