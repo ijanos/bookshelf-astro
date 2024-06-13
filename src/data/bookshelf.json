@@ -4033,6 +4033,7 @@
       "series": "Harry Potter #6",
       "title": "Harry Potter and the Half-Blood Prince",
       "published": 2005,
+      "pages": 550,
       "read": "2005",
       "tags": [
         "YA",
@@ -4138,7 +4139,7 @@
       "series": "Culture #2",
       "title": "The Player of Games",
       "published": 1988,
-      "read": "2004?",
+      "read": "2006",
       "pages": 293,
       "tags": [
         "scifi"
@@ -4285,6 +4286,7 @@
       "title": "Harry Potter and the Goblet of Fire",
       "published": 2000,
       "read": "2001",
+      "pages": 674,
       "tags": [
         "hugo-winner",
         "YA",
@@ -4301,6 +4303,7 @@
       "title": "Harry Potter and the Prisoner of Azkaban",
       "published": 1999,
       "read": "2000",
+      "pages": 400,
       "tags": [
         "YA",
         "fantasy",
@@ -4315,6 +4318,7 @@
       "series": "Harry Potter #2",
       "title": "Harry Potter and the Chamber of Secrets",
       "published": 1998,
+      "pages": 316,
       "read": "2000",
       "tags": [
         "YA",
@@ -4386,7 +4390,7 @@
       ],
       "series": "Star Wars Novelizations #2",
       "published": 2002,
-      "pages": 344,
+      "pages": 316,
       "language": "HUN"
     },
     {
@@ -4396,6 +4400,7 @@
         "Terry Brooks"
       ],
       "read": "2000",
+      "pages": 316,
       "tags": [
         "scifi",
         "space opera",
@@ -4403,24 +4408,6 @@
       ],
       "published": 1999,
       "language": "HUN"
-    },
-    {
-      "title": "The Old Man and the Sea",
-      "author": [
-        "Ernest Hemingway"
-      ],
-      "read": "1999",
-      "published": 1952,
-      "pages": 127,
-      "language": "HUN",
-      "id": {
-        "olid": "OL35361485W",
-        "wikidata": "Q26505"
-      },
-      "tags": [
-        "classics",
-        "fiction"
-      ]
     },
     {
       "title": "20,000 Leagues under the Sea",
@@ -4476,6 +4463,24 @@
         "classics"
       ],
       "language": "HUN"
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": [
+        "Ernest Hemingway"
+      ],
+      "read": "1999",
+      "published": 1952,
+      "pages": 127,
+      "language": "HUN",
+      "id": {
+        "olid": "OL35361485W",
+        "wikidata": "Q26505"
+      },
+      "tags": [
+        "classics",
+        "fiction"
+      ]
     },
     {
       "title": "Téli ​berek",
