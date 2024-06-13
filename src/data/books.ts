@@ -30,7 +30,7 @@ bookshelf.books.forEach(book => {
         Object.entries(book.id).forEach(([idkey, idvalue]) => {
             const idstring = `${idkey}${idvalue}`;
             if (ids.has(idstring)) {
-                throw Error(`dupliacate ID found ${idkey}: ${idvalue}`);
+                throw Error(`duplicate ID found ${idkey}: ${idvalue}`);
             }
             ids.add(idstring);
         })
