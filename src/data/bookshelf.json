@@ -2,6 +2,24 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "A Dead Djinn in Cairo",
+      "author": [
+        "P. Djèlí Clark"
+      ],
+      "read": "2024-06-16",
+      "series": "Dead Djinn Universe #0.1",
+      "tags": [
+        "mystery",
+        "murder mystery"
+      ],
+      "id": {
+        "wikidata": "Q106784706"
+      },
+      "published": 2016,
+      "language": "ENG",
+      "pages": 43
+    },
+    {
       "title": "The Thing on the Doorstep",
       "author": [
         "H. P. Lovecraft"
