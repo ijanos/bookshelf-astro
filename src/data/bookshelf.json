@@ -2,6 +2,25 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Angel of Khan el-Khalili",
+      "author": [
+        "P. Djèlí Clark"
+      ],
+      "read": "2024-06-16",
+      "tags": [
+        "fantasy",
+        "steampunk",
+        "alternate history"
+      ],
+      "published": 2021,
+      "series": "Dead Djinn Universe #0.2",
+      "id": {
+        "isfdb": "2237343"
+      },
+      "pages": 32,
+      "language": "ENG"
+    },
+    {
       "title": "A Dead Djinn in Cairo",
       "author": [
         "P. Djèlí Clark"
@@ -9,6 +28,7 @@
       "read": "2024-06-16",
       "series": "Dead Djinn Universe #0.1",
       "tags": [
+        "steampunk",
         "mystery",
         "murder mystery"
       ],
