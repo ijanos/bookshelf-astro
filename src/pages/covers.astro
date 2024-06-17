@@ -9,7 +9,7 @@ import { books } from "../data/books.ts";
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center">
         {
             books.map((book) => (
-                <div title={book.title} class="shadow-xl transition ease-in-out hover:scale-110 rounded-md overflow-hidden">
+                <div title={book.title} class="border-solid border border-black drop-shadow-md transition ease-in-out hover:scale-110 rounded overflow-hidden">
                     <BookCover book={ book }/>
                 </div>
             ))
