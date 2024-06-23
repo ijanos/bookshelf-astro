@@ -5,8 +5,7 @@ import { books } from "../data/books.ts";
 ---
 
 <Layout title="covers | my bookshelf">
-    <h1 class="bg-yellow-500 p-1 rounded-lg">This page is work in progress 👷</h1>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 p-2 items-center justify-items-center backdrop-blur-sm">
         {
             books.map((book) => (
                 <div title={book.title} class="border-solid border border-black drop-shadow-md transition ease-in-out hover:scale-110 rounded overflow-hidden">
