@@ -2,6 +2,26 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "A Master of Djinn",
+      "author": [
+        "P. Djèlí Clark"
+      ],
+      "read": "",
+      "series": "Dead Djinn Universe #1",
+      "tags": [
+        "fantasy",
+        "historical fiction",
+        "alternate history",
+        "steampunk"
+      ],
+      "published": 2021,
+      "language": "ENG",
+      "pages": 438,
+      "id": {
+        "wikidata": "Q111915309"
+      }
+    },
+    {
       "title": "The Angel of Khan el-Khalili",
       "author": [
         "P. Djèlí Clark"
@@ -3347,21 +3367,6 @@
       "author": [
         "Iain M. Banks"
       ],
-      "series": "Culture #7",
-      "title": "Look to Windward",
-      "published": 2000,
-      "read": "?",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
-      "pages": 483,
-      "language": "HUN"
-    },
-    {
-      "author": [
-        "Iain M. Banks"
-      ],
       "title": "Feersum Endjinn",
       "published": 1994,
       "read": "2011-07-06",
@@ -3675,6 +3680,24 @@
     },
     {
       "author": [
+        "Iain M. Banks"
+      ],
+      "series": "Culture #7",
+      "title": "Look to Windward",
+      "published": 2000,
+      "read": "2009",
+      "tags": [
+        "scifi",
+        "space opera"
+      ],
+      "pages": 483,
+      "id": {
+        "isfdb": "6887"
+      },
+      "language": "HUN"
+    },
+    {
+      "author": [
         "Robert Charles Wilson"
       ],
       "series": "Spin #1",
@@ -3811,10 +3834,14 @@
       ],
       "title": "Something Wicked This Way Comes",
       "published": 1963,
+      "pages": 300,
       "read": "2008",
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "isfdb": "8151"
+      },
       "language": "HUN"
     },
     {
