@@ -2,9 +2,27 @@
 import Layout from "../layouts/Layout.astro";
 import { books } from "../data/books";
 import Tag from "../components/Tag.astro";
+
+const allTags = Array.from(new Set(books.flatMap(book => book.tags)));
+allTags.sort((a, b) => {
+  const aUpper = a.toUpperCase();
+  const bUpper = b.toUpperCase();
+  if (aUpper < bUpper) {
+    return -1;
+  }
+  if (aUpper > bUpper) {
+    return 1;
+  }
+
+  return 0;
+});
 ---
 
 <Layout title="my bookshelf | tags">
+
+<div class="flex flex-wrap gap-1">
+    { allTags.map((tag) => <Tag tag={tag}/> ) }
+</div>
 
 <div x-data="table" class="grow flex flex-col gap-2">
     <input type="text"
