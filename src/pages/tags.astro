@@ -1,0 +1,83 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { books } from "../data/books";
+import Tag from "../components/Tag.astro";
+---
+
+<Layout title="my bookshelf | tags">
+
+<div x-data="table" class="grow flex flex-col gap-2">
+    <input type="text"
+           x-on:input="search = $el.value.toLowerCase()"
+           x-on:input.debounce.100ms="update()"
+           class="p-1 text-gray-900 rounded-lg bg-gray-50 bg-transparent backdrop-blur-lg"
+          placeholder="search">
+
+<div class="overflow-x-auto rounded-md">
+
+<table class="w-full text-sm text-left text-gray-700 bg-neutral-50 bg-opacity-60 backdrop-blur-lg">
+    <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
+        <tr>
+          <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
+          <th @click="reorder(1)">Title</th>
+          <th class="text-center hidden sm:table-cell">Tags</th>
+        </tr>
+    </thead>
+    <tbody x-ref="tbody">
+
+{books.map((book) =>
+    <tr class="border-slate-50 h-7 border-b border-opacity-20 hover:bg-blue-300"
+        x-show="$el.dataset.search.includes(search)"
+        data-search={ `${ book.title } ${ book.author.join(" ") } ${ book.tags.join(" ") }`.toLowerCase() }
+    >
+        <td class="hidden sm:table-cell">{ book.author.join(", ") }</td>
+        <td class="font-semibold text-slate-900">{ book.title }</td>
+
+        <td class="text-right hidden sm:table-cell">{ book.tags.map((tag) => <Tag tag={tag}/> ) }</td>
+    </tr>
+)}
+
+</tbody>
+<tfoot class="h-6 text-gray-500 text-s bg-gray-50">
+    <tr>
+      <th colspan="6">
+      <span class="text-gray-900"><span x-text="visible"></span> books</span> out of { books.length }</span>
+      </th>
+    </tr>
+    </tfoot>
+</table>
+</div>
+
+</div>
+
+</Layout>
+
+
+<script>
+import Alpine from 'alpinejs';
+
+document.addEventListener('alpine:init', () => {
+    Alpine.data('table', () => ({
+        init() {
+            this.visible = this.$refs.tbody.querySelectorAll('tr').length
+        },
+        search: "",
+        sortOrder: -1,
+        visible: 0,
+        update() {
+            this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+        },
+        reorder(index: number) {
+                this.sortOrder = this.sortOrder * -1;
+                this.getRows()
+                    .sort((a: HTMLElement, b: HTMLElement) => { return this.sortOrder * (a.querySelectorAll("td")[index].textContent as string).localeCompare((b.querySelectorAll("td")[index].textContent as string)); })
+                    .forEach((tr) => {
+                        this.$refs.tbody.appendChild(tr);
+                    });
+        },
+        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); }
+    }))
+})
+
+Alpine.start();
+</script>
