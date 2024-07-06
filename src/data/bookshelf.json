@@ -625,7 +625,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q16387049"
+      }
     },
     {
       "author": [
@@ -639,7 +642,10 @@
         "short"
       ],
       "pages": 50,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "521299"
+      }
     },
     {
       "author": [
@@ -996,7 +1002,10 @@
         "mythology"
       ],
       "language": "ENG",
-      "pages": 400
+      "pages": 400,
+      "id": {
+        "wikidata": "Q64590884"
+      }
     },
     {
       "author": [
@@ -1032,7 +1041,10 @@
         "scifi"
       ],
       "language": "ENG",
-      "pages": 608
+      "pages": 608,
+      "id": {
+        "wikidata": "Q105476518"
+      }
     },
     {
       "author": [
@@ -1400,7 +1412,8 @@
         "scifi",
         "short"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 25
     },
     {
       "author": [
@@ -2614,7 +2627,11 @@
         "comic"
       ],
       "published": 2010,
-      "language": "ENG"
+      "pages": 248,
+      "language": "ENG",
+      "id": {
+        "librarything": "9729821"
+      }
     },
     {
       "title": "Scott Pilgrim vs. the Universe",
@@ -2627,7 +2644,11 @@
         "comic"
       ],
       "published": 2009,
-      "language": "ENG"
+      "pages": 216,
+      "language": "ENG",
+      "id": {
+        "librarything": "7719708"
+      }
     },
     {
       "title": "Scott Pilgrim Gets It Together",
@@ -2640,7 +2661,11 @@
         "comic"
       ],
       "published": 2007,
-      "language": "ENG"
+      "pages": 216,
+      "language": "ENG",
+      "id": {
+        "librarything": "3620553"
+      }
     },
     {
       "title": "Scott Pilgrim & The Infinite Sadness",
@@ -3261,7 +3286,11 @@
         "fantasy"
       ],
       "published": 1989,
-      "language": "ENG"
+      "language": "ENG",
+      "pages": 240,
+      "id": {
+        "librarything": "9347622"
+      }
     },
     {
       "author": [
@@ -3303,7 +3332,11 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "pages": 250,
+      "id": {
+        "wikidata": "Q837944"
+      }
     },
     {
       "author": [
