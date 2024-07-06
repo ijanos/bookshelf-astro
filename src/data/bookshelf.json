@@ -3040,8 +3040,12 @@
       "published": 1953,
       "pages": 224,
       "read": "2012-08-01",
+      "id": {
+        "wikidata": "Q466057"
+      },
       "tags": [
-        "scifi"
+        "scifi",
+        "first contact"
       ],
       "language": "ENG"
     },
@@ -3057,6 +3061,9 @@
         "scifi"
       ],
       "pages": 382,
+      "id": {
+        "wikidata": "Q2291295"
+      },
       "language": "ENG"
     },
     {
@@ -3067,6 +3074,9 @@
       "title": "Ender's Game",
       "published": 1985,
       "read": "2012-01-15",
+      "id": {
+        "wikidata": "Q816016"
+      },
       "tags": [
         "hugo-winner",
         "YA",
@@ -3087,6 +3097,9 @@
         "scifi"
       ],
       "pages": 499,
+      "id": {
+        "wikidata": "Q543562"
+      },
       "language": "ENG"
     },
     {
@@ -3098,9 +3111,14 @@
       "published": 2006,
       "read": "2012-11-25",
       "tags": [
-        "scifi"
+        "scifi",
+        "hard scifi",
+        "vampires"
       ],
       "pages": 384,
+      "id": {
+        "wikidata": "Q2511421"
+      },
       "language": "ENG"
     },
     {
@@ -3116,6 +3134,9 @@
         "post-apocalyptic"
       ],
       "pages": 241,
+      "id": {
+        "wikidata": "Q1140295"
+      },
       "language": "ENG"
     },
     {
@@ -3130,6 +3151,9 @@
         "crime"
       ],
       "pages": 480,
+      "id": {
+        "wikidata": "Q678288"
+      },
       "language": "ENG"
     },
     {
@@ -3146,6 +3170,9 @@
         "fantasy",
         "fiction"
       ],
+      "id": {
+        "wikidata": "Q430514"
+      },
       "language": "ENG"
     },
     {
@@ -3161,6 +3188,9 @@
       ],
       "published": 1996,
       "pages": 192,
+      "id": {
+        "wikidata": "Q969584"
+      },
       "language": "ENG"
     },
     {
@@ -3176,6 +3206,9 @@
       ],
       "published": 1995,
       "pages": 352,
+      "id": {
+        "wikidata": "Q1413118"
+      },
       "language": "ENG"
     },
     {
@@ -3191,6 +3224,9 @@
       ],
       "published": 1993,
       "pages": 160,
+      "id": {
+        "wikidata": "Q948667"
+      },
       "language": "ENG"
     },
     {
@@ -3205,6 +3241,9 @@
         "fantasy"
       ],
       "published": 1993,
+      "id": {
+        "wikidata": "Q201973"
+      },
       "pages": 256,
       "language": "ENG"
     },
@@ -3221,6 +3260,9 @@
       ],
       "published": 1993,
       "pages": 264,
+      "id": {
+        "wikidata": "Q1412268"
+      },
       "language": "ENG"
     },
     {
@@ -3236,6 +3278,9 @@
       ],
       "published": 1992,
       "pages": 192,
+      "id": {
+        "wikidata": "Q1369331"
+      },
       "language": "ENG"
     },
     {
@@ -3251,6 +3296,9 @@
       ],
       "published": 1991,
       "pages": 224,
+      "id": {
+        "wikidata": "Q1412258"
+      },
       "language": "ENG"
     },
     {
@@ -3266,6 +3314,9 @@
       ],
       "published": 1990,
       "pages": 160,
+      "id": {
+        "wikidata": "Q1751793"
+      },
       "language": "ENG"
     },
     {
@@ -3281,6 +3332,9 @@
       ],
       "published": 1990,
       "pages": 213,
+      "id": {
+        "wikidata": "Q125851"
+      },
       "language": "ENG"
     },
     {
@@ -3318,21 +3372,6 @@
     },
     {
       "author": [
-        "Arthur C. Clarke",
-        "Stephen Baxter"
-      ],
-      "series": "A Time Odyssey #1",
-      "title": "Time's Eye",
-      "published": 2003,
-      "pages": 379,
-      "read": "2006",
-      "tags": [
-        "scifi"
-      ],
-      "language": "HUN"
-    },
-    {
-      "author": [
         "Arthur C. Clarke"
       ],
       "title": "The Deep Range",
@@ -3355,6 +3394,9 @@
       "published": 1962,
       "pages": 259,
       "read": "2009",
+      "id": {
+        "wikidata": "Q749783"
+      },
       "tags": [
         "scifi"
       ],
@@ -3389,6 +3431,9 @@
       ],
       "published": 1993,
       "language": "HUN",
+      "id": {
+        "wikidata": "Q4112075"
+      },
       "pages": 368
     },
     {
@@ -3403,6 +3448,9 @@
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "wikidata": "Q441055"
+      },
       "language": "ENG"
     },
     {
@@ -3416,6 +3464,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q5441458"
+      },
       "language": "ENG"
     },
     {
@@ -3443,6 +3494,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q462560"
+      },
       "language": "HUN"
     },
     {
@@ -3457,6 +3511,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q2362526"
+      },
       "language": "ENG"
     },
     {
@@ -3472,6 +3529,9 @@
         "scifi"
       ],
       "pages": 500,
+      "id": {
+        "wikidata": "Q1798059"
+      },
       "language": "HUN"
     },
     {
@@ -3485,6 +3545,9 @@
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "wikidata": "Q2360806"
+      },
       "language": "HUN"
     },
     {
@@ -3500,6 +3563,9 @@
         "space opera"
       ],
       "pages": 627,
+      "id": {
+        "wikidata": "Q302026"
+      },
       "language": "ENG"
     },
     {
@@ -3515,6 +3581,9 @@
         "military",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q492207"
+      },
       "language": "ENG"
     },
     {
@@ -3530,6 +3599,9 @@
         "space opera"
       ],
       "pages": 343,
+      "id": {
+        "wikidata": "Q666405"
+      },
       "language": "HUN"
     },
     {
@@ -3544,6 +3616,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q932592"
+      },
       "language": "ENG"
     },
     {
@@ -3558,6 +3633,9 @@
         "alternate history",
         "fiction"
       ],
+      "id": {
+        "wikidata": "Q963586"
+      },
       "language": "HUN"
     },
     {
@@ -3573,6 +3651,9 @@
         "space opera"
       ],
       "pages": 593,
+      "id": {
+        "wikidata": "Q684818"
+      },
       "language": "ENG"
     },
     {
@@ -3586,6 +3667,9 @@
         "scifi"
       ],
       "pages": 464,
+      "id": {
+        "wikidata": "Q783533"
+      },
       "language": "ENG"
     },
     {
@@ -3599,6 +3683,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q3416949"
+      },
       "language": "HUN"
     },
     {
@@ -3624,6 +3711,9 @@
       "published": 2004,
       "read": "2010",
       "pages": 432,
+      "id": {
+        "wikipedia": "The_Stars_Are_Cold_Toys"
+      },
       "tags": [
         "scifi"
       ],
@@ -3671,6 +3761,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q3517860"
+      },
       "language": "ENG"
     },
     {
@@ -4071,6 +4164,24 @@
         "thriller"
       ],
       "pages": 184,
+      "language": "HUN"
+    },
+    {
+      "author": [
+        "Arthur C. Clarke",
+        "Stephen Baxter"
+      ],
+      "series": "A Time Odyssey #1",
+      "title": "Time's Eye",
+      "published": 2003,
+      "pages": 379,
+      "read": "2006",
+      "tags": [
+        "scifi"
+      ],
+      "id": {
+        "wikidata": "Q785354"
+      },
       "language": "HUN"
     },
     {
