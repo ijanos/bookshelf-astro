@@ -18,7 +18,7 @@
                 {
                     "label": "new book",
                     "description": "Add a new book to your bookshelf",
-                    "body": { "title": "$1", "author": "$2", "read": "$3", "tags": ["$4"], "published": 0, "language": "$6" }
+                    "body": { "title": "$1", "author": ["$2"], "read": "$3", "tags": ["$4"], "published": 0, "language": "$6" }
                 }
             ],
             "required": [
@@ -113,6 +113,7 @@
                             "nonfiction",
                             "novelization",
                             "novella",
+                            "pkd-winner",
                             "post-apocalyptic",
                             "posthuman",
                             "programming",
