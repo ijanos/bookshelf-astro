@@ -1824,7 +1824,7 @@
       "tags": [
         "hugo-winner",
         "nebula-winner",
-        "Philip K. Dick 🥇",
+        "pkd-winner",
         "cyberpunk",
         "scifi"
       ],
@@ -3160,6 +3160,7 @@
         "fantasy"
       ],
       "published": 1996,
+      "pages": 192,
       "language": "ENG"
     },
     {
@@ -3174,6 +3175,7 @@
         "fantasy"
       ],
       "published": 1995,
+      "pages": 352,
       "language": "ENG"
     },
     {
@@ -3188,6 +3190,7 @@
         "fantasy"
       ],
       "published": 1993,
+      "pages": 160,
       "language": "ENG"
     },
     {
@@ -3202,6 +3205,7 @@
         "fantasy"
       ],
       "published": 1993,
+      "pages": 256,
       "language": "ENG"
     },
     {
@@ -3216,6 +3220,7 @@
         "fantasy"
       ],
       "published": 1993,
+      "pages": 264,
       "language": "ENG"
     },
     {
@@ -3230,6 +3235,7 @@
         "fantasy"
       ],
       "published": 1992,
+      "pages": 192,
       "language": "ENG"
     },
     {
@@ -3244,6 +3250,7 @@
         "fantasy"
       ],
       "published": 1991,
+      "pages": 224,
       "language": "ENG"
     },
     {
@@ -3258,6 +3265,7 @@
         "fantasy"
       ],
       "published": 1990,
+      "pages": 160,
       "language": "ENG"
     },
     {
@@ -3272,6 +3280,7 @@
         "fantasy"
       ],
       "published": 1990,
+      "pages": 213,
       "language": "ENG"
     },
     {
@@ -3630,6 +3639,7 @@
       "tags": [
         "urban fantasy"
       ],
+      "pages": 254,
       "published": 2003,
       "language": "HUN"
     },
@@ -3705,7 +3715,8 @@
       "series": "Максим Каммерер #2",
       "title": "Beetle in the Anthill",
       "published": 1980,
-      "read": "?",
+      "read": "2010",
+      "pages": 218,
       "tags": [
         "scifi"
       ],
@@ -3768,6 +3779,9 @@
       "published": 2004,
       "pages": 405,
       "read": "?",
+      "id": {
+        "wikidata": "Q2993164"
+      },
       "tags": [
         "fantasy",
         "urban fantasy"
@@ -3821,6 +3835,9 @@
         "urban fantasy"
       ],
       "pages": 455,
+      "id": {
+        "wikidata": "Q1042011"
+      },
       "language": "HUN"
     },
     {
@@ -3830,10 +3847,14 @@
       ],
       "title": "Prisoners of Power",
       "published": 1971,
+      "pages": 384,
       "read": "2009",
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q595056"
+      },
       "language": "HUN"
     },
     {
@@ -3847,6 +3868,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q2901858"
+      },
       "language": "HUN"
     },
     {
@@ -3859,6 +3883,10 @@
       "tags": [
         "scifi"
       ],
+      "pages": 188,
+      "id": {
+        "wikidata": "Q1090238"
+      },
       "language": "HUN"
     },
     {
@@ -3920,6 +3948,9 @@
         "cyberpunk",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q768389"
+      },
       "language": "HUN"
     },
     {
@@ -3935,6 +3966,10 @@
         "fantasy",
         "magic"
       ],
+      "pages": 607,
+      "id": {
+        "wikidata": "Q46758"
+      },
       "language": "ENG"
     },
     {
@@ -3960,6 +3995,7 @@
       "tags": [
         "short"
       ],
+      "pages": 10,
       "published": 2001,
       "language": "HUN"
     },
@@ -3974,6 +4010,9 @@
         "scifi"
       ],
       "pages": 204,
+      "id": {
+        "wikidata": "Q874492"
+      },
       "language": "HUN"
     },
     {
@@ -4071,8 +4110,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
-    },    {
+      "language": "HUN",
+      "pages": 256
+    },
+    {
       "author": [
         "Isaac Asimov"
       ],
@@ -4083,6 +4124,7 @@
       "tags": [
         "scifi"
       ],
+      "pages": 256,
       "language": "HUN"
     },
     {
@@ -4096,6 +4138,7 @@
       "tags": [
         "scifi"
       ],
+      "pages": 244,
       "language": "HUN"
     },
     {
@@ -4123,6 +4166,7 @@
         "scifi",
         "humor"
       ],
+      "pages": 288,
       "language": "HUN"
     },
     {
@@ -4137,6 +4181,7 @@
         "scifi",
         "humor"
       ],
+      "pages": 225,
       "language": "HUN"
     },
     {
@@ -4151,6 +4196,7 @@
         "scifi",
         "humor"
       ],
+      "pages": 224,
       "language": "HUN"
     },
     {
@@ -4165,6 +4211,7 @@
         "scifi",
         "humor"
       ],
+      "pages": 250,
       "language": "HUN"
     },
         {
