@@ -7,7 +7,7 @@ const { tag } = Astro.props;
 ---
 
 <span class="text-xs font-bold p-0.5 rounded-md mr-1 hover:bg-yellow-300 text-nowrap"
-     :class={`selectedTags.has("${ tag }") ? "bg-green-500" : "bg-yellow-50"`}
+     :class={`tagColor("${ tag }")`}
      @click={`tagToggle("${ tag }")`}>
 { tag }
 </span>

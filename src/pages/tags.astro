@@ -92,12 +92,24 @@ document.addEventListener('alpine:init', () => {
         allTags: new Map(),
         selectedTags: new Set(),
         visibleIndexes: Array<number>(),
+        activeTags: Array<string>(),
         rowshow(id: string) {
             if (this.selectedTags.size < 1) {
                 return true;
             }
-            console.log(this.visibleIndexes, id, this.visibleIndexes.includes(parseInt(id)));
             return this.visibleIndexes.includes(parseInt(id));
+        },
+        tagColor(tag: string) {
+            if (this.selectedTags.size < 1) {
+                return "bg-yellow-50"
+            }
+            if (this.selectedTags.has(tag)) {
+                return "bg-green-500"
+            } else if (this.activeTags.includes(tag)) {
+                return "bg-yellow-50"
+            } else {
+                return "bg-slate-500"
+            };
         },
         tagToggle(tag: string) {
             if (this.selectedTags.has(tag)) {
@@ -122,7 +134,9 @@ document.addEventListener('alpine:init', () => {
                 return count == this.selectedTags.size;
             }).map(([rowIndex, count]) => rowIndex);
 
-            console.log(this.visibleIndexes);
+            this.activeTags = [...this.allTags].filter(([tagName, indexList]) => {
+                return this.visibleIndexes.some((i) => indexList.includes(i))
+            }).map(([tagName, indexList]) => tagName);
         },
         update() {
             this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
