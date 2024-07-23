@@ -4,6 +4,7 @@ import { books } from "../data/books";
 import Tag from "../components/Tag.astro";
 
 const allTags = Array.from(new Set(books.flatMap(book => book.tags)));
+
 allTags.sort((a, b) => {
   const aUpper = a.toUpperCase();
   const bUpper = b.toUpperCase();
@@ -20,11 +21,14 @@ allTags.sort((a, b) => {
 
 <Layout title="my bookshelf | tags">
 
-<div class="flex flex-wrap gap-1">
-    { allTags.map((tag) => <Tag tag={tag}/> ) }
-</div>
 
 <div x-data="table" class="grow flex flex-col gap-2">
+
+    <div class="flex flex-wrap gap-1">
+        { allTags.map((tag) => <Tag tag={tag}/> ) }
+    </div>
+
+
     <input type="text"
            x-on:input="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
@@ -45,13 +49,13 @@ allTags.sort((a, b) => {
 
 {books.map((book) =>
     <tr class="border-slate-50 h-7 border-b border-opacity-20 hover:bg-blue-300"
-        x-show="$el.dataset.search.includes(search)"
+        x-show="rowshow($el.dataset.index)"
+        data-index={ book.index }
         data-search={ `${ book.title } ${ book.author.join(" ") } ${ book.tags.join(" ") }`.toLowerCase() }
     >
         <td class="hidden sm:table-cell">{ book.author.join(", ") }</td>
         <td class="font-semibold text-slate-900">{ book.title }</td>
-
-        <td class="text-right hidden sm:table-cell">{ book.tags.map((tag) => <Tag tag={tag}/> ) }</td>
+        <td class="text-right hidden sm:table-cell">{ book.tags.map((tag) => <Tag tag={tag}/> )}</td>
     </tr>
 )}
 
@@ -76,12 +80,50 @@ import Alpine from 'alpinejs';
 
 document.addEventListener('alpine:init', () => {
     Alpine.data('table', () => ({
-        init() {
-            this.visible = this.$refs.tbody.querySelectorAll('tr').length
+        async init() {
+            this.visible = this.$refs.tbody.querySelectorAll('tr').length;
+            const tags = await (await fetch('/tags.json')).json();
+            this.allTags = new Map(Object.entries(tags));
         },
         search: "",
         sortOrder: -1,
         visible: 0,
+        open: false,
+        allTags: new Map(),
+        selectedTags: new Set(),
+        visibleIndexes: Array<number>(),
+        rowshow(id: string) {
+            if (this.selectedTags.size < 1) {
+                return true;
+            }
+            console.log(this.visibleIndexes, id, this.visibleIndexes.includes(parseInt(id)));
+            return this.visibleIndexes.includes(parseInt(id));
+        },
+        tagToggle(tag: string) {
+            if (this.selectedTags.has(tag)) {
+                this.selectedTags.delete(tag);
+            } else {
+                this.selectedTags.add(tag);
+            }
+
+            const allSelectedIndexes = [...this.allTags].filter(([tagName, indexList]) => {
+                return this.selectedTags.has(tagName);
+             }).flatMap(([tagName, indexList]) => {
+                return indexList;
+            });
+
+            const counter = new Map();
+            allSelectedIndexes.forEach((i) => {
+                counter.has(i) || counter.set(i, 0);
+                counter.set(i, counter.get(i) + 1);
+            });
+
+            this.visibleIndexes = [...counter].filter(([rowIndex, count]) => {
+                return count == this.selectedTags.size;
+            }).map(([rowIndex, count]) => rowIndex);
+
+            console.log(this.visibleIndexes);
+        },
         update() {
             this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
         },

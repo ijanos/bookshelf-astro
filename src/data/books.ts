@@ -19,6 +19,7 @@ interface Book {
     tags: string[];
     language: string;
     id?: Id;
+    index: number;
 }
 
 
@@ -52,5 +53,7 @@ bookshelf.books.forEach(book => {
 });
 
 
-export const books: Book[] = bookshelf.books;
+const indexedBookshelf = bookshelf.books.map((movie, index) =>  ({...movie, index: index}));
+
+export const books: Book[] = indexedBookshelf;
 export type { Book };
