@@ -2,6 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Replay",
+      "read": "2024-10-06",
+      "author": [
+        "Jordan Mechner"
+      ],
+      "published": 2024,
+      "id": {
+        "olid": "OL31605435W"
+      },
+      "pages": 320,
+      "tags": [
+        "comic"
+      ],
+      "language": "ENG"
+    },
+    {
       "title": "A Master of Djinn",
       "author": [
         "P. Djèlí Clark"
