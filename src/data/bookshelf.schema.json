@@ -171,6 +171,10 @@
                 "isbn": {
                     "type": "string",
                     "pattern": "^[%0-9]*$"
+                },
+                "oclc": {
+                    "type": "string",
+                    "pattern": "^[%0-9]*$"
                 }
             },
             "additionalProperties": false

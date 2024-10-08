@@ -158,6 +158,10 @@
       ],
       "published": 1955,
       "language": "ENG",
+      "id": {
+        "isfdb": "40913",
+        "wikipedia": "The_Star_(Clarke_short_story)"
+      },
       "pages": 4
     },
     {
@@ -348,6 +352,9 @@
       ],
       "published": 1999,
       "pages": 3,
+      "id": {
+        "isfdb": "573137"
+      },
       "language": "ENG"
     },
     {
@@ -692,6 +699,9 @@
         "fantasy",
         "short"
       ],
+      "id": {
+        "isfdb": "2068858"
+      },
       "language": "ENG"
     },
     {
@@ -706,6 +716,9 @@
         "fantasy"
       ],
       "pages": 332,
+      "id": {
+        "wikidata": "Q6880077"
+      },
       "language": "ENG"
     },
     {
@@ -737,6 +750,9 @@
         "short",
         "scifi"
       ],
+      "id": {
+        "isfdb": "3022072"
+      },
       "language": "ENG"
     },
     {
@@ -751,6 +767,9 @@
         "scifi"
       ],
       "pages": 334,
+      "id": {
+        "wikidata": "Q1659714"
+      },
       "language": "ENG"
     },
     {
@@ -783,6 +802,9 @@
         "manga"
       ],
       "language": "ENG",
+      "id": {
+        "olid": "OL20039448W"
+      },
       "pages": 216
     },
     {
@@ -799,6 +821,9 @@
         "manga"
       ],
       "language": "ENG",
+      "id": {
+        "olid": "OL20033433W"
+      },
       "pages": 200
     },
     {
@@ -814,6 +839,9 @@
         "comic",
         "manga"
       ],
+      "id": {
+        "olid": "OL20031295W"
+      },
       "language": "ENG",
       "pages": 216
     },
@@ -850,6 +878,9 @@
         "manga"
       ],
       "language": "ENG",
+      "id": {
+        "olid": "OL20021030W"
+      },
       "pages": 216
     },
     {
@@ -866,6 +897,9 @@
         "manga"
       ],
       "language": "ENG",
+      "id": {
+        "olid": "OL20016957W"
+      },
       "pages": 216
     },
     {
@@ -881,6 +915,9 @@
         "comic",
         "manga"
       ],
+      "id": {
+        "olid": "OL20014594W"
+      },
       "language": "ENG",
       "pages": 216
     },
@@ -970,6 +1007,9 @@
         "space opera"
       ],
       "language": "ENG",
+      "id": {
+        "isfdb": "92454"
+      },
       "pages": 46
     },
     {
@@ -985,6 +1025,10 @@
         "space opera"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q85809878",
+        "isfdb": "799533"
+      },
       "pages": 880
     },
     {
@@ -1075,6 +1119,10 @@
         "scifi",
         "hugo-nominee"
       ],
+      "id": {
+        "wikidata": "Q79557367",
+        "isfdb": "2592014"
+      },
       "language": "ENG",
       "pages": 479
     },
@@ -1108,6 +1156,9 @@
         "weird"
       ],
       "language": "ENG",
+      "id": {
+        "isfdb": "997484"
+      },
       "pages": 198
     },
     {
@@ -1122,6 +1173,9 @@
         "scifi"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q61387890"
+      },
       "pages": 352
     },
     {
@@ -1153,6 +1207,9 @@
         "hugo-nominee"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q106852836"
+      },
       "pages": 496
     },
     {
@@ -1167,6 +1224,9 @@
         "fantasy"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q3859308"
+      },
       "pages": 760
     },
     {
@@ -1197,6 +1257,9 @@
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "wikidata": "Q2062781"
+      },
       "language": "ENG",
       "pages": 796
     },
@@ -1210,6 +1273,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q4291620"
+      },
       "language": "ENG",
       "pages": 175
     },
@@ -1225,6 +1291,9 @@
         "fantasy"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q2778373"
+      },
       "pages": 672
     },
     {
@@ -1274,6 +1343,9 @@
         "horror",
         "short-stories"
       ],
+      "id": {
+        "oclc": "730406675"
+      },
       "language": "ENG"
     },
     {
@@ -1305,6 +1377,9 @@
         "dystopian",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q191949"
+      },
       "language": "ENG"
     },
     {
@@ -1367,6 +1442,9 @@
       "tags": [
         "comic"
       ],
+      "id": {
+        "wikipedia": "Archangel_(Gibson_comic)"
+      },
       "language": "ENG"
     },
     {
@@ -1400,6 +1478,9 @@
         "fantasy",
         "short"
       ],
+      "id": {
+        "wikidata": "Q111281407"
+      },
       "pages": 269,
       "language": "ENG"
     },
@@ -1415,6 +1496,10 @@
         "short-stories"
       ],
       "pages": 192,
+      "id": {
+        "isbn": "1587154137",
+        "oclc": "51620864"
+      },
       "language": "ENG"
     },
     {
@@ -1429,6 +1514,9 @@
         "short"
       ],
       "language": "ENG",
+      "id": {
+        "wikidata": "Q130467808"
+      },
       "pages": 25
     },
     {
@@ -1444,6 +1532,9 @@
         "thriller"
       ],
       "pages": 254,
+      "id": {
+        "wikidata": "Q16961985"
+      },
       "language": "ENG"
     },
     {
@@ -1458,6 +1549,9 @@
         "scifi",
         "short"
       ],
+      "id": {
+        "isfdb": "40872"
+      },
       "language": "ENG"
     },
     {
@@ -1471,6 +1565,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "isfdb": "212357"
+      },
       "language": "ENG"
     },
     {
@@ -1795,6 +1892,9 @@
       "published": 2017,
       "pages": 365,
       "read": "2019-09-07",
+      "id": {
+        "wikidata": "Q29649673"
+      },
       "tags": [
         "scifi"
       ],
@@ -1812,6 +1912,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q29649659"
+      },
       "language": "ENG"
     },
     {
@@ -1827,6 +1930,9 @@
         "nonfiction",
         "videogames"
       ],
+      "id": {
+        "librarything": "12044357"
+      },
       "language": "ENG"
     },
     {
@@ -1844,6 +1950,9 @@
         "cyberpunk",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q662029"
+      },
       "pages": 268,
       "language": "ENG"
     },
@@ -1858,6 +1967,9 @@
         "scifi"
       ],
       "pages": 309,
+      "id": {
+        "wikidata": "Q43262764"
+      },
       "language": "ENG"
     },
     {
@@ -1872,6 +1984,9 @@
       "tags": [
         "fantasy"
       ],
+      "id": {
+        "wikidata": "Q8034469"
+      },
       "language": "ENG"
     },
     {
@@ -1904,6 +2019,9 @@
         "videogames"
       ],
       "pages": 339,
+      "id": {
+        "wikidata": "Q730848"
+      },
       "language": "ENG"
     },
     {
@@ -1918,6 +2036,9 @@
         "YA",
         "fiction"
       ],
+      "id": {
+        "wikidata": "Q271764"
+      },
       "language": "ENG"
     },
     {
@@ -1932,6 +2053,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "isfdb": "2358638"
+      },
       "language": "ENG"
     },
     {
@@ -1939,7 +2063,7 @@
         "Ursula K. Le Guin"
       ],
       "series": "Hainish Cycle #6",
-      "title": "The Dispossessed ",
+      "title": "The Dispossessed",
       "published": 1974,
       "pages": 387,
       "read": "2018-06-09",
@@ -1948,6 +2072,9 @@
         "dystopian",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q467720"
+      },
       "language": "ENG"
     },
     {
@@ -1963,6 +2090,9 @@
         "hugo-winner",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q2008211"
+      },
       "language": "ENG"
     },
     {
@@ -1978,6 +2108,9 @@
         "YA",
         "scifi"
       ],
+      "id": {
+        "isfdb": "1115853"
+      },
       "language": "ENG"
     },
     {
@@ -1992,6 +2125,9 @@
         "dystopian"
       ],
       "pages": 314,
+      "id": {
+        "wikidata": "Q1541914"
+      },
       "language": "ENG"
     },
     {
@@ -2009,6 +2145,9 @@
         "singularity"
       ],
       "pages": 292,
+      "id": {
+        "isfdb": "1734148"
+      },
       "language": "ENG"
     },
     {
@@ -2023,6 +2162,9 @@
         "posthuman",
         "scifi"
       ],
+      "id": {
+        "isfdb": "1244664"
+      },
       "pages": 320,
       "language": "ENG"
     },
@@ -2039,6 +2181,9 @@
         "scifi"
       ],
       "pages": 336,
+      "id": {
+        "isfdb": "1105067"
+      },
       "language": "ENG"
     },
     {
@@ -2052,6 +2197,9 @@
         "scifi"
       ],
       "pages": 150,
+      "id": {
+        "isfdb": "1104963"
+      },
       "language": "ENG"
     },
     {
@@ -2066,6 +2214,9 @@
         "comic"
       ],
       "pages": 224,
+      "id": {
+        "wikidata": "Q16912451"
+      },
       "language": "ENG"
     },
     {
@@ -4338,6 +4489,9 @@
         "scifi",
         "humor"
       ],
+      "id": {
+        "wikidata": "Q578895"
+      },
       "pages": 250,
       "language": "HUN"
     },
