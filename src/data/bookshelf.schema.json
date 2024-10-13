@@ -23,6 +23,7 @@
             ],
             "required": [
                 "title",
+                "id",
                 "pages",
                 "published",
                 "tags"
@@ -91,6 +92,7 @@
                             "didnt finish",
                             "dying-earth",
                             "dystopian",
+                            "fanfic",
                             "fantasy",
                             "fiction",
                             "first contact",

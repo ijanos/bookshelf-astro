@@ -2,6 +2,24 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Julia",
+      "author": [
+        "Sandra Newman"
+      ],
+      "read": "",
+      "tags": [
+        "scifi",
+        "fanfic",
+        "dystopian"
+      ],
+      "published": 2023,
+      "language": "ENG",
+      "pages": 400,
+      "id": {
+        "isfdb": "3219547"
+      }
+    },
+    {
       "title": "Replay",
       "read": "2024-10-06",
       "author": [
@@ -2231,7 +2249,10 @@
         "scifi",
         "hugo-nominee"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3052025"
+      }
     },
     {
       "author": [
@@ -2244,7 +2265,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q126717623"
+      }
     },
     {
       "author": [
@@ -2260,7 +2284,10 @@
         "fantasy",
         "screenplay"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q20711488"
+      }
     },
     {
       "author": [
@@ -2275,7 +2302,10 @@
         "fantasy",
         "humor"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1052459"
+      }
     },
     {
       "author": [
@@ -2293,7 +2323,8 @@
       "pages": 320,
       "language": "ENG",
       "id": {
-        "olid": "OL16800231W"
+        "olid": "OL16800231W",
+        "isfdb": "1446498"
       }
     },
     {
@@ -2325,9 +2356,13 @@
       "pages": 183,
       "read": "2016-05-08",
       "tags": [
-        "YA"
+        "YA",
+        "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1771810"
+      }
     },
     {
       "author": [
@@ -2341,6 +2376,9 @@
         "fiction"
       ],
       "pages": 311,
+      "id": {
+        "wikidata": "Q837934"
+      },
       "language": "ENG"
     },
     {
@@ -2354,7 +2392,10 @@
         "scifi"
       ],
       "pages": 281,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3045861"
+      }
     },
     {
       "author": [
@@ -2362,7 +2403,7 @@
         "Serhiy Dyachenko"
       ],
       "series": "Metamorphosis #2",
-      "title": "Arszen ​és a játék hatalma (Brevis est)",
+      "title": "Arszen és a játék hatalma (Brevis est)",
       "published": 2009,
       "read": "2016-04-03",
       "tags": [
@@ -2386,21 +2427,27 @@
         "scifi"
       ],
       "pages": 382,
+      "id": {
+        "wikidata": "Q19627594"
+      },
       "language": "ENG"
     },
     {
       "author": [
         "Liu Cixin"
       ],
-      "series": "Remembrance of Earth’s Past #1",
+      "series": "Remembrance of Earth's Past #1",
       "title": "The Three-Body Problem",
-      "published": 2006,
+      "published": 2008,
       "read": "2016-02-28",
       "pages": 399,
       "tags": [
         "hugo-winner",
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q607112"
+      },
       "language": "ENG"
     },
     {
@@ -2501,7 +2548,10 @@
         "short-stories"
       ],
       "pages": 252,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1198643"
+      }
     },
     {
       "author": [
