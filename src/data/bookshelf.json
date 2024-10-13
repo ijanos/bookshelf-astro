@@ -2458,10 +2458,14 @@
       "published": 1949,
       "read": "2016-02-13",
       "tags": [
-        "dystopian"
+        "dystopian",
+        "scifi"
       ],
       "pages": 328,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q208460"
+      }
     },
     {
       "author": [
@@ -2475,7 +2479,10 @@
         "hugo-winner",
         "alternate history"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q603645"
+      }
     },
     {
       "author": [
@@ -2489,7 +2496,10 @@
         "hugo-winner",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q734976"
+      }
     },
     {
       "author": [
@@ -2502,7 +2512,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3345309"
+      }
     },
     {
       "author": [
@@ -2534,7 +2547,10 @@
         "scifi"
       ],
       "pages": 211,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2268391"
+      }
     },
     {
       "author": [
@@ -2566,7 +2582,10 @@
         "YA",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q7744835"
+      }
     },
     {
       "author": [
@@ -2582,7 +2601,10 @@
         "scifi"
       ],
       "pages": 389,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2032398"
+      }
     },
     {
       "author": [
@@ -2595,7 +2617,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2300209"
+      }
     },
     {
       "author": [
@@ -2609,7 +2634,10 @@
         "YA",
         "childrens"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q17635420"
+      }
     },
     {
       "author": [
@@ -2622,7 +2650,10 @@
         "scifi"
       ],
       "pages": 13,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q4729912"
+      }
     },
     {
       "author": [
@@ -2635,7 +2666,10 @@
       "tags": [
         "horror"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q489581"
+      }
     },
     {
       "author": [
@@ -2648,7 +2682,10 @@
         "scifi"
       ],
       "pages": 384,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q17111624"
+      }
     },
     {
       "author": [
@@ -2662,7 +2699,10 @@
         "biography",
         "nonfiction"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2743592"
+      }
     },
     {
       "author": [
@@ -2694,7 +2734,10 @@
         "scifi"
       ],
       "pages": 20,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2307397"
+      }
     },
     {
       "author": [
@@ -2708,7 +2751,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3225052"
+      }
     },
     {
       "author": [
@@ -2721,7 +2767,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q40205"
+      }
     },
     {
       "author": [
@@ -2735,7 +2784,10 @@
       "tags": [
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q113610"
+      }
     },
     {
       "author": [
@@ -2747,9 +2799,14 @@
       "pages": 419,
       "read": "2014-02-06",
       "tags": [
-        "scifi"
+        "scifi",
+        "aliens",
+        "religion"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3224638"
+      }
     },
     {
       "author": [
@@ -2808,7 +2865,7 @@
       "author": [
         "Neil Gaiman"
       ],
-      "title": "The Graveyard book",
+      "title": "The Graveyard Book",
       "published": 2008,
       "read": "2013-10-06",
       "pages": 312,
@@ -2817,7 +2874,10 @@
         "YA",
         "fantasy"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1168659"
+      }
     },
     {
       "author": [
@@ -2831,6 +2891,9 @@
         "scifi"
       ],
       "pages": 355,
+      "id": {
+        "wikidata": "Q1339232"
+      },
       "language": "ENG"
     },
     {
@@ -2947,7 +3010,10 @@
         "scifi"
       ],
       "pages": 330,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3207442"
+      }
     },
     {
       "author": [
@@ -2961,6 +3027,9 @@
       "tags": [
         "scifi"
       ],
+      "id": {
+        "wikidata": "Q3205411"
+      },
       "language": "ENG"
     },
     {
@@ -2975,7 +3044,10 @@
         "scifi"
       ],
       "pages": 303,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q3209610"
+      }
     },
     {
       "author": [
@@ -2989,6 +3061,9 @@
         "scifi"
       ],
       "pages": 262,
+      "id": {
+        "wikidata": "Q1150125"
+      },
       "language": "ENG"
     },
     {
@@ -3004,7 +3079,10 @@
         "fantasy"
       ],
       "pages": 181,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q14548336"
+      }
     },
     {
       "author": [
@@ -3018,7 +3096,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q7741197"
+      }
     },
     {
       "author": [
@@ -3047,7 +3128,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2525080"
+      }
     },
     {
       "author": [
@@ -3061,7 +3145,10 @@
         "scifi"
       ],
       "pages": 731,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2725656"
+      }
     },
     {
       "author": [
@@ -3105,7 +3192,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2418926"
+      }
     },
     {
       "author": [
@@ -3133,6 +3223,9 @@
         "scifi",
         "space opera"
       ],
+      "id": {
+        "wikidata": "Q2521688"
+      },
       "language": "ENG"
     },
     {
@@ -3147,7 +3240,10 @@
       "tags": [
         "scifi",
         "short"
-      ]
+      ],
+      "id": {
+        "isfdb": "1077522"
+      }
     },
     {
       "author": [
@@ -3162,7 +3258,10 @@
         "scifi",
         "space opera"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q2656138"
+      }
     },
     {
       "author": [
@@ -3191,7 +3290,10 @@
         "hugo-winner",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q741222"
+      }
     },
     {
       "author": [
@@ -3205,7 +3307,10 @@
         "hugo-winner",
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1410482"
+      }
     },
     {
       "author": [
@@ -3221,7 +3326,10 @@
         "scifi"
       ],
       "pages": 359,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q92630"
+      }
     },
     {
       "author": [
@@ -3231,10 +3339,14 @@
       "published": 1961,
       "read": "2012-04-09",
       "tags": [
-        "scifi"
+        "scifi",
+        "philosophical"
       ],
       "pages": 204,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q261281"
+      }
     },
     {
       "author": [
@@ -3247,6 +3359,9 @@
         "post-apocalyptic"
       ],
       "pages": 240,
+      "id": {
+        "wikidata": "Q5575703"
+      },
       "language": "HUN"
     },
     {
@@ -3585,6 +3700,9 @@
         "scifi"
       ],
       "pages": 364,
+      "id": {
+        "wikidata": "Q5454280"
+      },
       "language": "ENG"
     },
     {
@@ -3698,6 +3816,9 @@
         "short-stories"
       ],
       "language": "HUN",
+      "id": {
+        "wikidata": "Q2628271"
+      },
       "pages": 400
     },
     {
@@ -4859,7 +4980,10 @@
         "fantasy",
         "magic"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q47209"
+      }
     },
     {
       "author": [
@@ -4875,7 +4999,10 @@
         "fantasy",
         "magic"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q43361"
+      }
     },
     {
       "title": "The Paradise Snare",
@@ -4996,7 +5123,10 @@
       "tags": [
         "classics"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q1469091"
+      }
     },
     {
       "title": "The Old Man and the Sea",
