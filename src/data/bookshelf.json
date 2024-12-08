@@ -2,6 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Wind and Truth",
+      "author": [
+        "Brandon Sanderson"
+      ],
+      "read": "",
+      "tags": [
+        "fantasy"
+      ],
+      "published": 2024,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q126679146"
+      },
+      "pages": 1344
+    },
+    {
       "title": "Julia",
       "author": [
         "Sandra Newman"
