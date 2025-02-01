@@ -11,12 +11,12 @@ const { books } = Astro.props;
     <input type="text"
            x-on:input="search = $el.value.toLowerCase()"
            x-on:input.debounce.100ms="update()"
-           class="p-1 text-gray-900 rounded-lg bg-gray-50 bg-transparent backdrop-blur-lg"
+           class="p-1 text-gray-900 rounded-lg bg-gray-50/10 backdrop-blur-lg"
           placeholder="search">
 
 <div class="overflow-x-auto rounded-md">
 
-<table class="w-full text-sm text-left text-gray-700 bg-neutral-50 bg-opacity-60 backdrop-blur-lg">
+<table class="w-full text-sm text-left text-gray-700 bg-neutral-50/60 backdrop-blur-lg">
     <thead class="h-6 text-gray-700 uppercase text-s bg-gray-50">
         <tr>
           <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
@@ -31,7 +31,7 @@ const { books } = Astro.props;
     <tbody x-ref="tbody">
 
 {books.map((book) =>
-    <tr class="border-slate-50 h-7 border-b border-opacity-20 hover:bg-blue-300"
+    <tr class="h-7 border-b border-b-neutral-500/10 hover:bg-blue-300"
         x-show="$el.dataset.search.includes(search)"
         data-search={ `${ book.title } ${ book.author.join(" ") } ${ book.series || "" }`.toLowerCase() }
     >

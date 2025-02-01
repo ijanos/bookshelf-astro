@@ -7,7 +7,7 @@ const links = [
     { href: "/about/", text: "about" },
 ].map(link => ({...link, active: Astro.url.pathname === link.href}));
 ---
-<nav class="px-4 max-w-7xl text-gray-900 bg-white rounded-b-2xl bg-transparent bg-opacity-35 backdrop-blur-xl">
+<nav class="px-4 max-w-7xl text-gray-900 bg-white/30 rounded-b-2xl bg-opacity-35 backdrop-blur-xl">
         <div class="flex h-16 items-center flex-wrap justify-around">
             <div class="whitespace-nowrap text-2xl grow m-auto">
                 <a class="drop-shadow-lg" href="/"
