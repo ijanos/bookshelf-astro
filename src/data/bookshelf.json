@@ -2,6 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Alien Clay",
+      "author": [
+        "Adrian Tchaikovsky"
+      ],
+      "read": "",
+      "tags": [
+        "scifi"
+      ],
+      "pages": 396,
+      "published": 2024,
+      "language": "ENG",
+      "id": {
+        "isfdb": "997873"
+      }
+    },
+    {
       "title": "Wind and Truth",
       "author": [
         "Brandon Sanderson"
