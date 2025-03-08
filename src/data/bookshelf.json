@@ -2,6 +2,24 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Master and Margarita",
+      "author": [
+        "Mikhail Bulgakov"
+      ],
+      "read": "",
+      "tags": [
+        "soviet",
+        "russia",
+        "magical realism"
+      ],
+      "published": 1967,
+      "language": "HUN",
+      "pages": 372,
+      "id": {
+        "wikidata": "Q188538"
+      }
+    },
+    {
       "title": "Alien Clay",
       "author": [
         "Adrian Tchaikovsky"
