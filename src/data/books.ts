@@ -39,8 +39,8 @@ bookshelf.books.forEach(book => {
 
     assert(book.author.length > 0);
 
-    const readDate = new Date(book.read);
-    const publishedDate = new Date(book.published);
+    // const readDate = new Date(book.read);
+    // const publishedDate = new Date(book.published);
 
     // enable this once the read fields are all populated
     // assert(readDate > publishedDate, `${book.title} read: ${book.read} published: ${book.published}`);

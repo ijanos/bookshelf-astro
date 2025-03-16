@@ -118,9 +118,9 @@ document.addEventListener('alpine:init', () => {
                 this.selectedTags.add(tag);
             }
 
-            const allSelectedIndexes = [...this.allTags].filter(([tagName, indexList]) => {
+            const allSelectedIndexes = [...this.allTags].filter(([tagName,]) => {
                 return this.selectedTags.has(tagName);
-             }).flatMap(([tagName, indexList]) => {
+             }).flatMap(([,indexList]) => {
                 return indexList;
             });
 
