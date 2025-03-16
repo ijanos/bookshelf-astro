@@ -3213,7 +3213,10 @@
         "historical fiction"
       ],
       "pages": 368,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "librarything": "161250"
+      }
     },
     {
       "author": [
@@ -4145,7 +4148,10 @@
         "fantasy"
       ],
       "pages": 448,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "isfdb": "2440659"
+      }
     },
     {
       "author": [
@@ -4570,7 +4576,10 @@
         "scifi"
       ],
       "pages": 262,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q1317921"
+      }
     },
     {
       "author": [
@@ -4584,7 +4593,10 @@
         "thriller"
       ],
       "pages": 184,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q589485"
+      }
     },
     {
       "author": [
