@@ -3259,7 +3259,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q4691060"
+      }
     },
     {
       "author": [
@@ -3326,7 +3329,10 @@
         "satire"
       ],
       "pages": 179,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q41359"
+      }
     },
     {
       "author": [
@@ -4089,7 +4095,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "isfdb": "2614857"
+      }
     },
     {
       "author": [
@@ -4101,7 +4110,8 @@
       "read": "2010",
       "pages": 432,
       "id": {
-        "wikipedia": "The_Stars_Are_Cold_Toys"
+        "wikipedia": "The_Stars_Are_Cold_Toys",
+        "isfdb": "2614318"
       },
       "tags": [
         "scifi"
@@ -4202,7 +4212,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q1304748"
+      }
     },
     {
       "author": [
@@ -4235,7 +4248,10 @@
         "scifi"
       ],
       "pages": 464,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q2301398"
+      }
     },
     {
       "author": [
@@ -4250,7 +4266,10 @@
         "scifi",
         "space opera"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q74362"
+      }
     },
     {
       "author": [
@@ -4282,7 +4301,10 @@
         "short-stories"
       ],
       "pages": 230,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "428591"
+      }
     },
     {
       "author": [
@@ -4399,7 +4421,10 @@
       ],
       "published": 1938,
       "language": "HUN",
-      "pages": 160
+      "pages": 160,
+      "id": {
+        "wikidata": "Q1687429"
+      }
     },
     {
       "author": [
@@ -4465,7 +4490,10 @@
         "short-stories"
       ],
       "pages": 310,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q25403039"
+      }
     },
     {
       "title": "Basketball",
@@ -4509,7 +4537,10 @@
         "scifi"
       ],
       "pages": 411,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q339923"
+      }
     },
     {
       "title": "Mellékhatás",
