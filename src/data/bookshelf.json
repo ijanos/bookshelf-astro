@@ -2,11 +2,27 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Shroud",
+      "author": [
+        "Adrian Tchaikovsky"
+      ],
+      "read": "",
+      "tags": [
+        "scifi"
+      ],
+      "published": 2025,
+      "language": "ENG",
+      "pages": 436,
+      "id": {
+        "isfdb": "3406045"
+      }
+    },
+    {
       "title": "The Master and Margarita",
       "author": [
         "Mikhail Bulgakov"
       ],
-      "read": "",
+      "read": "2025-03-19",
       "tags": [
         "soviet",
         "russia",
