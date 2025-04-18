@@ -2,6 +2,43 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "A Short Stay in Hell",
+      "author": [
+        "Steven L. Peck"
+      ],
+      "read": "2025-04-18",
+      "tags": [
+        "horror",
+        "short",
+        "philosophical"
+      ],
+      "published": 2012,
+      "language": "ENG",
+      "pages": 100,
+      "id": {
+        "isfdb": "1867709"
+      }
+    },
+    {
+      "title": "Five Views of the Planet Tartarus",
+      "author": [
+        "Rachael K. Jones"
+      ],
+      "series": "Lightspeed Magazine, Jan 2024 (Issue 164)",
+      "tags": [
+        "scifi",
+        "short",
+        "hugo-nominee"
+      ],
+      "published": 2024,
+      "read": "2025-04-14",
+      "pages": 1,
+      "language": "ENG",
+      "id": {
+        "isfdb": "3275396"
+      }
+    },
+    {
       "title": "Shroud",
       "author": [
         "Adrian Tchaikovsky"
