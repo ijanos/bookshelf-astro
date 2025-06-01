@@ -2,6 +2,39 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "House of Suns",
+      "author": [
+        "Alastair Reynolds"
+      ],
+      "read": "",
+      "tags": [
+        "scifi",
+        "space opera"
+      ],
+      "published": 2008,
+      "pages": 512,
+      "id": {
+        "wikidata": "Q3736382"
+      },
+      "language": "ENG"
+    },
+    {
+      "title": "The Cyberiad",
+      "author": [
+        "Stanisław Lem"
+      ],
+      "read": "",
+      "tags": [
+        "scifi"
+      ],
+      "published": 1985,
+      "pages": 205,
+      "id": {
+        "wikidata": "Q1048615"
+      },
+      "language": "HUN"
+    },
+    {
       "title": "A Short Stay in Hell",
       "author": [
         "Steven L. Peck"
