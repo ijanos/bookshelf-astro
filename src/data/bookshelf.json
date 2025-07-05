@@ -12,7 +12,10 @@
       ],
       "published": 2025,
       "language": "ENG",
-      "pages": 384
+      "pages": 384,
+      "id": {
+        "wikidata": "Q133859185"
+      }
     },
     {
       "title": "Wool",
@@ -26,7 +29,10 @@
       "published": 2012,
       "language": "ENG",
       "series": "Silo #1",
-      "pages": 528
+      "pages": 528,
+      "id": {
+        "wikidata": "Q8033746"
+      }
     },
     {
       "title": "House of Suns",
