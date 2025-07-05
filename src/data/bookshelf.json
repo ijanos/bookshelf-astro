@@ -2,11 +2,38 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Isles of the Emberdark",
+      "author": [
+        "Brandon Sanderson"
+      ],
+      "read": "",
+      "tags": [
+        "fantasy"
+      ],
+      "published": 2025,
+      "language": "ENG",
+      "pages": 384
+    },
+    {
+      "title": "Wool",
+      "author": [
+        "Hugh Howey"
+      ],
+      "read": "",
+      "tags": [
+        "scifi"
+      ],
+      "published": 2012,
+      "language": "ENG",
+      "series": "Silo #1",
+      "pages": 528
+    },
+    {
       "title": "House of Suns",
       "author": [
         "Alastair Reynolds"
       ],
-      "read": "",
+      "read": "2025-06-12",
       "tags": [
         "scifi",
         "space opera"
