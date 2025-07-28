@@ -2,6 +2,23 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "There Are Doors",
+      "author": [
+        "Gene Wolfe"
+      ],
+      "read": "",
+      "tags": [
+        "scifi",
+        "fantasy"
+      ],
+      "published": 1988,
+      "language": "ENG",
+      "pages": 313,
+      "id": {
+        "wikidata": "Q7782681"
+      }
+    },
+    {
       "title": "Isles of the Emberdark",
       "author": [
         "Brandon Sanderson"
