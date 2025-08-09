@@ -2,6 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Earthlings",
+      "author": [
+        "Sayaka Murata"
+      ],
+      "read": "2025-08-08",
+      "tags": [
+        "horror"
+      ],
+      "published": 2018,
+      "pages": 247,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q115258132"
+      }
+    },
+    {
       "title": "There Are Doors",
       "author": [
         "Gene Wolfe"
