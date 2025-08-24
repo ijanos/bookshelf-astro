@@ -2,6 +2,23 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Invincible",
+      "author": [
+        "Stanisław Lem"
+      ],
+      "read": "",
+      "tags": [
+        "scifi",
+        "classics"
+      ],
+      "published": 0,
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q1197675"
+      },
+      "pages": 220
+    },
+    {
       "title": "Earthlings",
       "author": [
         "Sayaka Murata"
