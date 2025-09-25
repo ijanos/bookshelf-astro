@@ -2,6 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Convenience Store Woman",
+      "author": [
+        "Sayaka Murata"
+      ],
+      "read": "2025-09-03",
+      "tags": [
+        "weird"
+      ],
+      "published": 2016,
+      "pages": 163,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q27863945"
+      }
+    },
+    {
       "title": "The Invincible",
       "author": [
         "Stanisław Lem"
