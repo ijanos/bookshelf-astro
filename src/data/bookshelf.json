@@ -2,6 +2,18 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Summerland",
+      "author": ["Hannu Rajaniemi"],
+      "read": "",
+      "tags": ["scifi", "alternate history", "espionage"],
+      "published": 2018,
+      "language": "ENG",
+      "pages": 320,
+      "id": {
+        "wikidata": "Q69566931"
+      }
+    },
+    {
       "title": "Convenience Store Woman",
       "author": [
         "Sayaka Murata"
