@@ -2,9 +2,19 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Tainted Cup",
+      "author": ["Robert Jackson Bennett"],
+      "read": "",
+      "tags": ["fantasy"],
+      "published": 2024,
+      "language": "ENG",
+      "pages": 432,
+      "series": "Shadow of the Leviathan #1"
+    },
+    {
       "title": "Summerland",
       "author": ["Hannu Rajaniemi"],
-      "read": "",
+      "read": "2025-10-23",
       "tags": ["scifi", "alternate history", "espionage"],
       "published": 2018,
       "language": "ENG",
