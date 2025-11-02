@@ -9,7 +9,10 @@
       "published": 2024,
       "language": "ENG",
       "pages": 432,
-      "series": "Shadow of the Leviathan #1"
+      "series": "Shadow of the Leviathan #1",
+      "id": {
+        "wikidata": "Q133842917"
+      }
     },
     {
       "title": "Summerland",
