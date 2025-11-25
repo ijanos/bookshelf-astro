@@ -3,10 +3,13 @@ import Layout from "../layouts/Layout.astro";
 import { books } from "../data/books.ts";
 import { idToString, covers } from "../data/covers.ts";
 
-const coverFilenames = books
-  .filter((book) => book.id)
-  .map((book) => {
-    const bookIDs = Object.entries(book.id as object).map(idToString);
+const coverFilenames = books.map((book) => {
+    let bookIDs: string[];
+    if (book.id) {
+      bookIDs = Object.entries(book.id as object).map(idToString);
+    } else {
+      bookIDs = ["<<ID_MISSING>>"]
+    }
     return {
       title: book.title,
       hasCover: bookIDs.some(bookid => covers.has(bookid)),
