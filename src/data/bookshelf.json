@@ -2,9 +2,25 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Mort(e)",
+      "read": "",
+      "author": [
+        "Robert Repino"
+      ],
+      "published": 2014,
+      "tags": [
+        "scifi"
+      ],
+      "id": {
+        "olid": "OL17082511W"
+      },
+      "language": "ENG",
+      "pages": 358
+    },
+    {
       "title": "A Drop of Corruption",
       "author": ["Robert Jackson Bennett"],
-      "read": "",
+      "read": "2025-11-23",
       "tags": ["fantasy", "murder mystery"],
       "published": 2025,
       "language": "ENG",
