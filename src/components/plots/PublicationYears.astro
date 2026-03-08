@@ -1,0 +1,41 @@
+---
+---
+
+<div id="publishyearsplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+import * as d3 from "d3";
+
+interface YearStat {
+  years: string;
+  count: number;
+}
+
+const div = document.querySelector<HTMLDivElement>("#publishyearsplot")!;
+const response =  fetch("/data/publicationyears.json");
+const years = (await response).json() as Promise<YearStat[]>;
+
+
+const plot = Plot.plot({
+  width: 1100,
+  height: 250,
+  y: {
+    grid: true,
+    label: null,
+    percent: false
+  },
+  x: {
+    type: "band",
+    label: null,
+    ticks: d3.range(1600, 2100, 5),
+    tickFormat: ""
+  },
+  marks: [
+    Plot.barY(await years, {x: "year", y: "count", fill: "steelblue", ry1: 2, insetLeft: 0, insetRight: 0}),
+    Plot.tip(await years, Plot.pointerX({title: (y) => `${y.year}\n${y.count}`, x: "year", y: "count", fontSize: 14, textAnchor: "middle"}))
+  ]
+})
+
+div.append(plot);
+</script>

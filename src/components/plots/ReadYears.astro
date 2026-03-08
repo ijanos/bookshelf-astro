@@ -1,0 +1,39 @@
+---
+---
+
+<div id="readyearsplot" class="m-auto"></div>
+
+<script>
+import * as Plot from "@observablehq/plot";
+
+interface YearStat {
+  years: string;
+  count: number;
+}
+
+const div = document.querySelector<HTMLDivElement>("#readyearsplot")!;
+const response =  fetch("/data/readyears.json");
+const years = (await response).json() as Promise<YearStat[]>;
+
+
+const plot = Plot.plot({
+  width: 1100,
+  height: 250,
+  y: {
+    grid: true,
+    label: null,
+    percent: false
+  },
+  x: {
+    type: "band",
+    label: null,
+    tickFormat: ""
+  },
+  marks: [
+    Plot.barY(await years, {x: "year", y: "count", fill: "steelblue", ry1: 2, insetLeft: 0, insetRight: 0}),
+    Plot.tip(await years, Plot.pointerX({title: (y) => `${y.year}\n${y.count}`, x: "year", y: "count", fontSize: 14, textAnchor: "middle"}))
+  ]
+})
+
+div.append(plot);
+</script>

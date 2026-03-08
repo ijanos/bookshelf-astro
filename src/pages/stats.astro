@@ -1,6 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import bookshelf from "../data/bookshelf.json";
+import Weekdays from "../components/plots/Weekdays.astro";
+import PublicationYears from "../components/plots/PublicationYears.astro";
+import ReadYears from "../components/plots/ReadYears.astro";
+import HorizontalLine from "../components/HorizontalLine.astro";
 
 const numberOfBooks = bookshelf.books.length;
 
@@ -31,6 +35,21 @@ const sortedAuthors = Array.from(authorCounter).sort(
         <article class="prose m-auto py-4 lg:prose-lg">
             <h1>Statistics</h1>
             <div>I've read {numberOfBooks} books.</div>
+
+            <HorizontalLine text="Publication years"/>
+
+            <PublicationYears/>
+
+            <HorizontalLine text="Read years"/>
+
+            <ReadYears/>
+
+            <HorizontalLine text="Weekdays"/>
+
+            <Weekdays/>
+
+            <HorizontalLine/>
+
             <div class="grid md:grid-cols-2 divide-x-4">
 
                 <table>
