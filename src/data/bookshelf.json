@@ -2,6 +2,21 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Worm",
+      "series": "Parahumans #1",
+      "author": [
+          "Wildbow"
+      ],
+      "read": "",
+      "tags": [
+      "scifi",
+      "superheroes"
+      ],
+      "published": 2013,
+      "pages": 6680,
+      "language": "ENG"
+    },
+    {
       "title": "The First Fifteen Lives of Harry August",
       "author": [
           "Catherine Webb"
