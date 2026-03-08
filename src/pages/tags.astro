@@ -130,13 +130,13 @@ document.addEventListener('alpine:init', () => {
                 counter.set(i, counter.get(i) + 1);
             });
 
-            this.visibleIndexes = [...counter].filter(([rowIndex, count]) => {
+            this.visibleIndexes = [...counter].filter(([_rowIndex, count]) => {
                 return count == this.selectedTags.size;
-            }).map(([rowIndex, count]) => rowIndex);
+            }).map(([rowIndex, _count]) => rowIndex);
 
-            this.activeTags = [...this.allTags].filter(([tagName, indexList]) => {
+            this.activeTags = [...this.allTags].filter(([_tagName, indexList]) => {
                 return this.visibleIndexes.some((i) => indexList.includes(i))
-            }).map(([tagName, indexList]) => tagName);
+            }).map(([tagName, _indexList]) => tagName);
         },
         update() {
             this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
