@@ -5,35 +5,15 @@ import Weekdays from "../components/plots/Weekdays.astro";
 import PublicationYears from "../components/plots/PublicationYears.astro";
 import ReadYears from "../components/plots/ReadYears.astro";
 import HorizontalLine from "../components/HorizontalLine.astro";
+import Authors from "../components/stats/Authors.astro";
 
 const numberOfBooks = bookshelf.books.length;
-
-let publishedCounter = new Map<number, number>();
-bookshelf.books.map((b) => b.published).forEach(year => {
-    const n = publishedCounter.has(year) ?  publishedCounter.get(year)! : 0;
-    publishedCounter.set(year, n + 1);
-});
-const sortedPubYears = Array.from(publishedCounter).sort(
-    ([y1, _c1], [y2, _c2]) => y2 - y1,
-);
-
-let authorCounter = new Map<string, number>();
-bookshelf.books.map((b) => b.author).forEach(authorArray => {
-    authorArray.forEach(author => {
-        const n = authorCounter.has(author) ? authorCounter.get(author)! : 0;
-        authorCounter.set(author, n + 1);
-    })
-
-});
-const sortedAuthors = Array.from(authorCounter).sort(
-    ([_a1, c1], [_a2, c2]) => c2 - c1,
-);
 ---
 
 <Layout title="stats | my bookshelf">
     <div class="max-w-full bg-white/80 backdrop-blur-xl rounded-lg p-1">
-        <article class="prose m-auto py-4 lg:prose-lg">
-            <h1>Statistics</h1>
+
+            <h1 class="text-5xl font-extrabold drop-shadow-xl pb-5">Statistics</h1>
             <div>I've read {numberOfBooks} books.</div>
 
             <HorizontalLine text="Publication years"/>
@@ -48,48 +28,9 @@ const sortedAuthors = Array.from(authorCounter).sort(
 
             <Weekdays/>
 
-            <HorizontalLine/>
+            <HorizontalLine text="Authors"/>
 
-            <div class="grid md:grid-cols-2 divide-x-4">
+            <Authors/>
 
-                <table>
-                <thead class="text-left">
-                    <tr>
-                        <th>Author</th>
-                        <th class="text-center">book count</th></tr>
-                </thead>
-                <tbody>
-                    {
-                        sortedAuthors.map(([author, count]) => (
-                            <tr>
-                                <td>{author}</td>
-                                <td class="text-center">{count}</td>
-                            </tr>
-                        ))
-                    }
-                </tbody>
-            </table>
-
-            <div>
-                <table>
-                    <thead class="text-left">
-                        <tr>
-                            <th>Publication year</th>
-                            <th class="text-center">book count</th></tr>
-                    </thead>
-                    <tbody>
-                        {
-                            sortedPubYears.map(([year, count]) => (
-                                <tr>
-                                    <td>{year}</td>
-                                    <td class="text-center">{count}</td>
-                                </tr>
-                            ))
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        </article>
     </div>
 </Layout>

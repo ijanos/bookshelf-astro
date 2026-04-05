@@ -29,7 +29,7 @@ const formattedData = JSON.stringify(Object.entries(dayCounter).map(([day, count
 })));
 ---
 
-<div id="weekdayplot" class="m-auto" data-days={formattedData}></div>
+<div id="weekdayplot" class="m-auto w-fit" data-days={formattedData}></div>
 
 <script>
 import * as Plot from "@observablehq/plot";
