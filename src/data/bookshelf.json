@@ -14,7 +14,10 @@
       ],
       "published": 2013,
       "pages": 6680,
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q29471598"
+      }
     },
     {
       "title": "The First Fifteen Lives of Harry August",
