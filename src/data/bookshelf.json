@@ -2,6 +2,19 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Mercy of Gods",
+      "author": ["James S. A. Corey"],
+      "read": "",
+      "tags": ["scifi"],
+      "published": 2024,
+      "pages": 432,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q128801941"
+      },
+      "series": "The Captive's War #1"
+    },
+    {
       "title": "Worm",
       "series": "Parahumans #1",
       "author": [
