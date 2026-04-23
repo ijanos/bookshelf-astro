@@ -2,9 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Children of Strife",
+      "author": ["Adrian Tchaikovsky"],
+      "read": "",
+      "tags": ["scifi"],
+      "published": 2026,
+      "language": "ENG",
+      "series": "Children of Time #4",
+      "pages": 496,
+      "id": {
+        "wikidata": "Q138581105"
+      }
+    },
+    {
       "title": "The Mercy of Gods",
       "author": ["James S. A. Corey"],
-      "read": "",
+      "read": "2026-04-22",
       "tags": ["scifi"],
       "published": 2024,
       "pages": 432,
