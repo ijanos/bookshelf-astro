@@ -11,12 +11,12 @@
     "deploy": "npm run build && wrangler pages deploy dist/"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
+    "@astrojs/check": "^0.9.9",
     "@observablehq/plot": "^0.6.17",
     "@sindresorhus/slugify": "^2.2.1",
-    "@tailwindcss/vite": "^4.0.2",
+    "@tailwindcss/postcss": "^4.0.2",
     "alpinejs": "^3.13.3",
-    "astro": "^6",
+    "astro": "^6.3.1",
     "d3": "^7.9.0",
     "string-to-color": "^2.2.2",
     "tailwindcss": "^4.0.2",
