@@ -3499,7 +3499,10 @@
         "scifi",
         "hugo-winner"
       ],
-      "language": "ENG"
+      "language": "ENG",
+      "id": {
+        "isfdb": "1018721"
+      }
     },
     {
       "author": [
@@ -4961,7 +4964,10 @@
       "tags": [
         "scifi"
       ],
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "wikidata": "Q1139149"
+      }
     },
     {
       "author": [
@@ -5286,7 +5292,10 @@
       ],
       "published": 2003,
       "pages": 768,
-      "language": "HUN"
+      "language": "HUN",
+      "id": {
+        "isfdb": "153245"
+      }
     },
     {
       "author": [
