@@ -2,7 +2,7 @@ import { books } from "../../data/books";
 
 const yearCounter = new Map<number, number>();
 books.filter((b) => b.read.length >= 4)
-  .map((b) => parseInt(b.read.slice(0, 4)), 10).forEach((year) => {
+  .map((b) => parseInt(b.read.slice(0, 4), 10)).forEach((year) => {
     const n = yearCounter.has(year) ? yearCounter.get(year)! : 0;
     yearCounter.set(year, n + 1);
   });
