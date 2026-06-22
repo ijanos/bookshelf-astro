@@ -40,14 +40,9 @@
     {
       "title": "Worm",
       "series": "Parahumans #1",
-      "author": [
-          "Wildbow"
-      ],
+      "author": ["Wildbow"],
       "read": "",
-      "tags": [
-      "scifi",
-      "superheroes"
-      ],
+      "tags": ["scifi", "superheroes"],
       "published": 2013,
       "pages": 6680,
       "language": "ENG",
@@ -57,13 +52,9 @@
     },
     {
       "title": "The First Fifteen Lives of Harry August",
-      "author": [
-          "Catherine Webb"
-      ],
+      "author": ["Catherine Webb"],
       "read": "2026-01-08",
-      "tags": [
-      "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2014,
       "language": "ENG",
       "id": {
@@ -73,15 +64,11 @@
     },
     {
       "title": "Fine Structure",
-      "author": [
-          "qntm"
-      ],
+      "author": ["qntm"],
       "read": "2025-12-21",
-      "tags": [
-      		"scifi"
-     	],
-     	"published": 2006,
-     	"language": "ENG",
+      "tags": ["scifi"],
+      "published": 2006,
+      "language": "ENG",
       "pages": 386,
       "id": {
         "olid": "OL27511562W"
@@ -90,13 +77,9 @@
     {
       "title": "Mort(e)",
       "read": "2025-12-10",
-      "author": [
-        "Robert Repino"
-      ],
+      "author": ["Robert Repino"],
       "published": 2014,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "olid": "OL17082511W"
       },
@@ -144,13 +127,9 @@
     },
     {
       "title": "Convenience Store Woman",
-      "author": [
-        "Sayaka Murata"
-      ],
+      "author": ["Sayaka Murata"],
       "read": "2025-09-03",
-      "tags": [
-        "weird"
-      ],
+      "tags": ["weird"],
       "published": 2016,
       "pages": 163,
       "language": "ENG",
@@ -160,14 +139,9 @@
     },
     {
       "title": "The Invincible",
-      "author": [
-        "Stanisław Lem"
-      ],
+      "author": ["Stanisław Lem"],
       "read": "2025-08-28",
-      "tags": [
-        "scifi",
-        "classics"
-      ],
+      "tags": ["scifi", "classics"],
       "published": 1964,
       "language": "HUN",
       "id": {
@@ -177,14 +151,9 @@
     },
     {
       "title": "Earthlings",
-      "author": [
-        "Sayaka Murata"
-      ],
+      "author": ["Sayaka Murata"],
       "read": "2025-08-08",
-      "tags": [
-        "horror",
-        "weird"
-      ],
+      "tags": ["horror", "weird"],
       "published": 2018,
       "pages": 247,
       "language": "ENG",
@@ -194,14 +163,9 @@
     },
     {
       "title": "There Are Doors",
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "read": "2025-08-04",
-      "tags": [
-        "scifi",
-        "fantasy"
-      ],
+      "tags": ["scifi", "fantasy"],
       "published": 1988,
       "language": "ENG",
       "pages": 313,
@@ -211,14 +175,9 @@
     },
     {
       "title": "Shibuya no Love",
-      "author": [
-        "Hannu Rajaniemi"
-      ],
+      "author": ["Hannu Rajaniemi"],
       "read": "2025-07-27",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "published": 2004,
       "language": "ENG",
       "pages": 4,
@@ -228,13 +187,9 @@
     },
     {
       "title": "Isles of the Emberdark",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2025-07-16",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "published": 2025,
       "language": "ENG",
       "pages": 384,
@@ -244,13 +199,9 @@
     },
     {
       "title": "Wool",
-      "author": [
-        "Hugh Howey"
-      ],
+      "author": ["Hugh Howey"],
       "read": "DNF",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2012,
       "language": "ENG",
       "series": "Silo #1",
@@ -261,14 +212,9 @@
     },
     {
       "title": "House of Suns",
-      "author": [
-        "Alastair Reynolds"
-      ],
+      "author": ["Alastair Reynolds"],
       "read": "2025-06-12",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "published": 2008,
       "pages": 512,
       "id": {
@@ -278,13 +224,9 @@
     },
     {
       "title": "The Cyberiad",
-      "author": [
-        "Stanisław Lem"
-      ],
+      "author": ["Stanisław Lem"],
       "read": "",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1985,
       "pages": 205,
       "id": {
@@ -294,15 +236,9 @@
     },
     {
       "title": "A Short Stay in Hell",
-      "author": [
-        "Steven L. Peck"
-      ],
+      "author": ["Steven L. Peck"],
       "read": "2025-04-18",
-      "tags": [
-        "horror",
-        "short",
-        "philosophical"
-      ],
+      "tags": ["horror", "short", "philosophical"],
       "published": 2012,
       "language": "ENG",
       "pages": 100,
@@ -312,15 +248,9 @@
     },
     {
       "title": "Five Views of the Planet Tartarus",
-      "author": [
-        "Rachael K. Jones"
-      ],
+      "author": ["Rachael K. Jones"],
       "series": "Lightspeed Magazine, Jan 2024 (Issue 164)",
-      "tags": [
-        "scifi",
-        "short",
-        "hugo-nominee"
-      ],
+      "tags": ["scifi", "short", "hugo-nominee"],
       "published": 2024,
       "read": "2025-04-14",
       "pages": 1,
@@ -331,13 +261,9 @@
     },
     {
       "title": "Shroud",
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "read": "2025-04-13",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2025,
       "language": "ENG",
       "pages": 436,
@@ -347,15 +273,9 @@
     },
     {
       "title": "The Master and Margarita",
-      "author": [
-        "Mikhail Bulgakov"
-      ],
+      "author": ["Mikhail Bulgakov"],
       "read": "2025-03-19",
-      "tags": [
-        "soviet",
-        "russia",
-        "magical realism"
-      ],
+      "tags": ["soviet", "russia", "magical realism"],
       "published": 1967,
       "language": "HUN",
       "pages": 372,
@@ -365,13 +285,9 @@
     },
     {
       "title": "Alien Clay",
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "read": "2025-02-18",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 396,
       "published": 2024,
       "language": "ENG",
@@ -381,14 +297,10 @@
     },
     {
       "title": "Wind and Truth",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2025-01-19",
       "series": "The Stormlight Archive #5",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "published": 2024,
       "language": "ENG",
       "id": {
@@ -398,15 +310,9 @@
     },
     {
       "title": "Julia",
-      "author": [
-        "Sandra Newman"
-      ],
+      "author": ["Sandra Newman"],
       "read": "2024-11-02",
-      "tags": [
-        "scifi",
-        "fanfic",
-        "dystopian"
-      ],
+      "tags": ["scifi", "fanfic", "dystopian"],
       "published": 2023,
       "language": "ENG",
       "pages": 400,
@@ -417,24 +323,18 @@
     {
       "title": "Replay",
       "read": "2024-10-06",
-      "author": [
-        "Jordan Mechner"
-      ],
+      "author": ["Jordan Mechner"],
       "published": 2024,
       "id": {
         "olid": "OL31605435W"
       },
       "pages": 320,
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "language": "ENG"
     },
     {
       "title": "A Master of Djinn",
-      "author": [
-        "P. Djèlí Clark"
-      ],
+      "author": ["P. Djèlí Clark"],
       "read": "2024-08-02",
       "series": "Dead Djinn Universe #1",
       "tags": [
@@ -452,15 +352,9 @@
     },
     {
       "title": "The Angel of Khan el-Khalili",
-      "author": [
-        "P. Djèlí Clark"
-      ],
+      "author": ["P. Djèlí Clark"],
       "read": "2024-06-16",
-      "tags": [
-        "fantasy",
-        "steampunk",
-        "alternate history"
-      ],
+      "tags": ["fantasy", "steampunk", "alternate history"],
       "published": 2021,
       "series": "Dead Djinn Universe #0.2",
       "id": {
@@ -471,16 +365,10 @@
     },
     {
       "title": "A Dead Djinn in Cairo",
-      "author": [
-        "P. Djèlí Clark"
-      ],
+      "author": ["P. Djèlí Clark"],
       "read": "2024-06-16",
       "series": "Dead Djinn Universe #0.1",
-      "tags": [
-        "steampunk",
-        "mystery",
-        "murder mystery"
-      ],
+      "tags": ["steampunk", "mystery", "murder mystery"],
       "id": {
         "wikidata": "Q106784706"
       },
@@ -490,14 +378,9 @@
     },
     {
       "title": "The Thing on the Doorstep",
-      "author": [
-        "H. P. Lovecraft"
-      ],
+      "author": ["H. P. Lovecraft"],
       "read": "2024-04-04",
-      "tags": [
-        "horror",
-        "short"
-      ],
+      "tags": ["horror", "short"],
       "published": 1937,
       "pages": 30,
       "language": "ENG",
@@ -509,10 +392,7 @@
       "title": "Beyond the Aquila Rift",
       "author": ["Alastair Reynolds"],
       "read": "2024-04-01",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "published": 2016,
       "language": "ENG",
       "pages": 781,
@@ -525,14 +405,9 @@
     },
     {
       "title": "Heracles' Bow",
-      "author": [
-        "Madeleine Miller"
-      ],
+      "author": ["Madeleine Miller"],
       "read": "2024-03-15",
-      "tags": [
-        "mythology",
-        "short"
-      ],
+      "tags": ["mythology", "short"],
       "published": 2012,
       "pages": 10,
       "id": {
@@ -543,13 +418,9 @@
     {
       "title": "The Forge of God",
       "series": "Forge of God #1",
-      "author": [
-        "Greg Bear"
-      ],
+      "author": ["Greg Bear"],
       "read": "2024-01-01",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1987,
       "pages": 474,
       "language": "ENG",
@@ -561,14 +432,9 @@
     },
     {
       "title": "The Star",
-      "author": [
-        "Arthur C. Clarke"
-      ],
+      "author": ["Arthur C. Clarke"],
       "read": "2023-12-26",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "published": 1955,
       "language": "ENG",
       "id": {
@@ -579,16 +445,9 @@
     },
     {
       "title": "Long Chills and Case Dough",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2023-12-20",
-      "tags": [
-        "scifi",
-        "short",
-        "detective",
-        "noir"
-      ],
+      "tags": ["scifi", "short", "detective", "noir"],
       "published": 2023,
       "pages": 67,
       "language": "ENG",
@@ -598,17 +457,10 @@
     },
     {
       "title": "The Haunting of Tram Car 015",
-      "author": [
-        "P. Djèlí Clark"
-      ],
+      "author": ["P. Djèlí Clark"],
       "series": "Dead Djinn Universe #0.3",
       "read": "2023-12-08",
-      "tags": [
-        "fantasy",
-        "mystery",
-        "urban fantasy",
-        "alternate history"
-      ],
+      "tags": ["fantasy", "mystery", "urban fantasy", "alternate history"],
       "published": 2019,
       "pages": 130,
       "language": "ENG",
@@ -618,15 +470,10 @@
     },
     {
       "title": "The State of the Art",
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #4",
       "read": "2023-12-01",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "published": 1989,
       "pages": 188,
       "language": "ENG",
@@ -636,14 +483,10 @@
     },
     {
       "title": "Axiom's End",
-      "author": [
-        "Lindsay Ellis"
-      ],
+      "author": ["Lindsay Ellis"],
       "read": "2023-11-18",
       "pages": 384,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2020,
       "id": {
         "olid": "OL20914838W"
@@ -652,15 +495,10 @@
     },
     {
       "title": "The Jaunt",
-      "author": [
-        "Stephen King"
-      ],
+      "author": ["Stephen King"],
       "read": "2023-11-03",
       "pages": 25,
-      "tags": [
-        "horror",
-        "short"
-      ],
+      "tags": ["horror", "short"],
       "id": {
         "olid": "OL20663554W"
       },
@@ -669,16 +507,10 @@
     },
     {
       "title": "Bloodchild and Other Stories",
-      "author": [
-        "Octavia E. Butler"
-      ],
+      "author": ["Octavia E. Butler"],
       "read": "2023-11-01",
       "pages": 144,
-      "tags": [
-        "scifi",
-        "horror",
-        "short-stories"
-      ],
+      "tags": ["scifi", "horror", "short-stories"],
       "id": {
         "olid": "OL35621W"
       },
@@ -687,15 +519,10 @@
     },
     {
       "title": "A Night in the Lonesome October",
-      "author": [
-        "Roger Zelazny"
-      ],
+      "author": ["Roger Zelazny"],
       "read": "2023-10-22",
       "pages": 280,
-      "tags": [
-        "fantasy",
-        "horror"
-      ],
+      "tags": ["fantasy", "horror"],
       "published": 1993,
       "id": {
         "olid": "OL13956W"
@@ -704,13 +531,9 @@
     },
     {
       "title": "The Sunlit Man",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2023-10-15",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "published": 2023,
       "pages": 447,
       "language": "ENG",
@@ -720,14 +543,9 @@
     },
     {
       "title": "Mona Lisa Overdrive",
-      "author": [
-        "William Gibson"
-      ],
+      "author": ["William Gibson"],
       "read": "2023-10-07",
-      "tags": [
-        "scifi",
-        "cyberpunk"
-      ],
+      "tags": ["scifi", "cyberpunk"],
       "published": 1988,
       "pages": 251,
       "series": "Sprawl #3",
@@ -738,15 +556,10 @@
     },
     {
       "title": "The Fisherman",
-      "author": [
-        "John Langan"
-      ],
+      "author": ["John Langan"],
       "read": "2023-09-10",
       "pages": 266,
-      "tags": [
-        "horror",
-        "lovecraftian"
-      ],
+      "tags": ["horror", "lovecraftian"],
       "published": 2016,
       "id": {
         "olid": "OL17366745W"
@@ -755,14 +568,9 @@
     },
     {
       "title": "Homo sapiens declared extinct",
-      "author": [
-        "Bruce Sterling"
-      ],
+      "author": ["Bruce Sterling"],
       "read": "2023-08-13",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "published": 1999,
       "pages": 3,
       "id": {
@@ -772,14 +580,9 @@
     },
     {
       "title": "Valuable Humans in Transit and Other Stories",
-      "author": [
-        "qntm"
-      ],
+      "author": ["qntm"],
       "read": "2023-08-12",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "published": 2022,
       "language": "ENG",
       "pages": 101,
@@ -789,15 +592,11 @@
     },
     {
       "title": "Yumi and the Nightmare Painter",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2023-08-09",
       "pages": 474,
       "published": 2023,
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "isfdb": "3204336"
@@ -805,17 +604,11 @@
     },
     {
       "title": "Stranger in a Strange Land",
-      "author": [
-        "Robert A. Heinlein"
-      ],
+      "author": ["Robert A. Heinlein"],
       "read": "2023-07-31",
       "pages": 408,
       "published": 1961,
-      "tags": [
-        "scifi",
-        "hugo-winner",
-        "cults"
-      ],
+      "tags": ["scifi", "hugo-winner", "cults"],
       "id": {
         "olid": "OL59681W"
       },
@@ -823,13 +616,9 @@
     },
     {
       "title": "The Stars My Destination",
-      "author": [
-        "Alfred Bester"
-      ],
+      "author": ["Alfred Bester"],
       "read": "2023-06-21",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 232,
       "id": {
         "olid": "OL1819353W"
@@ -839,15 +628,10 @@
     },
     {
       "title": "The Frugal Wizard’s Handbook for Surviving Medieval England",
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "read": "2023-06-01",
       "published": 2023,
-      "tags": [
-        "scifi",
-        "isekai"
-      ],
+      "tags": ["scifi", "isekai"],
       "pages": 384,
       "id": {
         "olid": "OL34782261W"
@@ -856,17 +640,11 @@
     },
     {
       "title": "The Peripheral",
-      "author": [
-        "William Gibson"
-      ],
+      "author": ["William Gibson"],
       "series": "Jackpot #1",
       "read": "2023-05-09",
       "published": 2014,
-      "tags": [
-        "scifi",
-        "timetravel",
-        "murder mystery"
-      ],
+      "tags": ["scifi", "timetravel", "murder mystery"],
       "language": "ENG",
       "pages": 496,
       "id": {
@@ -875,9 +653,7 @@
     },
     {
       "title": "Dr. Horrible: Best Friends Forever and Other Stories",
-      "author": [
-        "Joss Whedon"
-      ],
+      "author": ["Joss Whedon"],
       "read": "2023-04-07",
       "language": "ENG",
       "published": 2018,
@@ -885,14 +661,10 @@
         "isbn": "1506712312"
       },
       "pages": 136,
-      "tags": [
-        "comic"
-      ]
+      "tags": ["comic"]
     },
     {
-      "author": [
-        "Susanna Clarke"
-      ],
+      "author": ["Susanna Clarke"],
       "title": "Piranesi",
       "published": 2020,
       "read": "2023-03-14",
@@ -901,76 +673,52 @@
         "olid": "OL20893680W",
         "wikidata": "Q99434216"
       },
-      "tags": [
-        "fantasy",
-        "magical realism",
-        "hugo-nominee"
-      ],
+      "tags": ["fantasy", "magical realism", "hugo-nominee"],
       "language": "ENG"
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "series": "Children of Time #3",
       "title": "Children of Memory",
       "pages": 480,
       "published": 2022,
       "read": "2023-03-03",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "olid": "OL28018696W"
       }
     },
     {
-      "author": [
-        "Tom Sweterlitsch"
-      ],
+      "author": ["Tom Sweterlitsch"],
       "title": "The Gone World",
       "published": 2018,
       "pages": 394,
       "read": "2023-01-29",
-      "tags": [
-        "horror",
-        "scifi",
-        "timetravel",
-        "crime"
-      ],
+      "tags": ["horror", "scifi", "timetravel", "crime"],
       "id": {
         "olid": "OL19732028W"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "Tress of the Emerald Sea",
       "published": 2023,
       "pages": 443,
       "read": "2023-01-17",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "isfdb": "3127252"
       }
     },
     {
-      "author": [
-        "Charles Stross"
-      ],
+      "author": ["Charles Stross"],
       "title": "Palimpsest",
       "published": 2011,
       "read": "2022-12-26",
-      "tags": [
-        "novella",
-        "timetravel"
-      ],
+      "tags": ["novella", "timetravel"],
       "id": {
         "olid": "OL20062089W",
         "wikipedia": "Palimpsest_(novella)",
@@ -980,16 +728,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Madeline Miller"
-      ],
+      "author": ["Madeline Miller"],
       "title": "Galatea",
       "published": 2013,
       "read": "2022-12-20",
-      "tags": [
-        "short",
-        "mythology"
-      ],
+      "tags": ["short", "mythology"],
       "language": "ENG",
       "pages": 80,
       "id": {
@@ -997,17 +740,13 @@
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #7",
       "title": "The Lost Metal",
       "published": 2022,
       "pages": 640,
       "read": "2022-12-17",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "olid": "OL26769924W",
         "wikidata": "Q111635058"
@@ -1015,68 +754,50 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #3.5",
       "title": "Secret History",
       "published": 2016,
       "pages": 160,
       "read": "2022-11-24",
-      "tags": [
-        "fantasy",
-        "short"
-      ],
+      "tags": ["fantasy", "short"],
       "language": "ENG",
       "id": {
         "isfdb": "1989149"
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #6",
       "title": "Bands of Mourning",
       "published": 2016,
       "pages": 448,
       "read": "2022-11-23",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "olid": "OL17349394W"
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #5",
       "title": "Shadows of Self",
       "published": 2015,
       "pages": 383,
       "read": "2022-10-27",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q16387049"
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "Shadows For Silence in the Forests of Hell",
       "published": 2015,
       "read": "2022-09-29",
-      "tags": [
-        "fantasy",
-        "short"
-      ],
+      "tags": ["fantasy", "short"],
       "pages": 50,
       "language": "ENG",
       "id": {
@@ -1084,16 +805,11 @@
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "The Emperor's Soul",
       "published": 2012,
       "read": "2022-09-23",
-      "tags": [
-        "fantasy",
-        "short"
-      ],
+      "tags": ["fantasy", "short"],
       "language": "ENG",
       "pages": 192,
       "id": {
@@ -1101,33 +817,24 @@
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "The Eleventh Metal",
       "pages": 21,
       "published": 2012,
       "read": "2022-09-22",
-      "tags": [
-        "fantasy",
-        "short"
-      ],
+      "tags": ["fantasy", "short"],
       "id": {
         "isfdb": "2068858"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #4",
       "title": "Alloy of Law",
       "published": 2011,
       "read": "2022-09-20",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 332,
       "id": {
         "wikidata": "Q6880077"
@@ -1135,16 +842,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "Norse Mythology",
       "published": 2017,
       "read": "2022-08-31",
-      "tags": [
-        "mythology",
-        "fantasy"
-      ],
+      "tags": ["mythology", "fantasy"],
       "pages": 301,
       "id": {
         "olid": "OL17619634W"
@@ -1152,33 +854,23 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Greg Egan"
-      ],
+      "author": ["Greg Egan"],
       "title": "Dream Factory",
       "pages": 33,
       "published": 2022,
       "read": "2022-08-26",
-      "tags": [
-        "short",
-        "scifi"
-      ],
+      "tags": ["short", "scifi"],
       "id": {
         "isfdb": "3022072"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Walter M. Miller Jr."
-      ],
+      "author": ["Walter M. Miller Jr."],
       "title": "A Canticle for Leibowitz",
       "published": 1959,
       "read": "2022-08-14",
-      "tags": [
-        "dystopian",
-        "scifi"
-      ],
+      "tags": ["dystopian", "scifi"],
       "pages": 334,
       "id": {
         "wikidata": "Q1659714"
@@ -1186,34 +878,24 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Alaistar Reynolds"
-      ],
+      "author": ["Alaistar Reynolds"],
       "title": "Eversion",
       "published": 2022,
       "pages": 304,
       "read": "2022-07-07",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "olid": "OL27139150W"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 9",
       "published": 2015,
       "read": "2022-08-21",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "id": {
         "olid": "OL20039448W"
@@ -1221,18 +903,12 @@
       "pages": 216
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 8",
       "published": 2015,
       "read": "2022-08-21",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "id": {
         "olid": "OL20033433W"
@@ -1240,18 +916,12 @@
       "pages": 200
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 7",
       "published": 2014,
       "read": "2022-08-20",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "id": {
         "olid": "OL20031295W"
       },
@@ -1259,18 +929,12 @@
       "pages": 216
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 6",
       "published": 2014,
       "read": "2022-08-20",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "pages": 216,
       "id": {
@@ -1278,18 +942,12 @@
       }
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 5",
       "published": 2013,
       "read": "2022-08-20",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "id": {
         "olid": "OL20021030W"
@@ -1297,18 +955,12 @@
       "pages": 216
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 4",
       "published": 2013,
       "read": "2022-08-20",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "id": {
         "olid": "OL20016957W"
@@ -1316,18 +968,12 @@
       "pages": 216
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 3",
       "published": 2013,
       "read": "2022-08-16",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "id": {
         "olid": "OL20014594W"
       },
@@ -1335,18 +981,12 @@
       "pages": 216
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 2",
       "published": 2012,
       "read": "2022-08-16",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "pages": 175,
       "language": "ENG",
       "id": {
@@ -1354,35 +994,24 @@
       }
     },
     {
-      "author": [
-        "One",
-        "Yusuke Murata"
-      ],
+      "author": ["One", "Yusuke Murata"],
       "series": "One Punch Man",
       "title": "One Punch Man vol 1",
       "published": 2012,
       "pages": 200,
       "read": "2022-07-23",
-      "tags": [
-        "comic",
-        "manga"
-      ],
+      "tags": ["comic", "manga"],
       "language": "ENG",
       "id": {
         "olid": "OL20908732W"
       }
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "title": "Elder Race",
       "published": 2021,
       "read": "2022-06-19",
-      "tags": [
-        "scifi",
-        "hugo-nominee"
-      ],
+      "tags": ["scifi", "hugo-nominee"],
       "pages": 201,
       "language": "ENG",
       "id": {
@@ -1390,17 +1019,11 @@
       }
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "title": "Cage of souls",
       "published": 2019,
       "read": "2022-06-11",
-      "tags": [
-        "scifi",
-        "dystopian",
-        "dying-earth"
-      ],
+      "tags": ["scifi", "dystopian", "dying-earth"],
       "pages": 602,
       "language": "ENG",
       "id": {
@@ -1408,17 +1031,12 @@
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Hyperion Cantos #4.5",
       "title": "Orphans of the Helix",
       "published": 1999,
       "read": "2022-05-02",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "language": "ENG",
       "id": {
         "isfdb": "92454"
@@ -1426,17 +1044,12 @@
       "pages": 46
     },
     {
-      "author": [
-        "Christopher Paolini"
-      ],
+      "author": ["Christopher Paolini"],
       "series": "Fractalverse #1",
       "title": "To Sleep in a Sea of Stars",
       "published": 2020,
       "read": "2022-04-27",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "language": "ENG",
       "id": {
         "wikidata": "Q85809878",
@@ -1445,17 +1058,12 @@
       "pages": 880
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "series": "The Final Architecture #1",
       "title": "Shards of Earth",
       "published": 2021,
       "read": "2022-03-12",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "language": "ENG",
       "id": {
         "olid": "OL24481122W"
@@ -1463,17 +1071,11 @@
       "pages": 560
     },
     {
-      "author": [
-        "Madeline Miller"
-      ],
+      "author": ["Madeline Miller"],
       "title": "Circe",
       "published": 2018,
       "read": "2022-01-30",
-      "tags": [
-        "fantasy",
-        "fiction",
-        "mythology"
-      ],
+      "tags": ["fantasy", "fiction", "mythology"],
       "language": "ENG",
       "pages": 400,
       "id": {
@@ -1481,19 +1083,12 @@
       }
     },
     {
-      "author": [
-        "Madeline Miller"
-      ],
+      "author": ["Madeline Miller"],
       "title": "Song of Achilles",
       "published": 2012,
       "read": "2022-01-09",
       "pages": 378,
-      "tags": [
-        "fantasy",
-        "fiction",
-        "romance",
-        "historical"
-      ],
+      "tags": ["fantasy", "fiction", "romance", "historical"],
       "id": {
         "wikidata": "Q21189971",
         "isfdb": "1533740",
@@ -1503,16 +1098,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Ada Palmer"
-      ],
+      "author": ["Ada Palmer"],
       "series": "Terra Ignota #4",
       "title": "Perhaps the Stars",
       "published": 2021,
       "read": "2021-12-13",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "pages": 608,
       "id": {
@@ -1520,18 +1111,12 @@
       }
     },
     {
-      "author": [
-        "Tamsyn Muir"
-      ],
+      "author": ["Tamsyn Muir"],
       "series": "The Locked Tomb #1",
       "title": "Gideon the Ninth",
       "published": 2019,
       "read": "2021-10-26",
-      "tags": [
-        "fantasy",
-        "scifi",
-        "hugo-nominee"
-      ],
+      "tags": ["fantasy", "scifi", "hugo-nominee"],
       "id": {
         "wikidata": "Q79557367",
         "isfdb": "2592014"
@@ -1540,17 +1125,11 @@
       "pages": 479
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "title": "Walking to Aldebaran",
       "published": 2019,
       "read": "2021-09-30",
-      "tags": [
-        "horror",
-        "novella",
-        "scifi"
-      ],
+      "tags": ["horror", "novella", "scifi"],
       "id": {
         "wikidata": "Q109661040"
       },
@@ -1558,16 +1137,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "M. John Harrison"
-      ],
+      "author": ["M. John Harrison"],
       "title": "The Course of the Heart",
       "published": 1992,
       "read": "2021-09-15",
-      "tags": [
-        "stopped-reading",
-        "weird"
-      ],
+      "tags": ["stopped-reading", "weird"],
       "language": "ENG",
       "id": {
         "isfdb": "997484"
@@ -1575,16 +1149,12 @@
       "pages": 198
     },
     {
-      "author": [
-        "Ada Palmer"
-      ],
+      "author": ["Ada Palmer"],
       "series": "Terra Ignota #3",
       "title": "The Will to Battle",
       "published": 2017,
       "read": "2021-09-12",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q61387890"
@@ -1593,15 +1163,10 @@
     },
     {
       "title": "Ra",
-      "author": [
-        "qntm"
-      ],
+      "author": ["qntm"],
       "published": 2014,
       "read": "2021-08-04",
-      "tags": [
-        "fantasy",
-        "urban fantasy"
-      ],
+      "tags": ["fantasy", "urban fantasy"],
       "id": {
         "isfdb": "2905206"
       },
@@ -1609,16 +1174,11 @@
       "pages": 543
     },
     {
-      "author": [
-        "Andy Weir"
-      ],
+      "author": ["Andy Weir"],
       "title": "Project Hail Mary",
       "published": 2021,
       "read": "2021-07-19",
-      "tags": [
-        "scifi",
-        "hugo-nominee"
-      ],
+      "tags": ["scifi", "hugo-nominee"],
       "language": "ENG",
       "id": {
         "wikidata": "Q106852836"
@@ -1626,16 +1186,12 @@
       "pages": 496
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #3",
       "title": "The Hero of Ages",
       "published": 2008,
       "read": "2021-07-05",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3859308"
@@ -1643,33 +1199,24 @@
       "pages": 760
     },
     {
-      "author": [
-        "qntm"
-      ],
+      "author": ["qntm"],
       "title": "There Is No Antimemetics Division",
       "published": 2020,
       "read": "2021-06-03",
       "pages": 220,
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "id": {
         "wikidata": "Q123682427"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #2",
       "title": "Mistborn: The Well of Ascension",
       "published": 2007,
       "read": "2021-05-29",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "wikidata": "Q2062781"
       },
@@ -1677,15 +1224,11 @@
       "pages": 796
     },
     {
-      "author": [
-        "Roger Williams"
-      ],
+      "author": ["Roger Williams"],
       "title": "The Metamorphosis of Prime Intellect",
       "published": 2002,
       "read": "2021-04-29",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q4291620"
       },
@@ -1693,16 +1236,12 @@
       "pages": 175
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Mistborn #1",
       "title": "Mistborn: The Final Empire",
       "published": 2006,
       "read": "2021-04-25",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2778373"
@@ -1710,15 +1249,11 @@
       "pages": 672
     },
     {
-      "author": [
-        "Greg Egan"
-      ],
+      "author": ["Greg Egan"],
       "title": "Permutation City",
       "published": 1994,
       "read": "2021-03-31",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "pages": 352,
       "id": {
@@ -1726,52 +1261,37 @@
       }
     },
     {
-      "author": [
-        "Susanna Clarke"
-      ],
+      "author": ["Susanna Clarke"],
       "title": "Jonathan Strange & Mr Norrell",
       "published": 2006,
       "read": "2021-03-17",
       "pages": 782,
-      "tags": [
-        "fantasy",
-        "magic",
-        "hugo-winner"
-      ],
+      "tags": ["fantasy", "magic", "hugo-winner"],
       "language": "ENG",
       "id": {
         "wikidata": "Q1474920"
       }
     },
     {
-      "author": [
-        "Paula Guran (editor)"
-      ],
+      "author": ["Paula Guran (editor)"],
       "series": "New Cthulhu #1",
       "title": "New Cthulhu: The Recent Weird",
       "published": 2011,
       "read": "2021-01-31",
       "pages": 520,
-      "tags": [
-        "horror",
-        "short-stories"
-      ],
+      "tags": ["horror", "short-stories"],
       "id": {
         "oclc": "730406675"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Dennis E. Taylor"
-      ],
+      "author": ["Dennis E. Taylor"],
       "series": "Bobiverse #1",
       "title": "We Are Legion (We Are Bob)",
       "published": 2016,
       "read": "2021-01-29",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 383,
       "language": "ENG",
       "id": {
@@ -1779,49 +1299,36 @@
       }
     },
     {
-      "author": [
-        "Aldous Huxley"
-      ],
+      "author": ["Aldous Huxley"],
       "title": "Brave New World",
       "published": 1932,
       "pages": 288,
       "read": "2021-01-22",
-      "tags": [
-        "dystopian",
-        "scifi"
-      ],
+      "tags": ["dystopian", "scifi"],
       "id": {
         "wikidata": "Q191949"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "Elantris",
       "published": 2005,
       "pages": 638,
       "read": "2021-01-13",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2464217"
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #4",
       "title": "Rythm of War",
       "published": 2020,
       "read": "2020-12-24",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikipedia": "Rhythm_of_War"
@@ -1829,32 +1336,24 @@
       "pages": 1232
     },
     {
-      "author": [
-        "Charles Stross"
-      ],
+      "author": ["Charles Stross"],
       "title": "A Tall Tail",
       "published": 2012,
       "read": "2020-11-12",
       "pages": 32,
-      "tags": [
-        "short"
-      ],
+      "tags": ["short"],
       "language": "ENG",
       "id": {
         "isfdb": "1527829"
       }
     },
     {
-      "author": [
-        "William Gibson"
-      ],
+      "author": ["William Gibson"],
       "title": "Archangel",
       "read": "2020",
       "pages": 128,
       "published": 2016,
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "id": {
         "wikipedia": "Archangel_(Gibson_comic)"
       },
@@ -1863,16 +1362,10 @@
     {
       "title": "Color Out of Space",
       "read": "2020",
-      "author": [
-        "H. P. Lovecraft"
-      ],
+      "author": ["H. P. Lovecraft"],
       "published": 1927,
       "pages": 78,
-      "tags": [
-        "horror",
-        "short",
-        "lovecraftian"
-      ],
+      "tags": ["horror", "short", "lovecraftian"],
       "id": {
         "wikidata": "Q1212384",
         "wikipedia": "The_Colour_Out_of_Space"
@@ -1880,17 +1373,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #3.5",
       "title": "Dawnshard",
       "published": 2020,
       "read": "2020-11-08",
-      "tags": [
-        "fantasy",
-        "short"
-      ],
+      "tags": ["fantasy", "short"],
       "id": {
         "wikidata": "Q111281407"
       },
@@ -1898,16 +1386,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Charles Stross"
-      ],
+      "author": ["Charles Stross"],
       "title": "Toast: And Other Rusted Futures",
       "published": 2002,
       "read": "2020-10-29",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "pages": 192,
       "id": {
         "isbn": "1587154137",
@@ -1916,16 +1399,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "title": "The Wisdom of Crowds",
       "published": 2019,
       "read": "2020-10-27",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "language": "ENG",
       "id": {
         "wikidata": "Q130467808"
@@ -1933,17 +1411,11 @@
       "pages": 25
     },
     {
-      "author": [
-        "Gillian Flynn"
-      ],
+      "author": ["Gillian Flynn"],
       "title": "Sharp Objects",
       "published": 2006,
       "read": "2020-10-17",
-      "tags": [
-        "crime",
-        "mystery",
-        "thriller"
-      ],
+      "tags": ["crime", "mystery", "thriller"],
       "pages": 254,
       "id": {
         "wikidata": "Q16961985"
@@ -1951,49 +1423,35 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Terry Bisson"
-      ],
+      "author": ["Terry Bisson"],
       "title": "They're Made out of Meat",
       "published": 1991,
       "pages": 2,
       "read": "2020-10-11",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "id": {
         "isfdb": "40872"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Roger Zelazny"
-      ],
+      "author": ["Roger Zelazny"],
       "title": "Today We Choose Faces",
       "published": 1973,
       "pages": 174,
       "read": "2020-10-05",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "isfdb": "212357"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Harlan Ellison"
-      ],
+      "author": ["Harlan Ellison"],
       "title": "A Boy and his dog",
       "published": 1969,
       "read": "2020-09-26",
-      "tags": [
-        "post-apocalyptic",
-        "scifi"
-      ],
+      "tags": ["post-apocalyptic", "scifi"],
       "language": "ENG",
       "pages": 77,
       "id": {
@@ -2001,44 +1459,32 @@
       }
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "Perfect State",
       "pages": 87,
       "published": 2015,
       "read": "2020-09-25",
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "id": {
         "isfdb": "1844775"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "William Gibson"
-      ],
+      "author": ["William Gibson"],
       "series": "Sprawl #2",
       "pages": 333,
       "title": "Count Zero",
       "published": 1986,
       "read": "2020-09-23",
-      "tags": [
-        "cyberpunk",
-        "scifi"
-      ],
+      "tags": ["cyberpunk", "scifi"],
       "id": {
         "isfdb": "2195"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Martha Wells"
-      ],
+      "author": ["Martha Wells"],
       "series": "The Murderbot Diaries #2",
       "pages": 158,
       "title": "Artificial Condition",
@@ -2047,40 +1493,28 @@
       },
       "published": 2018,
       "read": "2020-09-06",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG"
     },
     {
-      "author": [
-        "John Ousterhout"
-      ],
+      "author": ["John Ousterhout"],
       "title": "Philosophy of Software Design",
       "published": 2018,
       "id": {
         "wikidata": "Q99480257"
       },
       "read": "2020-07-25",
-      "tags": [
-        "nonfiction",
-        "programming",
-        "technology"
-      ],
+      "tags": ["nonfiction", "programming", "technology"],
       "language": "ENG",
       "pages": 190
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "series": "Children of Time #2",
       "title": "Children of Ruin",
       "published": 2019,
       "read": "2020-07-25",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "pages": 570,
       "id": {
@@ -2089,17 +1523,11 @@
       }
     },
     {
-      "author": [
-        "Fabien Sanglard"
-      ],
+      "author": ["Fabien Sanglard"],
       "title": "Game Engine Black Book: Doom",
       "published": 2018,
       "read": "2020-06-20",
-      "tags": [
-        "nonfiction",
-        "programming",
-        "technology"
-      ],
+      "tags": ["nonfiction", "programming", "technology"],
       "id": {
         "wikidata": "Q67219651"
       },
@@ -2107,16 +1535,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Martha Wells"
-      ],
+      "author": ["Martha Wells"],
       "series": "The Murderbot Diaries #1",
       "title": "All Systems Red",
       "published": 2017,
       "read": "2020-05-16",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 152,
       "id": {
         "isfdb": "2161845"
@@ -2124,16 +1548,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Shirley Jackson"
-      ],
+      "author": ["Shirley Jackson"],
       "title": "We Have Always Lived in the Castle",
       "published": 1962,
       "read": "2020-05-08",
-      "tags": [
-        "mystery",
-        "horror"
-      ],
+      "tags": ["mystery", "horror"],
       "pages": 214,
       "id": {
         "isfdb": "7810"
@@ -2141,16 +1560,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "Cosmere",
       "title": "Sixth of the Dusk",
       "published": 2014,
       "read": "2020-04-30",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 96,
       "id": {
         "isfdb": "1804606"
@@ -2158,18 +1573,13 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #3",
       "title": "Oathbringer",
       "published": 2017,
       "pages": 1214,
       "read": "2020-04-28",
-      "tags": [
-        "fantasy",
-        "military"
-      ],
+      "tags": ["fantasy", "military"],
       "language": "ENG",
       "id": {
         "olid": "OL17834026W",
@@ -2177,16 +1587,12 @@
       }
     },
     {
-      "author": [
-        "Adrian Tchaikovsky"
-      ],
+      "author": ["Adrian Tchaikovsky"],
       "series": "Children of Time #1",
       "title": "Children of Time",
       "published": 2015,
       "read": "2020-02-29",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 609,
       "id": {
         "wikidata": "Q30131633",
@@ -2195,16 +1601,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #2.5",
       "title": "Edgedancer",
       "published": 2016,
       "read": "2020-02-08",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "wikidata": "Q111281412"
       },
@@ -2212,15 +1614,11 @@
       "pages": 272
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "title": "Warbreaker",
       "published": 2009,
       "read": "2020-02-04",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q13403351"
@@ -2228,17 +1626,11 @@
       "pages": 688
     },
     {
-      "author": [
-        "Jimmy Soni",
-        "Rob Goodman"
-      ],
+      "author": ["Jimmy Soni", "Rob Goodman"],
       "title": "A Mind at Play: How Claude Shannon Invented the Information Age",
       "published": 2017,
       "read": "2019-12-29",
-      "tags": [
-        "biography",
-        "nonfiction"
-      ],
+      "tags": ["biography", "nonfiction"],
       "pages": 384,
       "id": {
         "wikidata": "Q62571201"
@@ -2246,16 +1638,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Ted Chiang"
-      ],
+      "author": ["Ted Chiang"],
       "title": "Exhalation: Stories",
       "published": 2019,
       "read": "2019-12-26",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "id": {
         "isfdb": "938470"
       },
@@ -2263,33 +1650,23 @@
       "pages": 368
     },
     {
-      "author": [
-        "Harlan Ellison"
-      ],
+      "author": ["Harlan Ellison"],
       "title": "Deathbird stories",
       "published": 1975,
       "pages": 334,
       "read": "2019-10-22",
-      "tags": [
-        "short-stories"
-      ],
+      "tags": ["short-stories"],
       "id": {
         "isfdb": "272260"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "China Miéville"
-      ],
+      "author": ["China Miéville"],
       "title": "The City & the City",
       "published": 2009,
       "read": "2019-10-19",
-      "tags": [
-        "hugo-winner",
-        "crime",
-        "fiction"
-      ],
+      "tags": ["hugo-winner", "crime", "fiction"],
       "language": "ENG",
       "pages": 312,
       "id": {
@@ -2297,9 +1674,7 @@
       }
     },
     {
-      "author": [
-        "Ada Palmer"
-      ],
+      "author": ["Ada Palmer"],
       "series": "Terra Ignota #2",
       "title": "Seven Surrenders",
       "published": 2017,
@@ -2308,50 +1683,36 @@
       "id": {
         "wikidata": "Q29649673"
       },
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG"
     },
     {
-      "author": [
-        "Ada Palmer"
-      ],
+      "author": ["Ada Palmer"],
       "series": "Terra Ignota #1",
       "title": "Too Like the Lightning",
       "published": 2014,
       "pages": 432,
       "read": "2019-08-18",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q29649659"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Jordan Mechner"
-      ],
+      "author": ["Jordan Mechner"],
       "title": "The Making of Prince of Persia",
       "pages": 332,
       "published": 2011,
       "read": "2019-07-20",
-      "tags": [
-        "biography",
-        "nonfiction",
-        "videogames"
-      ],
+      "tags": ["biography", "nonfiction", "videogames"],
       "id": {
         "librarything": "12044357"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "William Gibson"
-      ],
+      "author": ["William Gibson"],
       "series": "Sprawl #1",
       "title": "Neuromancer",
       "published": 1984,
@@ -2370,15 +1731,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Andy Weir"
-      ],
+      "author": ["Andy Weir"],
       "title": "Artemis",
       "published": 2017,
       "read": "2019-06-02",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 309,
       "id": {
         "wikidata": "Q43262764"
@@ -2386,33 +1743,25 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #2",
       "title": "Words of Radiance",
       "published": 2014,
       "pages": 1087,
       "read": "2019-05-18",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "wikidata": "Q8034469"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Brandon Sanderson"
-      ],
+      "author": ["Brandon Sanderson"],
       "series": "The Stormlight Archive #1",
       "title": "The Way of Kings",
       "published": 2010,
       "read": "2018-12-24",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 1007,
       "language": "ENG",
       "id": {
@@ -2420,17 +1769,11 @@
       }
     },
     {
-      "author": [
-        "David Kushner"
-      ],
+      "author": ["David Kushner"],
       "title": "Masters of Doom",
       "published": 2003,
       "read": "2018-10-25",
-      "tags": [
-        "biography",
-        "nonfiction",
-        "videogames"
-      ],
+      "tags": ["biography", "nonfiction", "videogames"],
       "pages": 339,
       "id": {
         "wikidata": "Q730848"
@@ -2438,105 +1781,76 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "William Golding"
-      ],
+      "author": ["William Golding"],
       "title": "Lord of the Flies",
       "published": 1954,
       "pages": 182,
       "read": "2018-07-20",
-      "tags": [
-        "YA",
-        "fiction"
-      ],
+      "tags": ["YA", "fiction"],
       "id": {
         "wikidata": "Q271764"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "series": "Sunflowers cycle",
       "title": "Freeze Frame Revolution",
       "published": 2018,
       "read": "2018-06-13",
       "pages": 192,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "isfdb": "2358638"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Ursula K. Le Guin"
-      ],
+      "author": ["Ursula K. Le Guin"],
       "series": "Hainish Cycle #6",
       "title": "The Dispossessed",
       "published": 1974,
       "pages": 387,
       "read": "2018-06-09",
-      "tags": [
-        "hugo-winner",
-        "dystopian",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "dystopian", "scifi"],
       "id": {
         "wikidata": "Q467720"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Ursula K. Le Guin"
-      ],
+      "author": ["Ursula K. Le Guin"],
       "series": "Hainish Cycle #4",
       "title": "The Left Hand of Darkness",
       "published": 1969,
       "pages": 304,
       "read": "2018-05-13",
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "id": {
         "wikidata": "Q2008211"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Patrick Ness"
-      ],
+      "author": ["Patrick Ness"],
       "series": "Chaos walking #2",
       "title": "The Ask and Answer",
       "published": 2009,
       "pages": 536,
       "read": "2018-06-09",
-      "tags": [
-        "YA",
-        "scifi"
-      ],
+      "tags": ["YA", "scifi"],
       "id": {
         "isfdb": "1115853"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Margaret Atwood"
-      ],
+      "author": ["Margaret Atwood"],
       "series": "The Handmaid's Tale #1",
       "title": "The Handmaid’s Tale",
       "published": 1985,
       "read": "2017",
-      "tags": [
-        "dystopian"
-      ],
+      "tags": ["dystopian"],
       "pages": 314,
       "id": {
         "wikidata": "Q1541914"
@@ -2544,19 +1858,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Hannu Rajaniemi"
-      ],
+      "author": ["Hannu Rajaniemi"],
       "series": "Jean le Flambeur #3",
       "title": "The Causal Angel",
       "published": 2014,
       "read": "2017",
-      "tags": [
-        "posthuman",
-        "scifi",
-        "space opera",
-        "singularity"
-      ],
+      "tags": ["posthuman", "scifi", "space opera", "singularity"],
       "pages": 292,
       "id": {
         "isfdb": "1734148"
@@ -2564,17 +1871,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Hannu Rajaniemi"
-      ],
+      "author": ["Hannu Rajaniemi"],
       "series": "Jean le Flambeur #2",
       "title": "The Fractal Prince",
       "published": 2012,
       "read": "2017",
-      "tags": [
-        "posthuman",
-        "scifi"
-      ],
+      "tags": ["posthuman", "scifi"],
       "id": {
         "isfdb": "1244664"
       },
@@ -2582,17 +1884,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Hannu Rajaniemi"
-      ],
+      "author": ["Hannu Rajaniemi"],
       "series": "Jean le Flambeur #1",
       "title": "The Quantum Thief",
       "published": 2010,
       "read": "2017",
-      "tags": [
-        "posthuman",
-        "scifi"
-      ],
+      "tags": ["posthuman", "scifi"],
       "pages": 336,
       "id": {
         "isfdb": "1105067"
@@ -2600,15 +1897,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Ted Chiang"
-      ],
+      "author": ["Ted Chiang"],
       "title": "The Lifecycle of Software Objects",
       "published": 2010,
       "read": "2016-12-13",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 150,
       "id": {
         "isfdb": "1104963"
@@ -2616,16 +1909,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman #0",
       "title": "Sandman: Overture",
       "published": 2015,
       "read": "2016-12-01",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "pages": 224,
       "id": {
         "wikidata": "Q16912451"
@@ -2633,88 +1922,61 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "China Miéville"
-      ],
+      "author": ["China Miéville"],
       "title": "Embassytown",
       "published": 2011,
       "read": "2016-10-13",
       "pages": 345,
-      "tags": [
-        "scifi",
-        "hugo-nominee"
-      ],
+      "tags": ["scifi", "hugo-nominee"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3052025"
       }
     },
     {
-      "author": [
-        "Kurt Vonnegut"
-      ],
+      "author": ["Kurt Vonnegut"],
       "title": "The Sirens of Titan",
       "published": 1959,
       "read": "2016-09-17",
       "pages": 224,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q126717623"
       }
     },
     {
-      "author": [
-        "Jack Thorne",
-        "J. K. Rowling"
-      ],
+      "author": ["Jack Thorne", "J. K. Rowling"],
       "series": "Harry Potter #8",
       "title": "Harry Potter and the Cursed Child",
       "published": 2016,
       "read": "2016-08-13",
       "pages": 343,
-      "tags": [
-        "fantasy",
-        "screenplay"
-      ],
+      "tags": ["fantasy", "screenplay"],
       "language": "ENG",
       "id": {
         "wikidata": "Q20711488"
       }
     },
     {
-      "author": [
-        "Terry Pratchett",
-        "Neil Gaiman"
-      ],
+      "author": ["Terry Pratchett", "Neil Gaiman"],
       "title": "Good Omens",
       "published": 1990,
       "read": "2016-08-12",
       "pages": 491,
-      "tags": [
-        "fantasy",
-        "humor"
-      ],
+      "tags": ["fantasy", "humor"],
       "language": "ENG",
       "id": {
         "wikidata": "Q1052459"
       }
     },
     {
-      "author": [
-        "M. John Harrison"
-      ],
+      "author": ["M. John Harrison"],
       "series": "Kefahuchi Tract #3",
       "title": "Empty Space: A Haunting",
       "published": 2012,
       "read": "2016-06-25",
-      "tags": [
-        "cyberpunk",
-        "horror",
-        "scifi"
-      ],
+      "tags": ["cyberpunk", "horror", "scifi"],
       "pages": 320,
       "language": "ENG",
       "id": {
@@ -2723,9 +1985,7 @@
       }
     },
     {
-      "author": [
-        "M. John Harrison"
-      ],
+      "author": ["M. John Harrison"],
       "series": "Kefahuchi Tract #2",
       "title": "Nova Swing",
       "published": 2006,
@@ -2733,43 +1993,29 @@
       "id": {
         "wikidata": "Q7064327"
       },
-      "tags": [
-        "cyberpunk",
-        "horror",
-        "scifi"
-      ],
+      "tags": ["cyberpunk", "horror", "scifi"],
       "pages": 252,
       "language": "ENG"
     },
     {
-      "author": [
-        "Ursula K. Le Guin"
-      ],
+      "author": ["Ursula K. Le Guin"],
       "series": "Earthsea Cycle #1",
       "title": "A Wizard of Earthsea",
       "published": 1968,
       "pages": 183,
       "read": "2016-05-08",
-      "tags": [
-        "YA",
-        "fantasy"
-      ],
+      "tags": ["YA", "fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q1771810"
       }
     },
     {
-      "author": [
-        "Daniel Keyes"
-      ],
+      "author": ["Daniel Keyes"],
       "title": "Flowers for Algernon",
       "published": 1959,
       "read": "2016-05-02",
-      "tags": [
-        "YA",
-        "fiction"
-      ],
+      "tags": ["YA", "fiction"],
       "pages": 311,
       "id": {
         "wikidata": "Q837934"
@@ -2777,15 +2023,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Ted Chiang"
-      ],
+      "author": ["Ted Chiang"],
       "title": "Stories of Your Life and Others",
       "published": 2002,
       "read": "2016",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 281,
       "language": "ENG",
       "id": {
@@ -2793,17 +2035,12 @@
       }
     },
     {
-      "author": [
-        "Maryna Dyachenko",
-        "Serhiy Dyachenko"
-      ],
+      "author": ["Maryna Dyachenko", "Serhiy Dyachenko"],
       "series": "Metamorphosis #2",
       "title": "Arszen és a játék hatalma (Brevis est)",
       "published": 2009,
       "read": "2016-04-03",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 312,
       "id": {
         "isbn": "9786155158469"
@@ -2811,16 +2048,11 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "China Miéville"
-      ],
+      "author": ["China Miéville"],
       "title": "Three Moments of an Explosion",
       "published": 2009,
       "read": "2016-02-28",
-      "tags": [
-        "short-stories",
-        "scifi"
-      ],
+      "tags": ["short-stories", "scifi"],
       "pages": 382,
       "id": {
         "wikidata": "Q19627594"
@@ -2828,34 +2060,24 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Liu Cixin"
-      ],
+      "author": ["Liu Cixin"],
       "series": "Remembrance of Earth's Past #1",
       "title": "The Three-Body Problem",
       "published": 2008,
       "read": "2016-02-28",
       "pages": 399,
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "id": {
         "wikidata": "Q607112"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "George Orwell"
-      ],
+      "author": ["George Orwell"],
       "title": "1984",
       "published": 1949,
       "read": "2016-02-13",
-      "tags": [
-        "dystopian",
-        "scifi"
-      ],
+      "tags": ["dystopian", "scifi"],
       "pages": 328,
       "language": "ENG",
       "id": {
@@ -2863,84 +2085,61 @@
       }
     },
     {
-      "author": [
-        "Michael Chabon"
-      ],
+      "author": ["Michael Chabon"],
       "title": "The Yiddish Policemen's Union",
       "published": 2007,
       "pages": 414,
       "read": "2016-01-15",
-      "tags": [
-        "hugo-winner",
-        "alternate history"
-      ],
+      "tags": ["hugo-winner", "alternate history"],
       "language": "ENG",
       "id": {
         "wikidata": "Q603645"
       }
     },
     {
-      "author": [
-        "Roger Zelazny"
-      ],
+      "author": ["Roger Zelazny"],
       "title": "Lord of Light",
       "published": 1967,
       "read": "2015-08-25",
       "pages": 296,
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q734976"
       }
     },
     {
-      "author": [
-        "Samuel R. Delany"
-      ],
+      "author": ["Samuel R. Delany"],
       "title": "Nova",
       "published": 1968,
       "pages": 241,
       "read": "2015-06-29",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3345309"
       }
     },
     {
-      "author": [
-        "M. John Harrison"
-      ],
+      "author": ["M. John Harrison"],
       "series": "Kefahuchi Tract #1",
       "title": "Light",
       "published": 2002,
       "read": "2015-08-08",
       "pages": 310,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3838395"
       }
     },
     {
-      "author": [
-        "Madeleine L'Engle"
-      ],
+      "author": ["Madeleine L'Engle"],
       "series": "A Wrinkle in Time Quintet #1",
       "title": "A Wrinkle in Time",
       "published": 1962,
       "read": "2015-05-21",
-      "tags": [
-        "YA",
-        "scifi"
-      ],
+      "tags": ["YA", "scifi"],
       "pages": 211,
       "language": "ENG",
       "id": {
@@ -2948,16 +2147,11 @@
       }
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "title": "The Fifth Head of Cerberus",
       "published": 1972,
       "read": "2015-05-09",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "pages": 252,
       "language": "ENG",
       "id": {
@@ -2965,36 +2159,25 @@
       }
     },
     {
-      "author": [
-        "Patrick Ness"
-      ],
+      "author": ["Patrick Ness"],
       "series": "Chaos Walking #1",
       "title": "The Knife of Never Letting go",
       "published": 2008,
       "pages": 479,
       "read": "2015-04-12",
-      "tags": [
-        "YA",
-        "scifi"
-      ],
+      "tags": ["YA", "scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q7744835"
       }
     },
     {
-      "author": [
-        "Margaret Atwood"
-      ],
+      "author": ["Margaret Atwood"],
       "series": "MaddAddam #1",
       "title": "Oryx and Crake",
       "published": 2003,
       "read": "2015-03-16",
-      "tags": [
-        "dystopian",
-        "post-apocalyptic",
-        "scifi"
-      ],
+      "tags": ["dystopian", "post-apocalyptic", "scifi"],
       "pages": 389,
       "language": "ENG",
       "id": {
@@ -3002,48 +2185,35 @@
       }
     },
     {
-      "author": [
-        "Charles Stross"
-      ],
+      "author": ["Charles Stross"],
       "title": "Accelerando",
       "published": 2005,
       "pages": 415,
       "read": "2015-02-20",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2300209"
       }
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "Fortunately, the Milk",
       "published": 2013,
       "pages": 113,
       "read": "2015-01-12",
-      "tags": [
-        "YA",
-        "childrens"
-      ],
+      "tags": ["YA", "childrens"],
       "language": "ENG",
       "id": {
         "wikidata": "Q17635420"
       }
     },
     {
-      "author": [
-        "Robert A. Heinlein"
-      ],
+      "author": ["Robert A. Heinlein"],
       "title": "All You Zombies",
       "published": 1959,
       "read": "2014-12-22",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 13,
       "language": "ENG",
       "id": {
@@ -3051,31 +2221,23 @@
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "title": "Song of Kali",
       "published": 1985,
       "pages": 311,
       "read": "2014-12-03",
-      "tags": [
-        "horror"
-      ],
+      "tags": ["horror"],
       "language": "ENG",
       "id": {
         "wikidata": "Q489581"
       }
     },
     {
-      "author": [
-        "Andy Weir"
-      ],
+      "author": ["Andy Weir"],
       "title": "The Martian",
       "published": 2011,
       "read": "2014-11-21",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 384,
       "language": "ENG",
       "id": {
@@ -3083,33 +2245,24 @@
       }
     },
     {
-      "author": [
-        "Richard P. Feynman"
-      ],
+      "author": ["Richard P. Feynman"],
       "title": "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
       "published": 1985,
       "pages": 391,
       "read": "2014-10-31",
-      "tags": [
-        "biography",
-        "nonfiction"
-      ],
+      "tags": ["biography", "nonfiction"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2743592"
       }
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "series": "Firefall #2",
       "title": "Echopraxia",
       "published": 2014,
       "read": "2014-09-22",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 310,
       "language": "ENG",
       "id": {
@@ -3117,17 +2270,11 @@
       }
     },
     {
-      "author": [
-        "Harlan Ellison"
-      ],
+      "author": ["Harlan Ellison"],
       "title": "I Have No Mouth, and I Must Scream",
       "published": 1967,
       "read": "2014-08-23",
-      "tags": [
-        "hugo-winner",
-        "horror",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "horror", "scifi"],
       "pages": 20,
       "language": "ENG",
       "id": {
@@ -3135,156 +2282,114 @@
       }
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "series": "The Book of the New Sun #5",
       "title": "The Urth of the New Sun",
       "published": 1987,
       "pages": 372,
       "read": "2014-07-17",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3225052"
       }
     },
     {
-      "author": [
-        "David Mitchell"
-      ],
+      "author": ["David Mitchell"],
       "title": "Cloud Atlas",
       "published": 2004,
       "read": "2014-06-03",
       "pages": 509,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q40205"
       }
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "London Below #1",
       "title": "Neverwhere",
       "published": 1996,
       "pages": 370,
       "read": "2014-03-01",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q113610"
       }
     },
     {
-      "author": [
-        "Mary Doria Russell"
-      ],
+      "author": ["Mary Doria Russell"],
       "series": "The Sparrow #1",
       "title": "The Sparrow",
       "published": 1996,
       "pages": 419,
       "read": "2014-02-06",
-      "tags": [
-        "scifi",
-        "aliens",
-        "religion"
-      ],
+      "tags": ["scifi", "aliens", "religion"],
       "language": "ENG",
       "id": {
         "wikidata": "Q3224638"
       }
     },
     {
-      "author": [
-        "Frank Herbert"
-      ],
+      "author": ["Frank Herbert"],
       "series": "Dune #3",
       "title": "Children of Dune",
       "published": 1976,
       "read": "2014-01-02",
       "pages": 408,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q437365"
       }
     },
     {
-      "author": [
-        "Frank Herbert"
-      ],
+      "author": ["Frank Herbert"],
       "series": "Dune #2",
       "title": "Dune Messiah",
       "published": 1969,
       "read": "2013-11-23",
       "pages": 331,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q437383"
       }
     },
     {
-      "author": [
-        "Frank Herbert"
-      ],
+      "author": ["Frank Herbert"],
       "series": "Dune #1",
       "title": "Dune",
       "published": 1965,
       "pages": 604,
       "read": "2013-11-15",
-      "tags": [
-        "hugo-winner",
-        "nebula-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "nebula-winner", "scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q190192"
       }
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "The Graveyard Book",
       "published": 2008,
       "read": "2013-10-06",
       "pages": 312,
-      "tags": [
-        "hugo-winner",
-        "YA",
-        "fantasy"
-      ],
+      "tags": ["hugo-winner", "YA", "fantasy"],
       "language": "ENG",
       "id": {
         "wikidata": "Q1168659"
       }
     },
     {
-      "author": [
-        "John Scalzi"
-      ],
+      "author": ["John Scalzi"],
       "series": "Old Man's War #1",
       "title": "Old Man's War",
       "published": 2005,
       "read": "2013-10-03",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 355,
       "id": {
         "wikidata": "Q1339232"
@@ -3294,13 +2399,9 @@
     {
       "title": "Scott Pilgrim's Finest Hour",
       "series": "Scott Pilgrim #6",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2010,
       "pages": 248,
       "language": "ENG",
@@ -3311,13 +2412,9 @@
     {
       "title": "Scott Pilgrim vs. the Universe",
       "series": "Scott Pilgrim #5",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2009,
       "pages": 216,
       "language": "ENG",
@@ -3328,13 +2425,9 @@
     {
       "title": "Scott Pilgrim Gets It Together",
       "series": "Scott Pilgrim #4",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2007,
       "pages": 216,
       "language": "ENG",
@@ -3345,13 +2438,9 @@
     {
       "title": "Scott Pilgrim & The Infinite Sadness",
       "series": "Scott Pilgrim #3",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2006,
       "pages": 240,
       "language": "ENG",
@@ -3362,13 +2451,9 @@
     {
       "title": "Scott Pilgrim vs. The World",
       "series": "Scott Pilgrim #2",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2005,
       "language": "ENG",
       "pages": 200,
@@ -3379,13 +2464,9 @@
     {
       "title": "Scott Pilgrim's Precious Little Life",
       "series": "Scott Pilgrim #1",
-      "author": [
-        "Bryan Lee O'Malley"
-      ],
+      "author": ["Bryan Lee O'Malley"],
       "read": "2013-08-15",
-      "tags": [
-        "comic"
-      ],
+      "tags": ["comic"],
       "published": 2004,
       "pages": 168,
       "id": {
@@ -3394,16 +2475,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "series": "The Book of the New Sun #4",
       "title": "The Citadel of the Autarch",
       "published": 1983,
       "read": "2013-09-26",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 330,
       "language": "ENG",
       "id": {
@@ -3411,33 +2488,25 @@
       }
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "series": "The Book of the New Sun #3",
       "title": "The Sword of the Lictor",
       "published": 1982,
       "read": "2013-09-11",
       "pages": 279,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q3205411"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "series": "The Book of the New Sun #2",
       "title": "The Claw of the Conciliator",
       "published": 1981,
       "read": "2013-06-30",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 303,
       "language": "ENG",
       "id": {
@@ -3445,16 +2514,12 @@
       }
     },
     {
-      "author": [
-        "Gene Wolfe"
-      ],
+      "author": ["Gene Wolfe"],
       "series": "The Book of the New Sun #1",
       "title": "The Shadow of the Torturer",
       "published": 1980,
       "read": "2013-06-30",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 262,
       "id": {
         "wikidata": "Q1150125"
@@ -3462,17 +2527,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "The Ocean at the End of the Lane",
       "published": 2013,
       "read": "2013-07-08",
-      "tags": [
-        "fiction",
-        "magical realism",
-        "fantasy"
-      ],
+      "tags": ["fiction", "magical realism", "fantasy"],
       "pages": 181,
       "language": "ENG",
       "id": {
@@ -3480,68 +2539,51 @@
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #10",
       "title": "The Hydrogen Sonata",
       "published": 2012,
       "read": "2013-07-06",
       "pages": 517,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q7741197"
       }
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "series": "Sunflowers cycle",
       "title": "The Island and Other Stories",
       "published": 2009,
       "read": "2013-04-13",
       "pages": 76,
-      "tags": [
-        "scifi",
-        "hugo-winner"
-      ],
+      "tags": ["scifi", "hugo-winner"],
       "language": "ENG",
       "id": {
         "isfdb": "1018721"
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Ilium #2",
       "title": "Olympos",
       "published": 2005,
       "pages": 891,
       "read": "2013-04-04",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2525080"
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Ilium #1",
       "title": "Ilium",
       "published": 2003,
       "read": "2013-02-23",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 731,
       "language": "ENG",
       "id": {
@@ -3549,16 +2591,11 @@
       }
     },
     {
-      "author": [
-        "Liam Callanan"
-      ],
+      "author": ["Liam Callanan"],
       "title": "The Cloud Atlas",
       "published": 2004,
       "read": "2013-01-13",
-      "tags": [
-        "fiction",
-        "historical fiction"
-      ],
+      "tags": ["fiction", "historical fiction"],
       "pages": 368,
       "language": "ENG",
       "id": {
@@ -3566,16 +2603,12 @@
       }
     },
     {
-      "author": [
-        "Arthur C. Clarke"
-      ],
+      "author": ["Arthur C. Clarke"],
       "series": "Space Odyssey #1",
       "title": "2001: A Space Odyssey",
       "published": 1986,
       "read": "2012",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 297,
       "id": {
         "wikidata": "Q835341"
@@ -3583,50 +2616,37 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Pierre Boulle"
-      ],
+      "author": ["Pierre Boulle"],
       "title": "Planet of the Apes",
       "published": 1963,
       "pages": 276,
       "read": "2012-11-14",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2418926"
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "title": "Against a Dark Background",
       "published": 1993,
       "pages": 480,
       "read": "2012-11-28",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q4691060"
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Hyperion #4",
       "title": "The Rise of Endymion",
       "published": 1997,
       "pages": 709,
       "read": "2012-09-30",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "id": {
         "wikidata": "Q2521688"
       },
@@ -3634,50 +2654,35 @@
     },
     {
       "title": "The Things",
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "read": "2013",
       "language": "ENG",
       "pages": 15,
       "published": 2010,
-      "tags": [
-        "scifi",
-        "short"
-      ],
+      "tags": ["scifi", "short"],
       "id": {
         "isfdb": "1077522"
       }
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Hyperion #3",
       "title": "Endymion",
       "published": 1996,
       "pages": 563,
       "read": "2012-09-09",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "language": "ENG",
       "id": {
         "wikidata": "Q2656138"
       }
     },
     {
-      "author": [
-        "Kurt Vonnegut"
-      ],
+      "author": ["Kurt Vonnegut"],
       "title": "Cat's Cradle",
       "published": 1963,
       "read": "2012-08-14",
-      "tags": [
-        "fiction",
-        "satire"
-      ],
+      "tags": ["fiction", "satire"],
       "pages": 179,
       "language": "ENG",
       "id": {
@@ -3685,53 +2690,36 @@
       }
     },
     {
-      "author": [
-        "Arthur C. Clarke"
-      ],
+      "author": ["Arthur C. Clarke"],
       "series": "Rama #1",
       "title": "Rendezvous with Rama",
       "published": 1973,
       "read": "2012-08-04",
       "pages": 243,
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q741222"
       }
     },
     {
-      "author": [
-        "Robert A. Heinlein"
-      ],
+      "author": ["Robert A. Heinlein"],
       "title": "The Moon is a Harsh Mistress",
       "published": 1966,
       "pages": 288,
       "read": "2012-07-29",
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "language": "ENG",
       "id": {
         "wikidata": "Q1410482"
       }
     },
     {
-      "author": [
-        "Paolo Bacigalupi"
-      ],
+      "author": ["Paolo Bacigalupi"],
       "title": "The Windup Girl",
       "published": 2009,
       "read": "2012-03-04",
-      "tags": [
-        "hugo-winner",
-        "biopunk",
-        "dystopian",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "biopunk", "dystopian", "scifi"],
       "pages": 359,
       "language": "ENG",
       "id": {
@@ -3739,16 +2727,11 @@
       }
     },
     {
-      "author": [
-        "Stanisław Lem"
-      ],
+      "author": ["Stanisław Lem"],
       "title": "Solaris",
       "published": 1961,
       "read": "2012-04-09",
-      "tags": [
-        "scifi",
-        "philosophical"
-      ],
+      "tags": ["scifi", "philosophical"],
       "pages": 204,
       "language": "ENG",
       "id": {
@@ -3756,15 +2739,11 @@
       }
     },
     {
-      "author": [
-        "Bernard Malamud"
-      ],
+      "author": ["Bernard Malamud"],
       "title": "God's Grace",
       "published": 1982,
       "read": "2012",
-      "tags": [
-        "post-apocalyptic"
-      ],
+      "tags": ["post-apocalyptic"],
       "pages": 240,
       "id": {
         "wikidata": "Q5575703"
@@ -3772,9 +2751,7 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Arthur C. Clarke"
-      ],
+      "author": ["Arthur C. Clarke"],
       "title": "Childhood's End",
       "published": 1953,
       "pages": 224,
@@ -3782,23 +2759,16 @@
       "id": {
         "wikidata": "Q466057"
       },
-      "tags": [
-        "scifi",
-        "first contact"
-      ],
+      "tags": ["scifi", "first contact"],
       "language": "ENG"
     },
     {
-      "author": [
-        "Orson Scott Card"
-      ],
+      "author": ["Orson Scott Card"],
       "series": "Ender #2",
       "title": "Speaker for the Dead",
       "published": 1986,
       "read": "2012-03-25",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 382,
       "id": {
         "wikidata": "Q2291295"
@@ -3806,9 +2776,7 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Orson Scott Card"
-      ],
+      "author": ["Orson Scott Card"],
       "series": "Ender #1",
       "title": "Ender's Game",
       "published": 1985,
@@ -3816,25 +2784,16 @@
       "id": {
         "wikidata": "Q816016"
       },
-      "tags": [
-        "hugo-winner",
-        "YA",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "YA", "scifi"],
       "pages": 324,
       "language": "ENG"
     },
     {
-      "author": [
-        "Neal Stephenson"
-      ],
+      "author": ["Neal Stephenson"],
       "title": "The Diamond Age: Or, A Young Lady's Illustrated Primer",
       "published": 1995,
       "read": "2012-03-03",
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "pages": 499,
       "id": {
         "wikidata": "Q543562"
@@ -3842,18 +2801,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "series": "Firefall #1",
       "title": "Blindsight",
       "published": 2006,
       "read": "2012-11-25",
-      "tags": [
-        "scifi",
-        "hard scifi",
-        "vampires"
-      ],
+      "tags": ["scifi", "hard scifi", "vampires"],
       "pages": 384,
       "id": {
         "wikidata": "Q2511421"
@@ -3861,17 +2814,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Cormac McCarthy"
-      ],
+      "author": ["Cormac McCarthy"],
       "title": "The Road",
       "published": 2006,
       "read": "2011-03-08",
-      "tags": [
-        "dystopian",
-        "fiction",
-        "post-apocalyptic"
-      ],
+      "tags": ["dystopian", "fiction", "post-apocalyptic"],
       "pages": 241,
       "id": {
         "wikidata": "Q1140295"
@@ -3879,16 +2826,12 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Stieg Larsson"
-      ],
+      "author": ["Stieg Larsson"],
       "series": "Millennium #1",
       "title": "The Girl with the Dragon Tattoo",
       "published": 2005,
       "read": "2011",
-      "tags": [
-        "crime"
-      ],
+      "tags": ["crime"],
       "pages": 480,
       "id": {
         "wikidata": "Q678288"
@@ -3896,19 +2839,13 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "American Gods #1",
       "title": "American Gods",
       "published": 2001,
       "read": "2011-10-18",
       "pages": 635,
-      "tags": [
-        "hugo-winner",
-        "fantasy",
-        "fiction"
-      ],
+      "tags": ["hugo-winner", "fantasy", "fiction"],
       "id": {
         "wikidata": "Q430514"
       },
@@ -3916,15 +2853,10 @@
     },
     {
       "title": "The Wake",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 10",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1996,
       "pages": 192,
       "id": {
@@ -3934,15 +2866,10 @@
     },
     {
       "title": "The Kindly Ones",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 9",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1995,
       "pages": 352,
       "id": {
@@ -3952,15 +2879,10 @@
     },
     {
       "title": "Worlds' End",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 8",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1993,
       "pages": 160,
       "id": {
@@ -3970,15 +2892,10 @@
     },
     {
       "title": "Brief Lives",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 7",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1993,
       "id": {
         "wikidata": "Q201973"
@@ -3988,15 +2905,10 @@
     },
     {
       "title": "Fables & Reflections",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 6",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1993,
       "pages": 264,
       "id": {
@@ -4006,15 +2918,10 @@
     },
     {
       "title": "A Game of You",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 5",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1992,
       "pages": 192,
       "id": {
@@ -4024,15 +2931,10 @@
     },
     {
       "title": "Season of Mists",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 4",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1991,
       "pages": 224,
       "id": {
@@ -4042,15 +2944,10 @@
     },
     {
       "title": "Dream Country",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 3",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1990,
       "pages": 160,
       "id": {
@@ -4060,15 +2957,10 @@
     },
     {
       "title": "The Doll's House",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 2",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1990,
       "pages": 213,
       "id": {
@@ -4078,15 +2970,10 @@
     },
     {
       "title": "Preludes & Nocturnes",
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "series": "The Sandman Vol. 1",
       "read": "2011",
-      "tags": [
-        "comic",
-        "fantasy"
-      ],
+      "tags": ["comic", "fantasy"],
       "published": 1989,
       "language": "ENG",
       "pages": 240,
@@ -4095,17 +2982,12 @@
       }
     },
     {
-      "author": [
-        "Arthur C. Clarke",
-        "Stephen Baxter"
-      ],
+      "author": ["Arthur C. Clarke", "Stephen Baxter"],
       "series": "A Time Odyssey #3",
       "title": "Firstborn",
       "published": 2007,
       "read": "2010",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 364,
       "id": {
         "wikidata": "Q5454280"
@@ -4113,15 +2995,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Arthur C. Clarke"
-      ],
+      "author": ["Arthur C. Clarke"],
       "title": "The Deep Range",
       "published": 1957,
       "read": "2010",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "pages": 250,
       "id": {
@@ -4129,9 +3007,7 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "The Man in the High Castle",
       "published": 1962,
       "pages": 259,
@@ -4139,21 +3015,15 @@
       "id": {
         "wikidata": "Q749783"
       },
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "title": "The Algebraist",
       "published": 2004,
       "read": "2009",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "olid": "OL8368450W"
       },
@@ -4163,14 +3033,9 @@
     {
       "title": "Vurt",
       "series": "Vurt #1",
-      "author": [
-        "Jeff Noon"
-      ],
+      "author": ["Jeff Noon"],
       "read": "2007",
-      "tags": [
-        "scifi",
-        "cyberpunk"
-      ],
+      "tags": ["scifi", "cyberpunk"],
       "published": 1993,
       "language": "HUN",
       "id": {
@@ -4179,49 +3044,36 @@
       "pages": 368
     },
     {
-      "author": [
-        "Steven Erikson"
-      ],
+      "author": ["Steven Erikson"],
       "series": "Malazan Book of the Fallen #1",
       "title": "Gardens of the Moon",
       "published": 1999,
       "pages": 657,
       "read": "2011-09-25",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "wikidata": "Q441055"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "title": "Feersum Endjinn",
       "published": 1994,
       "read": "2011-07-06",
       "pages": 311,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q5441458"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "Fragile Things: Short Fictions and Wonders",
       "published": 2006,
       "read": "2011-05-23",
-      "tags": [
-        "anthology",
-        "short-stories"
-      ],
+      "tags": ["anthology", "short-stories"],
       "language": "HUN",
       "id": {
         "wikidata": "Q2628271"
@@ -4229,50 +3081,37 @@
       "pages": 400
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "The Game-Players of Titan",
       "published": 1963,
       "read": "2010",
       "pages": 240,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q462560"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Hyperion #2",
       "title": "The Fall of Hyperion",
       "published": 1990,
       "pages": 517,
       "read": "2011-03-31",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q2362526"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Dan Simmons"
-      ],
+      "author": ["Dan Simmons"],
       "series": "Hyperion #1",
       "title": "Hyperion",
       "published": 1989,
       "read": "2011",
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "pages": 500,
       "id": {
         "wikidata": "Q1798059"
@@ -4280,33 +3119,24 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "Anansi boys",
       "published": 2005,
       "pages": 387,
       "read": "2010",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "wikidata": "Q2360806"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #9",
       "title": "Surface Detail",
       "published": 2010,
       "read": "2011",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "pages": 627,
       "id": {
         "wikidata": "Q302026"
@@ -4314,35 +3144,24 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Robert A. Heinlein"
-      ],
+      "author": ["Robert A. Heinlein"],
       "title": "Starship Troopers",
       "published": 1959,
       "read": "2011-03-31",
       "pages": 264,
-      "tags": [
-        "hugo-winner",
-        "military",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "military", "scifi"],
       "id": {
         "wikidata": "Q492207"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #6",
       "title": "Inversions",
       "published": 1998,
       "read": "2010-10-25",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "pages": 343,
       "id": {
         "wikidata": "Q666405"
@@ -4352,49 +3171,35 @@
     {
       "title": "Foundation's Edge",
       "series": "Foundation #6",
-      "author": [
-        "Isaac Asimov"
-      ],
+      "author": ["Isaac Asimov"],
       "published": 1982,
       "read": "2010-07-28",
       "pages": 450,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q932592"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Kim Stanley Robinson"
-      ],
+      "author": ["Kim Stanley Robinson"],
       "title": "The Years of Rice and Salt",
       "published": 2002,
       "pages": 658,
       "read": "2009-08-06",
-      "tags": [
-        "alternate history",
-        "fiction"
-      ],
+      "tags": ["alternate history", "fiction"],
       "id": {
         "wikidata": "Q963586"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #8",
       "title": "Matter",
       "published": 2008,
       "read": "2010-07-28",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "pages": 593,
       "id": {
         "wikidata": "Q684818"
@@ -4402,15 +3207,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Isaac Asimov"
-      ],
+      "author": ["Isaac Asimov"],
       "title": "Prelude to Foundation",
       "published": 1988,
       "read": "2010-04-27",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 464,
       "id": {
         "wikidata": "Q783533"
@@ -4418,42 +3219,32 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Radio Free Albemuth",
       "published": 1986,
       "pages": 228,
       "read": "2009-08-06",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q3416949"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Star Shadow #2",
       "title": "Ugrás az ismeretlenbe",
       "published": 2004,
       "read": "2010",
       "pages": 400,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "isfdb": "2614857"
       }
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Star Shadow #1",
       "title": "Ugrás az űrbe",
       "published": 2004,
@@ -4463,37 +3254,26 @@
         "wikipedia": "The_Stars_Are_Cold_Toys",
         "isfdb": "2614318"
       },
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN"
     },
     {
       "title": "Chaos Watch",
       "series": "Watch #5",
-      "author": [
-        "Vladimir Vasilyev"
-      ],
+      "author": ["Vladimir Vasilyev"],
       "read": "2009",
-      "tags": [
-        "urban fantasy"
-      ],
+      "tags": ["urban fantasy"],
       "pages": 254,
       "published": 2003,
       "language": "HUN"
     },
     {
-      "author": [
-        "Maryna Dyachenko",
-        "Serhiy Dyachenko"
-      ],
+      "author": ["Maryna Dyachenko", "Serhiy Dyachenko"],
       "series": "Metamorphosis #1",
       "title": "Alekszandra és a teremtés növendékei (Vita Nostra)",
       "published": 2007,
       "read": "2009",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 448,
       "language": "HUN",
       "id": {
@@ -4501,51 +3281,35 @@
       }
     },
     {
-      "author": [
-        "Arthur C. Clarke",
-        "Stephen Baxter"
-      ],
+      "author": ["Arthur C. Clarke", "Stephen Baxter"],
       "series": "A Time Odyssey #2",
       "title": "Sunstorm",
       "published": 2005,
       "read": "2009-11-25",
       "pages": 356,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q3517860"
       },
       "language": "ENG"
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Watch #4",
       "title": "Last Watch",
       "published": 2006,
       "read": "?",
-      "tags": [
-        "fantasy",
-        "urban fantasy"
-      ],
+      "tags": ["fantasy", "urban fantasy"],
       "pages": 370,
       "language": "HUN"
     },
     {
-      "author": [
-        "Alan Moore"
-      ],
+      "author": ["Alan Moore"],
       "series": "Watchmen #1-12",
       "title": "Watchmen",
       "published": 1987,
       "read": "2008",
-      "tags": [
-        "comic",
-        "scifi",
-        "superheroes"
-      ],
+      "tags": ["comic", "scifi", "superheroes"],
       "pages": 416,
       "id": {
         "wikidata": "Q128444"
@@ -4553,35 +3317,25 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Arkady Strugatsky",
-        "Boris Strugatsky"
-      ],
+      "author": ["Arkady Strugatsky", "Boris Strugatsky"],
       "series": "Максим Каммерер #2",
       "title": "Beetle in the Anthill",
       "published": 1980,
       "read": "2010",
       "pages": 218,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q1304748"
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #7",
       "title": "Look to Windward",
       "published": 2000,
       "read": "2009",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "pages": 483,
       "id": {
         "isfdb": "6887"
@@ -4589,17 +3343,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Robert Charles Wilson"
-      ],
+      "author": ["Robert Charles Wilson"],
       "series": "Spin #1",
       "title": "Spin",
       "published": 2005,
       "read": "2007",
-      "tags": [
-        "hugo-winner",
-        "scifi"
-      ],
+      "tags": ["hugo-winner", "scifi"],
       "pages": 464,
       "language": "HUN",
       "id": {
@@ -4607,27 +3356,20 @@
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #5",
       "title": "Excession",
       "published": 1998,
       "read": "2007",
       "pages": 470,
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "language": "HUN",
       "id": {
         "wikidata": "Q74362"
       }
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Watch #3",
       "title": "Twilight Watch",
       "published": 2004,
@@ -4636,23 +3378,15 @@
       "id": {
         "wikidata": "Q2993164"
       },
-      "tags": [
-        "fantasy",
-        "urban fantasy"
-      ],
+      "tags": ["fantasy", "urban fantasy"],
       "language": "HUN"
     },
     {
-      "author": [
-        "Peter Watts"
-      ],
+      "author": ["Peter Watts"],
       "title": "Beyond the Rift",
       "published": 1994,
       "read": "?",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "pages": 230,
       "language": "ENG",
       "id": {
@@ -4660,37 +3394,25 @@
       }
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Watch #2",
       "title": "Day Watch",
       "published": 2000,
       "pages": 453,
       "read": "2009",
-      "tags": [
-        "fantasy",
-        "urban fantasy",
-        "horror"
-      ],
+      "tags": ["fantasy", "urban fantasy", "horror"],
       "id": {
         "wikidata": "Q2714888"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Sergei Lukyanenko"
-      ],
+      "author": ["Sergei Lukyanenko"],
       "series": "Watch #1",
       "title": "Night Watch",
       "published": 1998,
       "read": "2009-04-25",
-      "tags": [
-        "fantasy",
-        "horror",
-        "urban fantasy"
-      ],
+      "tags": ["fantasy", "horror", "urban fantasy"],
       "pages": 455,
       "id": {
         "wikidata": "Q1042011"
@@ -4698,17 +3420,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Arkady Strugatsky",
-        "Boris Strugatsky"
-      ],
+      "author": ["Arkady Strugatsky", "Boris Strugatsky"],
       "title": "Prisoners of Power",
       "published": 1971,
       "pages": 384,
       "read": "2009",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q595056"
       },
@@ -4716,30 +3433,22 @@
     },
     {
       "title": "Long After Midnight",
-      "author": [
-        "Ray Bradbury"
-      ],
+      "author": ["Ray Bradbury"],
       "published": 1976,
       "pages": 271,
       "read": "2009",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q2901858"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Counter-Clock World",
       "published": 1967,
       "read": "2009-11-25",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 188,
       "id": {
         "wikidata": "Q1090238"
@@ -4747,16 +3456,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Ray Bradbury"
-      ],
+      "author": ["Ray Bradbury"],
       "title": "Something Wicked This Way Comes",
       "published": 1963,
       "pages": 300,
       "read": "2008",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "id": {
         "isfdb": "8151"
       },
@@ -4764,14 +3469,10 @@
     },
     {
       "title": "Out of the Silent Planet",
-      "author": [
-        "C. S. Lewis"
-      ],
+      "author": ["C. S. Lewis"],
       "read": "?",
       "series": "The Space Trilogy #1",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1938,
       "language": "HUN",
       "pages": 160,
@@ -4780,52 +3481,36 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Már megint a felfedezők",
       "published": 1967,
       "read": "2007",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "pages": 334,
-      "id":{
+      "id": {
         "isbn": "9637118578"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Neal Stephenson"
-      ],
+      "author": ["Neal Stephenson"],
       "title": "Snow Crash",
       "published": 1992,
       "read": "2007",
       "pages": 438,
-      "tags": [
-        "cyberpunk",
-        "scifi"
-      ],
+      "tags": ["cyberpunk", "scifi"],
       "id": {
         "wikidata": "Q768389"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #7",
       "title": "Harry Potter and the Deathly Hallows",
       "published": 2007,
       "read": "2007",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "pages": 607,
       "id": {
         "wikidata": "Q46758"
@@ -4833,15 +3518,11 @@
       "language": "ENG"
     },
     {
-      "author": [
-        "Neil Gaiman"
-      ],
+      "author": ["Neil Gaiman"],
       "title": "Trigger Warning: Short Fictions and Disturbances",
       "published": 2015,
       "read": "?",
-      "tags": [
-        "short-stories"
-      ],
+      "tags": ["short-stories"],
       "pages": 310,
       "language": "HUN",
       "id": {
@@ -4850,28 +3531,19 @@
     },
     {
       "title": "Basketball",
-      "author": [
-        "Maryna Dyachenko",
-        "Serhiy Dyachenko"
-      ],
+      "author": ["Maryna Dyachenko", "Serhiy Dyachenko"],
       "read": "2006-08-01",
-      "tags": [
-        "short"
-      ],
+      "tags": ["short"],
       "pages": 10,
       "published": 2001,
       "language": "HUN"
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Flow My Tears, the Policeman Said",
       "published": 1974,
       "read": "2006",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 204,
       "id": {
         "wikidata": "Q874492"
@@ -4879,16 +3551,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #3",
       "title": "Use of Weapons",
       "published": 1990,
       "read": "2006",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 411,
       "language": "HUN",
       "id": {
@@ -4897,14 +3565,9 @@
     },
     {
       "title": "Mellékhatás",
-      "author": [
-        "F. Tóth Benedek"
-      ],
+      "author": ["F. Tóth Benedek"],
       "read": "2007",
-      "tags": [
-        "scifi",
-        "short-stories"
-      ],
+      "tags": ["scifi", "short-stories"],
       "published": 2007,
       "pages": 264,
       "language": "HUN",
@@ -4913,15 +3576,11 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Martian Time-Slip",
       "published": 1964,
       "read": "2006",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 262,
       "language": "HUN",
       "id": {
@@ -4929,16 +3588,11 @@
       }
     },
     {
-      "author": [
-        "Iain Banks"
-      ],
+      "author": ["Iain Banks"],
       "title": "The Wasp Factory",
       "published": 1984,
       "read": "2006",
-      "tags": [
-        "fiction",
-        "thriller"
-      ],
+      "tags": ["fiction", "thriller"],
       "pages": 184,
       "language": "HUN",
       "id": {
@@ -4946,66 +3600,49 @@
       }
     },
     {
-      "author": [
-        "Arthur C. Clarke",
-        "Stephen Baxter"
-      ],
+      "author": ["Arthur C. Clarke", "Stephen Baxter"],
       "series": "A Time Odyssey #1",
       "title": "Time's Eye",
       "published": 2003,
       "pages": 379,
       "read": "2006",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "id": {
         "wikidata": "Q785354"
       },
       "language": "HUN"
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Eye in the Sky",
       "published": 1957,
       "pages": 256,
       "read": "2005-04-04",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q1139149"
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "A Scanner Darkly",
       "published": 1977,
       "pages": 219,
       "read": "2005",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q1198489"
       }
     },
     {
-      "author": [
-        "Isaac Asimov"
-      ],
+      "author": ["Isaac Asimov"],
       "series": "Foundation #3",
       "title": "Second Foundation",
       "published": 1953,
       "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "pages": 256,
       "id": {
@@ -5013,16 +3650,12 @@
       }
     },
     {
-      "author": [
-        "Isaac Asimov"
-      ],
+      "author": ["Isaac Asimov"],
       "series": "Foundation #2",
       "title": "Foundation and Empire",
       "published": 1952,
       "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 256,
       "language": "HUN",
       "id": {
@@ -5030,16 +3663,12 @@
       }
     },
     {
-      "author": [
-        "Isaac Asimov"
-      ],
+      "author": ["Isaac Asimov"],
       "series": "Foundation #1",
       "title": "Foundation",
       "published": 1951,
       "read": "2005-08-17",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 244,
       "language": "HUN",
       "id": {
@@ -5047,33 +3676,24 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Time Out of Joint",
       "published": 1959,
       "pages": 221,
       "read": "2005-07-10",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q185031"
       }
     },
     {
-      "author": [
-        "Douglas Adams"
-      ],
+      "author": ["Douglas Adams"],
       "series": "Hitchhiker's Guide to the Galaxy #5",
       "title": "Mostly Harmless",
       "published": 1992,
       "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
+      "tags": ["scifi", "humor"],
       "pages": 288,
       "language": "HUN",
       "id": {
@@ -5081,17 +3701,12 @@
       }
     },
     {
-      "author": [
-        "Douglas Adams"
-      ],
+      "author": ["Douglas Adams"],
       "series": "Hitchhiker's Guide to the Galaxy #4",
       "title": "So Long, and Thanks for All the Fish",
       "published": 1984,
       "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
+      "tags": ["scifi", "humor"],
       "pages": 225,
       "language": "HUN",
       "id": {
@@ -5099,17 +3714,12 @@
       }
     },
     {
-      "author": [
-        "Douglas Adams"
-      ],
+      "author": ["Douglas Adams"],
       "series": "Hitchhiker's Guide to the Galaxy #3",
       "title": "Life, the Universe and Everything",
       "published": 1982,
       "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
+      "tags": ["scifi", "humor"],
       "pages": 224,
       "language": "HUN",
       "id": {
@@ -5117,17 +3727,12 @@
       }
     },
     {
-      "author": [
-        "Douglas Adams"
-      ],
+      "author": ["Douglas Adams"],
       "series": "Hitchhiker's Guide to the Galaxy #2",
       "title": "The Restaurant at the End of the Universe",
       "published": 1980,
       "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
+      "tags": ["scifi", "humor"],
       "id": {
         "wikidata": "Q578895"
       },
@@ -5135,17 +3740,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Douglas Adams"
-      ],
+      "author": ["Douglas Adams"],
       "series": "Hitchhiker's Guide to the Galaxy #1",
       "title": "The Hitchhiker's Guide to the Galaxy",
       "published": 1979,
       "read": "2005-06-10",
-      "tags": [
-        "scifi",
-        "humor"
-      ],
+      "tags": ["scifi", "humor"],
       "pages": 216,
       "language": "HUN",
       "id": {
@@ -5153,34 +3753,24 @@
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #6",
       "title": "Harry Potter and the Half-Blood Prince",
       "published": 2005,
       "pages": 550,
       "read": "2005",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "language": "ENG",
       "id": {
         "wikidata": "Q46887"
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Ubik",
       "published": 1969,
       "read": "2005-03-06",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 288,
       "language": "HUN",
       "id": {
@@ -5188,17 +3778,12 @@
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #1",
       "title": "Consider Phlebas",
       "published": 1987,
       "read": "2005",
-      "tags": [
-        "scifi",
-        "space opera"
-      ],
+      "tags": ["scifi", "space opera"],
       "pages": 467,
       "id": {
         "wikidata": "Q261728"
@@ -5206,15 +3791,11 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "Do Androids Dream of Electric Sheep?",
       "published": 1968,
       "read": "?",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 244,
       "language": "HUN",
       "id": {
@@ -5223,14 +3804,10 @@
     },
     {
       "title": "A tizennégy karátos autó",
-      "author": [
-        "Rejtő Jenő"
-      ],
+      "author": ["Rejtő Jenő"],
       "published": 1940,
       "read": "2005",
-      "tags": [
-        "humor"
-      ],
+      "tags": ["humor"],
       "pages": 254,
       "language": "HUN",
       "id": {
@@ -5239,13 +3816,9 @@
     },
     {
       "title": "Star Wars: Revenge of the Sith",
-      "author": [
-        "Matthew Woodring Stover"
-      ],
+      "author": ["Matthew Woodring Stover"],
       "read": "2005",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2005,
       "id": {
         "olid": "OL2727030W"
@@ -5256,35 +3829,24 @@
     },
     {
       "title": "The Call of Cthulhu and Other Weird Stories",
-      "author": [
-        "H. P. Lovecraft"
-      ],
+      "author": ["H. P. Lovecraft"],
       "published": 1999,
       "read": "2004",
       "language": "HUN",
-      "tags": [
-        "horror",
-        "cosmic horror",
-        "short-stories",
-        "lovecraftian"
-      ],
+      "tags": ["horror", "cosmic horror", "short-stories", "lovecraftian"],
       "pages": 420,
       "id": {
         "wikidata": "Q7721004"
       }
     },
     {
-      "author": [
-        "Iain M. Banks"
-      ],
+      "author": ["Iain M. Banks"],
       "series": "Culture #2",
       "title": "The Player of Games",
       "published": 1988,
       "read": "2006",
       "pages": 293,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q467139"
@@ -5292,14 +3854,10 @@
     },
     {
       "title": "The Inquisition War",
-      "author": [
-        "Ian Watson"
-      ],
+      "author": ["Ian Watson"],
       "series": "The Inquisition War #1-3",
       "read": "2004",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 2003,
       "pages": 768,
       "language": "HUN",
@@ -5308,16 +3866,12 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "series": "VALIS trilogy #1",
       "title": "VALIS",
       "published": 1981,
       "read": "2004",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 242,
       "language": "HUN",
       "id": {
@@ -5325,15 +3879,11 @@
       }
     },
     {
-      "author": [
-        "Philip K. Dick"
-      ],
+      "author": ["Philip K. Dick"],
       "title": "The Three Stigmata of Palmer Eldritch",
       "published": 1965,
       "read": "2003",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 231,
       "language": "HUN",
       "id": {
@@ -5341,18 +3891,12 @@
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #5",
       "title": "Harry Potter and the Order of the Phoenix",
       "published": 2003,
       "read": "2003",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "language": "HUN",
       "pages": 896,
       "id": {
@@ -5360,16 +3904,11 @@
       }
     },
     {
-      "author": [
-        "Arkady Strugatsky",
-        "Boris Strugatsky"
-      ],
+      "author": ["Arkady Strugatsky", "Boris Strugatsky"],
       "title": "Roadside Picnic",
       "published": 1972,
       "read": "2003",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "pages": 145,
       "language": "HUN",
       "id": {
@@ -5378,30 +3917,21 @@
     },
     {
       "title": "Aliens vs. Predator: Prey",
-      "author": [
-        "Steve Perry",
-        "S.D. Perry"
-      ],
+      "author": ["Steve Perry", "S.D. Perry"],
       "read": "2003",
       "series": "Aliens vs. Predator #1",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1994,
       "pages": 262,
       "language": "HUN"
     },
     {
-      "author": [
-        "J.R.R. Tolkien"
-      ],
+      "author": ["J.R.R. Tolkien"],
       "series": "The Lord of the Rings #3",
       "title": "The Return of the King",
       "published": 1955,
       "read": "2001",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 496,
       "language": "HUN",
       "id": {
@@ -5409,17 +3939,12 @@
       }
     },
     {
-      "author": [
-        "J.R.R. Tolkien"
-      ],
+      "author": ["J.R.R. Tolkien"],
       "series": "The Lord of the Rings #2",
       "title": "The Two Towers",
       "published": 1954,
       "read": "2001",
-      "tags": [
-        "fantasy",
-        "adventure"
-      ],
+      "tags": ["fantasy", "adventure"],
       "language": "HUN",
       "pages": 416,
       "id": {
@@ -5427,16 +3952,12 @@
       }
     },
     {
-      "author": [
-        "J.R.R. Tolkien"
-      ],
+      "author": ["J.R.R. Tolkien"],
       "series": "The Lord of the Rings #1",
       "title": "The Fellowship of the Ring",
       "published": 1955,
       "read": "2001",
-      "tags": [
-        "fantasy"
-      ],
+      "tags": ["fantasy"],
       "pages": 398,
       "language": "HUN",
       "id": {
@@ -5444,77 +3965,52 @@
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #4",
       "title": "Harry Potter and the Goblet of Fire",
       "published": 2000,
       "read": "2001",
       "pages": 674,
-      "tags": [
-        "hugo-winner",
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["hugo-winner", "YA", "fantasy", "magic"],
       "language": "HUN",
       "id": {
         "wikidata": "Q46751"
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #3",
       "title": "Harry Potter and the Prisoner of Azkaban",
       "published": 1999,
       "read": "2000",
       "pages": 400,
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "language": "HUN",
       "id": {
         "wikidata": "Q47598"
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #2",
       "title": "Harry Potter and the Chamber of Secrets",
       "published": 1998,
       "pages": 316,
       "read": "2000",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "language": "HUN",
       "id": {
         "wikidata": "Q47209"
       }
     },
     {
-      "author": [
-        "J. K. Rowling"
-      ],
+      "author": ["J. K. Rowling"],
       "series": "Harry Potter #1 ",
       "title": "Harry Potter and The Philosopher's Stone",
       "published": 1997,
       "pages": 309,
       "read": "2000",
-      "tags": [
-        "YA",
-        "fantasy",
-        "magic"
-      ],
+      "tags": ["YA", "fantasy", "magic"],
       "language": "HUN",
       "id": {
         "wikidata": "Q43361"
@@ -5522,14 +4018,10 @@
     },
     {
       "title": "The Paradise Snare",
-      "author": [
-        "A.C. Crispin"
-      ],
+      "author": ["A.C. Crispin"],
       "series": "Star Wars: The Han Solo Trilogy #1",
       "read": "2000",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1997,
       "language": "HUN",
       "id": {
@@ -5541,13 +4033,9 @@
     {
       "title": "Wraith Squadron",
       "series": "Star Wars: X-Wing #5",
-      "author": [
-        "Aaron Allston"
-      ],
+      "author": ["Aaron Allston"],
       "read": "2000",
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "published": 1998,
       "id": {
         "olid": "OL3567813W",
@@ -5558,15 +4046,9 @@
     },
     {
       "title": "Star Wars: Attack of the Clones",
-      "author": [
-        "R.A. Salvatore"
-      ],
+      "author": ["R.A. Salvatore"],
       "read": "2002",
-      "tags": [
-        "space opera",
-        "scifi",
-        "novelization"
-      ],
+      "tags": ["space opera", "scifi", "novelization"],
       "series": "Star Wars Novelizations #2",
       "published": 2002,
       "pages": 316,
@@ -5578,16 +4060,10 @@
     {
       "title": "Star Wars: The Phantom Menace",
       "series": "Star Wars Novelizations #1",
-      "author": [
-        "Terry Brooks"
-      ],
+      "author": ["Terry Brooks"],
       "read": "2000",
       "pages": 316,
-      "tags": [
-        "scifi",
-        "space opera",
-        "novelization"
-      ],
+      "tags": ["scifi", "space opera", "novelization"],
       "published": 1999,
       "language": "HUN",
       "id": {
@@ -5596,60 +4072,44 @@
     },
     {
       "title": "20,000 Leagues under the Sea",
-      "author": [
-        "Jules Verne"
-      ],
+      "author": ["Jules Verne"],
       "published": 1870,
       "read": "2000",
       "pages": 208,
-      "tags": [
-        "scifi"
-      ],
+      "tags": ["scifi"],
       "language": "HUN",
       "id": {
         "wikidata": "Q183565"
       }
     },
     {
-      "author": [
-        "Tamási Áron"
-      ],
+      "author": ["Tamási Áron"],
       "series": "Ábel #3",
       "title": "Ábel Amerikában",
       "published": 1934,
       "read": "2000",
       "pages": 240,
-      "tags": [
-        "classics"
-      ],
+      "tags": ["classics"],
       "language": "HUN"
     },
     {
-      "author": [
-        "Tamási Áron"
-      ],
+      "author": ["Tamási Áron"],
       "series": "Ábel #2",
       "title": "Ábel az országban",
       "published": 1933,
       "pages": 208,
       "read": "2000",
-      "tags": [
-        "classics"
-      ],
+      "tags": ["classics"],
       "language": "HUN"
     },
     {
-      "author": [
-        "Tamási Áron"
-      ],
+      "author": ["Tamási Áron"],
       "series": "Ábel #1",
       "title": "Ábel a rengetegben",
       "published": 1932,
       "pages": 264,
       "read": "2000",
-      "tags": [
-        "classics"
-      ],
+      "tags": ["classics"],
       "language": "HUN",
       "id": {
         "wikidata": "Q1469091"
@@ -5657,9 +4117,7 @@
     },
     {
       "title": "The Old Man and the Sea",
-      "author": [
-        "Ernest Hemingway"
-      ],
+      "author": ["Ernest Hemingway"],
       "read": "1999",
       "published": 1952,
       "pages": 127,
@@ -5668,22 +4126,14 @@
         "olid": "OL35361485W",
         "wikidata": "Q26505"
       },
-      "tags": [
-        "classics",
-        "fiction"
-      ]
+      "tags": ["classics", "fiction"]
     },
     {
       "title": "Téli ​berek",
-      "author": [
-        "Fekete István"
-      ],
+      "author": ["Fekete István"],
       "series": "Tüskevár #2",
       "read": "1997",
-      "tags": [
-        "classics",
-        "YA"
-      ],
+      "tags": ["classics", "YA"],
       "id": {
         "wikidata": "Q1326662"
       },
@@ -5693,15 +4143,10 @@
     },
     {
       "title": "Tüskevár",
-      "author": [
-        "Fekete István"
-      ],
+      "author": ["Fekete István"],
       "series": "Tüskevár #1",
       "read": "1997",
-      "tags": [
-        "classics",
-        "YA"
-      ],
+      "tags": ["classics", "YA"],
       "pages": 356,
       "id": {
         "wikidata": "Q1329057"
@@ -5710,16 +4155,12 @@
       "language": "HUN"
     },
     {
-      "author": [
-        "Móra Ferenc"
-      ],
+      "author": ["Móra Ferenc"],
       "title": "Kincskereső kisködmön",
       "published": 1918,
       "read": "1995",
       "pages": 202,
-      "tags": [
-        "YA"
-      ],
+      "tags": ["YA"],
       "id": {
         "olid": "OL10988560W"
       },
@@ -5727,15 +4168,10 @@
     },
     {
       "title": "The Little Prince",
-      "author": [
-        "Antoine de Saint-Exupéry"
-      ],
+      "author": ["Antoine de Saint-Exupéry"],
       "published": 1943,
       "read": "1995",
-      "tags": [
-        "classics",
-        "fiction"
-      ],
+      "tags": ["classics", "fiction"],
       "pages": 96,
       "language": "HUN",
       "id": {
