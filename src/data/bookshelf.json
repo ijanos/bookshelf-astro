@@ -2,6 +2,16 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "So Late in the Day",
+      "author": ["Claire Keegan"],
+      "read": "2026-06-21",
+      "tags": ["short"],
+      "published": 2022,
+      "pages": 30,
+      "language": "ENG",
+      "id": {}
+    },
+    {
       "title": "Children of Strife",
       "author": ["Adrian Tchaikovsky"],
       "read": "2026-06-14",
