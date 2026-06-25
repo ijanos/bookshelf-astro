@@ -53,7 +53,7 @@ bookshelf.books.forEach(book => {
 });
 
 
-const indexedBookshelf = bookshelf.books.map((movie, index) =>  ({...movie, index: index}));
+const indexedBookshelf = bookshelf.books.map((book, index) =>  ({...book, index: index}));
 
 export const books: Book[] = indexedBookshelf;
 export type { Book };
