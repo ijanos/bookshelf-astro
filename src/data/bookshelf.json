@@ -2,6 +2,18 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Sudden Appearance of Hope",
+      "author": ["Claire North"],
+      "read": "",
+      "tags": ["scifi"],
+      "published": 2016,
+      "pages": 476,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q134617931"
+      }
+    },
+    {
       "title": "So Late in the Day",
       "author": ["Claire Keegan"],
       "read": "2026-06-21",
