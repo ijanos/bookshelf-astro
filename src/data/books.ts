@@ -23,8 +23,8 @@ interface Book {
 }
 
 
-let ids = new Set();
-let author_titles = new Set();
+let ids = new Set<string>();
+let author_titles = new Set<string>();
 
 bookshelf.books.forEach(book => {
     if (book.id) {
