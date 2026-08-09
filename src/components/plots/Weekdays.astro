@@ -18,7 +18,7 @@ books
   .map((m) => m.read)
   .forEach((readdate) => {
     const dayIndex = new Date(readdate!).getDay();
-    const day = dayNames[dayIndex];
+    const day = dayNames[dayIndex]!;
     const n = dayCounter[day];
     dayCounter[day] = n + 1;
   });
@@ -43,7 +43,6 @@ const div = document.querySelector<HTMLDivElement>("#weekdayplot");
 const weekdays = JSON.parse(div?.dataset.days as string) as DayStat[];
 
 const plot = Plot.plot({
-  width: undefined,
   height: 300,
   y: {
     grid: true,

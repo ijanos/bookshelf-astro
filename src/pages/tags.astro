@@ -81,7 +81,7 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('table', () => ({
         async init() {
-            this.visible = this.$refs.tbody.querySelectorAll('tr').length;
+            this.visible = this.$refs.tbody!.querySelectorAll('tr').length;
             const tags = await (await fetch('/tags.json')).json();
             this.allTags = new Map(Object.entries(tags));
         },
@@ -139,17 +139,17 @@ document.addEventListener('alpine:init', () => {
             }).map(([tagName, _indexList]) => tagName);
         },
         update() {
-            this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+            this.visible = Array.from(this.$refs.tbody!.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
         },
         reorder(index: number) {
                 this.sortOrder = this.sortOrder * -1;
                 this.getRows()
-                    .sort((a: HTMLElement, b: HTMLElement) => { return this.sortOrder * (a.querySelectorAll("td")[index].textContent as string).localeCompare((b.querySelectorAll("td")[index].textContent as string)); })
+                    .sort((a: HTMLElement, b: HTMLElement) => { return this.sortOrder * (a.querySelectorAll("td")[index]!.textContent as string).localeCompare((b.querySelectorAll("td")[index]!.textContent as string)); })
                     .forEach((tr) => {
-                        this.$refs.tbody.appendChild(tr);
+                        this.$refs.tbody!.appendChild(tr);
                     });
         },
-        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); }
+        getRows() { return Array.from(this.$refs.tbody!.querySelectorAll("tr")); }
     }))
 })
 

@@ -63,21 +63,21 @@ import Alpine from 'alpinejs';
 document.addEventListener('alpine:init', () => {
     Alpine.data('table', () => ({
         init() {
-            this.visible = this.$refs.tbody.querySelectorAll('tr').length
+            this.visible = this.$refs.tbody!.querySelectorAll('tr').length
         },
         search: "",
         sortOrder: -1,
         visible: 0,
         update() {
-            this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
+            this.visible = Array.from(this.$refs.tbody!.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
         },
         reorder(index: number) {
                 this.sortOrder = -this.sortOrder;
-                const cell = (tr: Element) => tr.children[index].textContent ?? '';
+                const cell = (tr: Element) => tr.children[index]!.textContent ?? '';
                 this.getRows().sort((a, b) => this.sortOrder * cell(a).localeCompare(cell(b), undefined, { numeric: true }))
-                    .forEach((tr) => this.$refs.tbody.appendChild(tr));
+                    .forEach((tr) => this.$refs.tbody!.appendChild(tr));
         },
-        getRows() { return Array.from(this.$refs.tbody.querySelectorAll('tr')); }
+        getRows() { return Array.from(this.$refs.tbody!.querySelectorAll('tr')); }
     }))
 })
 

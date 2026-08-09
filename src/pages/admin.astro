@@ -75,7 +75,7 @@ import Layout from "../layouts/Layout.astro";
     });
 
     workSelect.addEventListener("change", () => {
-        const work: OpenLibraryWork = works[workSelect.selectedIndex];
+        const work: OpenLibraryWork = works[workSelect.selectedIndex]!;
 
         const ids = Object.entries(work).filter(id => id[0].startsWith("id_"));
         console.log(ids);
