@@ -1,59 +1,57 @@
-import bookshelf from "./bookshelf.json";
 import assert from 'node:assert/strict';
+import bookshelf from './bookshelf.json';
 
 interface Id {
-    wikidata?: string;
-    olid?: string;
-    wikipedia?: string;
-    librarything?: string;
-    isfdb?: string;
+  wikidata?: string;
+  olid?: string;
+  wikipedia?: string;
+  librarything?: string;
+  isfdb?: string;
 }
 
 interface Book {
-    title: string;
-    read: string;
-    author: string[];
-    series?: string;
-    published: number;
-    pages?: number;
-    tags: string[];
-    language: string;
-    id?: Id;
-    index: number;
+  title: string;
+  read: string;
+  author: string[];
+  series?: string;
+  published: number;
+  pages?: number;
+  tags: string[];
+  language: string;
+  id?: Id;
+  index: number;
 }
 
+const ids = new Set<string>();
+const author_titles = new Set<string>();
 
-let ids = new Set<string>();
-let author_titles = new Set<string>();
+bookshelf.books.forEach((book) => {
+  if (book.id) {
+    Object.entries(book.id).forEach(([idkey, idvalue]) => {
+      const idstring = `${idkey}${idvalue}`;
+      if (ids.has(idstring)) {
+        throw Error(`duplicate ID found ${idkey}: ${idvalue}`);
+      }
+      ids.add(idstring);
+    });
+  }
 
-bookshelf.books.forEach(book => {
-    if (book.id) {
-        Object.entries(book.id).forEach(([idkey, idvalue]) => {
-            const idstring = `${idkey}${idvalue}`;
-            if (ids.has(idstring)) {
-                throw Error(`duplicate ID found ${idkey}: ${idvalue}`);
-            }
-            ids.add(idstring);
-        })
-    }
+  assert(book.author.length > 0);
 
-    assert(book.author.length > 0);
+  // const readDate = new Date(book.read);
+  // const publishedDate = new Date(book.published);
 
-    // const readDate = new Date(book.read);
-    // const publishedDate = new Date(book.published);
+  // enable this once the read fields are all populated
+  // assert(readDate > publishedDate, `${book.title} read: ${book.read} published: ${book.published}`);
 
-    // enable this once the read fields are all populated
-    // assert(readDate > publishedDate, `${book.title} read: ${book.read} published: ${book.published}`);
-
-    const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/g,'').toLowerCase();
-    if (author_titles.has(author_title)) {
-        throw Error(`Possible duplicate book ${book.title}`);
-    }
-    author_titles.add(author_title);
+  const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/g, '').toLowerCase();
+  if (author_titles.has(author_title)) {
+    throw Error(`Possible duplicate book ${book.title}`);
+  }
+  author_titles.add(author_title);
 });
 
-
-const indexedBookshelf = bookshelf.books.map((book, index) =>  ({...book, index: index}));
+const indexedBookshelf = bookshelf.books.map((book, index) => ({ ...book, index: index }));
 
 export const books: Book[] = indexedBookshelf;
 export type { Book };

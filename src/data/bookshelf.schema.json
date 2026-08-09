@@ -1,192 +1,190 @@
 {
-    "$id": "bookshelf.schema.json",
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Bookshelf",
-    "type": "object",
-    "properties": {
-        "books": {
-            "type": "array",
-            "items": {
-                "$ref": "#/$defs/book"
-            }
+  "$id": "bookshelf.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bookshelf",
+  "type": "object",
+  "properties": {
+    "books": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/book"
+      }
+    }
+  },
+  "$defs": {
+    "book": {
+      "type": "object",
+      "defaultSnippets": [
+        {
+          "label": "new book",
+          "description": "Add a new book to your bookshelf",
+          "body": {
+            "title": "$1",
+            "author": ["$2"],
+            "read": "$3",
+            "tags": ["$4"],
+            "published": 0,
+            "language": "$6",
+            "id": {}
+          }
         }
-    },
-    "$defs": {
-        "book": {
-            "type": "object",
-            "defaultSnippets": [
-                {
-                    "label": "new book",
-                    "description": "Add a new book to your bookshelf",
-                    "body": { "title": "$1", "author": ["$2"], "read": "$3", "tags": ["$4"], "published": 0, "language": "$6", "id": {} }
-                }
-            ],
-            "required": [
-                "title",
-                "id",
-                "pages",
-                "published",
-                "tags"
-            ],
-            "properties": {
-                "author": {
-                    "type": "array",
-                    "description": "Author's name",
-                    "items": {
-                        "type": "string"
-                    }
-                },
-                "title": {
-                    "type": "string",
-                    "description": "Title of book"
-                },
-                "published": {
-                    "description": "Year of original publication",
-                    "type": "integer",
-                    "minimum": 1600,
-                    "maximum": 2100
-                },
-                "pages": {
-                    "description": "Approximate length of the book in pages",
-                    "type": "integer",
-                    "minimum": 1
-                },
-                "series": {
-                    "type": "string",
-                    "description": "The series the book is part of"
-                },
-                "read": {
-                    "type": "string",
-                    "oneOf": [
-                        { "format": "date" },
-                        { "pattern": "^[%0-9]{4}$" },
-                        { "const": "DNF" }
-                    ]
-                },
-                "language": {
-                    "type": "string",
-                    "minLength": 3,
-                    "maxLength": 3
-                },
-                "id": {
-                    "$ref": "#/$defs/id"
-                },
-                "tags": {
-                    "description": "Tags for the book",
-                    "type": "array",
-                    "items": {
-                        "type": "string",
-                        "enum": [
-                            "adventure",
-                            "aliens",
-                            "alternate history",
-                            "anthology",
-                            "biography",
-                            "biopunk",
-                            "childrens",
-                            "classics",
-                            "comic",
-                            "cosmic horror",
-                            "crime",
-                            "cults",
-                            "cyberpunk",
-                            "detective",
-                            "didnt finish",
-                            "dying-earth",
-                            "dystopian",
-                            "espionage",
-                            "fanfic",
-                            "fantasy",
-                            "fiction",
-                            "first contact",
-                            "hard scifi",
-                            "historical fiction",
-                            "historical",
-                            "horror",
-                            "hugo-nominee",
-                            "hugo-winner",
-                            "humor",
-                            "isekai",
-                            "lovecraftian",
-                            "magic",
-                            "magical realism",
-                            "manga",
-                            "military",
-                            "murder mystery",
-                            "mystery",
-                            "mythology",
-                            "nebula-winner",
-                            "noir",
-                            "nonfiction",
-                            "novelization",
-                            "novella",
-                            "philosophical",
-                            "pkd-winner",
-                            "post-apocalyptic",
-                            "posthuman",
-                            "programming",
-                            "religion",
-                            "romance",
-                            "russia",
-                            "satire",
-                            "scifi",
-                            "screenplay",
-                            "short-stories",
-                            "short",
-                            "singularity",
-                            "soviet",
-                            "space opera",
-                            "steampunk",
-                            "stopped-reading",
-                            "superheroes",
-                            "technology",
-                            "thriller",
-                            "timetravel",
-                            "urban fantasy",
-                            "vampires",
-                            "videogames",
-                            "weird",
-                            "YA"
-                        ]
-                    },
-                    "minItems": 1,
-                    "uniqueItems": true
-                }
-            },
-            "additionalProperties": false
+      ],
+      "required": ["title", "id", "pages", "published", "tags"],
+      "properties": {
+        "author": {
+          "type": "array",
+          "description": "Author's name",
+          "items": {
+            "type": "string"
+          }
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of book"
+        },
+        "published": {
+          "description": "Year of original publication",
+          "type": "integer",
+          "minimum": 1600,
+          "maximum": 2100
+        },
+        "pages": {
+          "description": "Approximate length of the book in pages",
+          "type": "integer",
+          "minimum": 1
+        },
+        "series": {
+          "type": "string",
+          "description": "The series the book is part of"
+        },
+        "read": {
+          "type": "string",
+          "oneOf": [{ "format": "date" }, { "pattern": "^[%0-9]{4}$" }, { "const": "DNF" }]
+        },
+        "language": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 3
         },
         "id": {
-            "type": "object",
-            "properties": {
-                "wikidata": {
-                    "type": "string",
-                    "pattern": "^Q[%0-9]*$"
-                },
-                "wikipedia": {
-                    "type": "string"
-                },
-                "librarything": {
-                    "type": "string",
-                    "pattern": "^[%0-9]*$"
-                },
-                "olid": {
-                    "type": "string",
-                    "pattern": "^OL.*W$"
-                },
-                "isfdb": {
-                    "type": "string",
-                    "pattern": "^[%0-9]*$"
-                },
-                "isbn": {
-                    "type": "string",
-                    "pattern": "^[%0-9]*$"
-                },
-                "oclc": {
-                    "type": "string",
-                    "pattern": "^[%0-9]*$"
-                }
-            },
-            "additionalProperties": false
+          "$ref": "#/$defs/id"
+        },
+        "tags": {
+          "description": "Tags for the book",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "adventure",
+              "aliens",
+              "alternate history",
+              "anthology",
+              "biography",
+              "biopunk",
+              "childrens",
+              "classics",
+              "comic",
+              "cosmic horror",
+              "crime",
+              "cults",
+              "cyberpunk",
+              "detective",
+              "didnt finish",
+              "dying-earth",
+              "dystopian",
+              "espionage",
+              "fanfic",
+              "fantasy",
+              "fiction",
+              "first contact",
+              "hard scifi",
+              "historical fiction",
+              "historical",
+              "horror",
+              "hugo-nominee",
+              "hugo-winner",
+              "humor",
+              "isekai",
+              "lovecraftian",
+              "magic",
+              "magical realism",
+              "manga",
+              "military",
+              "murder mystery",
+              "mystery",
+              "mythology",
+              "nebula-winner",
+              "noir",
+              "nonfiction",
+              "novelization",
+              "novella",
+              "philosophical",
+              "pkd-winner",
+              "post-apocalyptic",
+              "posthuman",
+              "programming",
+              "religion",
+              "romance",
+              "russia",
+              "satire",
+              "scifi",
+              "screenplay",
+              "short-stories",
+              "short",
+              "singularity",
+              "soviet",
+              "space opera",
+              "steampunk",
+              "stopped-reading",
+              "superheroes",
+              "technology",
+              "thriller",
+              "timetravel",
+              "urban fantasy",
+              "vampires",
+              "videogames",
+              "weird",
+              "YA"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
         }
+      },
+      "additionalProperties": false
+    },
+    "id": {
+      "type": "object",
+      "properties": {
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[%0-9]*$"
+        },
+        "wikipedia": {
+          "type": "string"
+        },
+        "librarything": {
+          "type": "string",
+          "pattern": "^[%0-9]*$"
+        },
+        "olid": {
+          "type": "string",
+          "pattern": "^OL.*W$"
+        },
+        "isfdb": {
+          "type": "string",
+          "pattern": "^[%0-9]*$"
+        },
+        "isbn": {
+          "type": "string",
+          "pattern": "^[%0-9]*$"
+        },
+        "oclc": {
+          "type": "string",
+          "pattern": "^[%0-9]*$"
+        }
+      },
+      "additionalProperties": false
     }
+  }
 }
