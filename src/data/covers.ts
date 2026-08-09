@@ -1,4 +1,3 @@
-import path from 'node:path';
 import type { ImageMetadata } from 'astro';
 import { books } from '../data/books.ts';
 
@@ -15,11 +14,14 @@ const covers = new Map<string, () => Promise<{ default: ImageMetadata }>>();
 const imageFiles = import.meta.glob<{ default: ImageMetadata }>('/covers/*.{jpeg,jpg,png,gif}');
 
 for (const [pathString, imgPromise] of Object.entries(imageFiles)) {
-  const fileName = path.parse(pathString).name.toLowerCase();
-  if (!ids.has(fileName)) {
-    throw Error(`Found cover image ${pathString} with no matching book`);
-  } else {
+  const fileName = pathString
+    .slice(pathString.lastIndexOf('/') + 1)
+    .replace(/\.[^/.]+$/u, '')
+    .toLowerCase();
+  if (ids.has(fileName)) {
     covers.set(fileName, imgPromise);
+  } else {
+    throw new Error(`Found cover image ${pathString} with no matching book`);
   }
 }
 

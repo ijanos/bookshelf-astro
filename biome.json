@@ -30,8 +30,15 @@
     "enabled": true,
     "rules": {
       "preset": "recommended",
+      "a11y": "on",
       "complexity": "on",
+      "correctness": "on",
       "suspicious": "on",
+      "performance": "on",
+      "security": "on",
+      "style": {
+        "noTernary": "off"
+      },
       "nursery": "on"
     }
   },
