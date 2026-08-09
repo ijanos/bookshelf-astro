@@ -24,7 +24,8 @@ import "../styles/global.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="max-w-6xl mx-auto min-h-screen px-2 bg-[url('/bg.webp')] bg-top lg:bg-cover lg:bg-fixed lg:bg-no-repeat lg:bg-center gap-2 flex flex-col">
+	<body class="max-w-6xl mx-auto min-h-screen px-2 gap-2 flex flex-col">
+		<div aria-hidden="true" class="fixed inset-0 -z-10 bg-[url('/bgbooks.jpg')] bg-cover bg-center bg-no-repeat blur-md"></div>
 		<Nav />
 		<slot />
 		<Footer />
