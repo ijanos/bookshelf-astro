@@ -22,10 +22,9 @@ const { books } = Astro.props;
           <th @click="reorder(0)" class="hidden sm:table-cell">Author</th>
           <th @click="reorder(1)">Title</th>
           <th @click="reorder(2)" class="hidden sm:table-cell">Series</th>
-          <th @click="reorder(4)" class="hidden sm:table-cell text-right">pages</th>
-          <th class="hidden"></th>
-          <th @click="reorder(5)" class="text-center">Read</th>
-          <th @click="reorder(6)" class="text-center hidden sm:table-cell">Published</th>
+          <th @click="reorder(3)" class="hidden sm:table-cell text-right">pages</th>
+          <th @click="reorder(4)" class="text-center">Read</th>
+          <th @click="reorder(5)" class="text-center hidden sm:table-cell">Published</th>
         </tr>
     </thead>
     <tbody x-ref="tbody">
@@ -39,7 +38,6 @@ const { books } = Astro.props;
         <td class="font-semibold text-slate-900">{ book.title }</td>
         <td class="font-extralight text-slate-900 hidden sm:table-cell">{ book.series }</td>
         <td class="pr-2 font-mono text-right text-xs hidden sm:table-cell" >{ book.pages }</td>
-        <td class="hidden">{  String(book.pages || "").padStart(6, '0') }</td>
         <td class="font-mono text-xs text-center text-nowrap whitespace-nowrap">{ book.read || "📖" }</td>
         <td class="font-mono text-xs text-center hidden sm:table-cell">{ book.published }</td>
     </tr>
@@ -74,14 +72,12 @@ document.addEventListener('alpine:init', () => {
             this.visible = Array.from(this.$refs.tbody.querySelectorAll('tr')).filter((tr) => tr.style.display !== 'none').length;
         },
         reorder(index: number) {
-                this.sortOrder = this.sortOrder * -1;
-                this.getRows()
-                    .sort((a: HTMLElement, b: HTMLElement) => { return this.sortOrder * (a.querySelectorAll("td")[index].textContent as string).localeCompare((b.querySelectorAll("td")[index].textContent as string)); })
-                    .forEach((tr) => {
-                        this.$refs.tbody.appendChild(tr);
-                    });
+                this.sortOrder = -this.sortOrder;
+                const cell = (tr: Element) => tr.children[index].textContent ?? '';
+                this.getRows().sort((a, b) => this.sortOrder * cell(a).localeCompare(cell(b), undefined, { numeric: true }))
+                    .forEach((tr) => this.$refs.tbody.appendChild(tr));
         },
-        getRows() { return Array.from(this.$refs.tbody.querySelectorAll("tr")); }
+        getRows() { return Array.from(this.$refs.tbody.querySelectorAll('tr')); }
     }))
 })
 
