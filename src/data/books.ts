@@ -25,15 +25,15 @@ interface Book {
 const ids = new Set<string>();
 const author_titles = new Set<string>();
 
-bookshelf.books.forEach((book) => {
+for (const book of bookshelf.books) {
   if (book.id) {
-    Object.entries(book.id).forEach(([idkey, idvalue]) => {
+    for (const [idkey, idvalue] of Object.entries(book.id)) {
       const idstring = `${idkey}${idvalue}`;
       if (ids.has(idstring)) {
         throw Error(`duplicate ID found ${idkey}: ${idvalue}`);
       }
       ids.add(idstring);
-    });
+    }
   }
 
   assert(book.author.length > 0);
@@ -44,12 +44,12 @@ bookshelf.books.forEach((book) => {
   // enable this once the read fields are all populated
   // assert(readDate > publishedDate, `${book.title} read: ${book.read} published: ${book.published}`);
 
-  const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/g, '').toLowerCase();
+  const author_title = `${book.author.join()}_${book.title}`.replaceAll(/\s/gu, '').toLowerCase();
   if (author_titles.has(author_title)) {
     throw Error(`Possible duplicate book ${book.title}`);
   }
   author_titles.add(author_title);
-});
+}
 
 const indexedBookshelf = bookshelf.books.map((book, index) => ({ ...book, index: index }));
 

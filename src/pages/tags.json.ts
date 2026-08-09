@@ -2,17 +2,17 @@ import bookshelf from '../data/bookshelf.json';
 
 const tags = new Map<string, number[]>();
 
-bookshelf.books.forEach((book, i) => {
-  book.tags.forEach((tag) => {
+for (const [i, book] of bookshelf.books.entries()) {
+  for (const tag of book.tags) {
     if (tags.has(tag)) {
       const indexes = tags.get(tag) ?? [];
       indexes.push(i);
     } else {
       tags.set(tag, Array.from([i]));
     }
-  });
-});
+  }
+}
 
-export async function GET() {
-  return new Response(JSON.stringify(Object.fromEntries(tags)));
+export function GET(): Response {
+  return Response.json(Object.fromEntries(tags));
 }
