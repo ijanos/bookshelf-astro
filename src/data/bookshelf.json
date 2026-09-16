@@ -2,6 +2,19 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Elsecaller / King Lopen the First of Alethkar",
+      "author": ["Brandon Sanderson", "Dan Wells", "Isaac Stewart"],
+      "read": "2026-09-26",
+      "tags": ["fantasy", "short-stories"],
+      "published": 2025,
+      "pages": 115,
+      "language": "ENG",
+      "series": "The Stormlight Archive #2.1",
+      "id": {
+        "librarything": "35342805"
+      }
+    },
+    {
       "title": "The Sudden Appearance of Hope",
       "author": ["Claire North"],
       "read": "2026-09-13",
