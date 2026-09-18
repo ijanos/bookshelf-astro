@@ -2,9 +2,22 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Lion's Tusk",
+      "author": ["Robert Jackson Bennett"],
+      "read": "2026-09-17",
+      "tags": ["fantasy", "murder mystery", "short"],
+      "published": 2026,
+      "pages": 38,
+      "language": "ENG",
+      "series": "Shadow of the Leviathan #2.5",
+      "id": {
+        "librarything": "36730499"
+      }
+    },
+    {
       "title": "Elsecaller / King Lopen the First of Alethkar",
       "author": ["Brandon Sanderson", "Dan Wells", "Isaac Stewart"],
-      "read": "2026-09-26",
+      "read": "2026-09-16",
       "tags": ["fantasy", "short-stories"],
       "published": 2025,
       "pages": 115,
