@@ -23,6 +23,7 @@ interface Book {
 
 const ids = new Set<string>();
 const authorTitles = new Set<string>();
+const now = Date.now();
 
 for (const book of bookshelf.books) {
   if (book.id) {
@@ -39,7 +40,11 @@ for (const book of bookshelf.books) {
     throw new Error(`Book ${book.title} has no authors`);
   }
 
-  // const readDate = new Date(book.read);
+  const readDate = new Date(book.read);
+  if (readDate.getTime() > now) {
+    throw new Error(`Book ${book.title} has a read date in the future: ${book.read}`);
+  }
+
   // const publishedDate = new Date(book.published);
 
   // enable this once the read fields are all populated
