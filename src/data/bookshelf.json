@@ -2,6 +2,19 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Fold Catastrophes",
+      "author": ["Peter Watts"],
+      "read": "2026-10-14",
+      "tags": ["scifi", "short-stories"],
+      "published": 2026,
+      "pages": 352,
+      "language": "ENG",
+      "id": {
+        "librarything": "36215088",
+        "isbn": "9781616964672"
+      }
+    },
+    {
       "title": "The Lion's Tusk",
       "author": ["Robert Jackson Bennett"],
       "read": "2026-09-17",
