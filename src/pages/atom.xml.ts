@@ -31,6 +31,6 @@ const atomfeed = `
   ${entries.join('')}
 </feed>`.trim();
 
-export function GET(): Response {
+export const GET = (): Response => {
   return new Response(atomfeed);
-}
+};

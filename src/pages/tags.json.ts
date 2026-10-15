@@ -13,6 +13,6 @@ for (const [i, book] of bookshelf.books.entries()) {
   }
 }
 
-export function GET(): Response {
+export const GET = (): Response => {
   return Response.json(Object.fromEntries(tags));
-}
+};

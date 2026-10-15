@@ -18,6 +18,6 @@ const yearArray = Array.from({ length: maxyear - minyear + 1 }, (_, i) => {
   };
 });
 
-export function GET(): Response {
+export const GET = (): Response => {
   return Response.json(yearArray);
-}
+};
