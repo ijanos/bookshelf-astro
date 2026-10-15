@@ -60,7 +60,10 @@
       "published": 2022,
       "pages": 30,
       "language": "ENG",
-      "id": {}
+      "id": {
+        "isbn": "9780571382019",
+        "olid": "OL35721129W"
+      }
     },
     {
       "title": "Children of Strife",
