@@ -2,6 +2,31 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Engines of Reason",
+      "author": ["Adrian Tchaikovsky"],
+      "read": "",
+      "tags": ["scifi"],
+      "published": 2026,
+      "pages": 192,
+      "language": "ENG",
+      "series": "Elder Race #2",
+      "id": {
+        "librarything": "35405238"
+      }
+    },
+    {
+      "title": "Wandering",
+      "author": ["Jonathan Djob Nkondo"],
+      "read": "2026-10-21",
+      "tags": ["comic", "scifi", "dystopian"],
+      "published": 2019,
+      "pages": 200,
+      "language": "ENG",
+      "id": {
+        "isbn": "9781962413794"
+      }
+    },
+    {
       "title": "Fold Catastrophes",
       "author": ["Peter Watts"],
       "read": "2026-10-14",
