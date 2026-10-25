@@ -2,6 +2,18 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "Animal Farm",
+      "author": ["George Orwell"],
+      "read": "",
+      "tags": ["classics", "dystopian", "satire"],
+      "published": 1945,
+      "pages": 110,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q1396889"
+      }
+    },
+    {
       "title": "Engines of Reason",
       "author": ["Adrian Tchaikovsky"],
       "read": "2026-10-24",
