@@ -22,7 +22,7 @@ const coverFilenames = books.map((book) => {
   <table class="bg-slate-50 border border-black">
     {
       coverFilenames.map((filenames) => (
-        <tr class={`border border-black ${filenames.hasCover ? "text-slate-300" : ""}`}>
+        <tr class:list={["border border-black", { "text-slate-300": filenames.hasCover }]}>
           <td>{filenames.title}</td>
           <td class="flex flex-col">
             {filenames.ids.map((bookid) => (

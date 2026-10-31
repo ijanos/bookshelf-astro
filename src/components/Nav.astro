@@ -21,7 +21,7 @@ const links = [
                     links.map((link) => (
                         <a
                             href={link.href}
-                            class={ "hover:bg-blue-900 hover:text-white p-1 rounded-md " + (link.active ? "bg-blue-200" : "")}
+                            class:list={["hover:bg-blue-900 hover:text-white p-1 rounded-md", { "bg-blue-200": link.active }]}
                             aria-current={ link.active ? "page" : "false" }
                         >
                             {link.text}
