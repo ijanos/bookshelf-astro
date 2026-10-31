@@ -2,6 +2,19 @@
   "$schema": "./bookshelf.schema.json",
   "books": [
     {
+      "title": "The Fires of December",
+      "author": ["Brandon Sanderson"],
+      "series": "Hoid's Travails #3",
+      "read": "",
+      "tags": ["fantasy"],
+      "published": 2026,
+      "pages": 384,
+      "language": "ENG",
+      "id": {
+        "wikidata": "Q141737172"
+      }
+    },
+    {
       "title": "Animal Farm",
       "author": ["George Orwell"],
       "read": "2026-10-28",
@@ -684,6 +697,7 @@
     {
       "title": "Yumi and the Nightmare Painter",
       "author": ["Brandon Sanderson"],
+      "series": "Hoid's Travails #2",
       "read": "2023-08-09",
       "pages": 474,
       "published": 2023,
@@ -795,6 +809,7 @@
     {
       "author": ["Brandon Sanderson"],
       "title": "Tress of the Emerald Sea",
+      "series": "Hoid's Travails #1",
       "published": 2023,
       "pages": 443,
       "read": "2023-01-17",
